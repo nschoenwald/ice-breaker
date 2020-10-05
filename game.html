@@ -168,7 +168,6 @@ function chooseTask(data) {
 				"event": "nextTask",
 				"event_action": nextTaskId,
 				"event_label": nextTaskDescription,
-				"playernames": playernames,
 			});
 			window.nextTaskId = nextTaskId;
 			console.log("TaskId: " + nextTaskId);
@@ -392,6 +391,10 @@ var callbacksQueried = [];
 var nextTask;
 var players = getPlayerNames();
 var playernumber = getPlayerNumber();
+dataLayer.push ({
+	"event": "game_started",
+	"players": players
+});
 document.getElementById("player_name_display").innerHTML = playernumber + " Spieler: " + players;
 // getNewTask();
 </script>
