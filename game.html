@@ -162,10 +162,13 @@ function chooseTask(data) {
 			var nextTaskDescription = tasksLeftRandomized[0].description;
 			var nextTaskId = tasksLeftRandomized[0].id;
 			var nextTaskHeadline = tasksLeftRandomized[0].headline;
+			var playernames = getPlayerNames();
+			var playernames = toString(playernames);
 			dataLayer.push ({
 				"event": "nextTask",
 				"event_action": nextTaskId,
 				"event_label": nextTaskDescription,
+				"playernames": playernames,
 			});
 			window.nextTaskId = nextTaskId;
 			console.log("TaskId: " + nextTaskId);
