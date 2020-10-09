@@ -142,7 +142,6 @@ function chooseTask(data) {
 		window.nextTask = nextTask;
 		console.log("nextTask (callback): " + JSON.stringify(nextTask));
 		var nextTaskDescription = nextTask.callback_description;
-		// name replacement muss noch implementiert werden
 		var nextTaskDescriptionReplaced = nextTaskDescription;
 		var nextTaskId = nextTask.id;
 		var nextTaskHeadline = nextTask.callback_headline;
@@ -162,6 +161,7 @@ function chooseTask(data) {
 			var nextTaskDescription = tasksLeftRandomized[0].description;
 			var nextTaskId = tasksLeftRandomized[0].id;
 			var nextTaskHeadline = tasksLeftRandomized[0].headline;
+			var nextTaskCategory = tasksLeftRandomized[0].category;
 			var playernames = getPlayerNames();
 			var playernames = toString(playernames);
 			dataLayer.push ({
@@ -174,23 +174,23 @@ function chooseTask(data) {
 			
 			// query callbackTask if there is one
 			var nextTaskCallbackTimer = parseInt(nextTask.callback_timer);
-				if (nextTaskCallbackTimer > 0) {
-					var nextTaskCallbackTimer = nextTaskCallbackTimer + tasksDone + 2;
-					console.log("CallbackTimer: " + nextTaskCallbackTimer);	
-					var nextTaskCallbackHeadline = nextTask.callback_headline;
-					console.log("CallbackHeadline: " + nextTaskCallbackHeadline);	
-					var nextTaskCallbackDescription = nextTask.callback_description;
-					console.log("CallbackDescription: " + nextTaskCallbackDescription);	
-					var nextCallbackObject = {
-							"id": nextTaskId,
-							"callback_timer": nextTaskCallbackTimer,
-							"callback_headline": nextTaskCallbackHeadline,
-							"callback_description": replacePlayerNames(nextTaskCallbackDescription, randomPlayerNames)
-					}
+			if (nextTaskCallbackTimer > 0) {
+				var nextTaskCallbackTimer = nextTaskCallbackTimer + tasksDone + 2;
+				console.log("CallbackTimer: " + nextTaskCallbackTimer);	
+				var nextTaskCallbackHeadline = nextTask.callback_headline;
+				console.log("CallbackHeadline: " + nextTaskCallbackHeadline);	
+				var nextTaskCallbackDescription = nextTask.callback_description;
+				console.log("CallbackDescription: " + nextTaskCallbackDescription);	
+				var nextCallbackObject = {
+					"id": nextTaskId,
+					"callback_timer": nextTaskCallbackTimer,
+					"callback_headline": nextTaskCallbackHeadline,
+					"callback_description": replacePlayerNames(nextTaskCallbackDescription, randomPlayerNames)
+				}
 				window.callbacksQueried.push(nextCallbackObject);
 				console.log("nextCallbackObject: " + JSON.stringify(nextCallbackObject));
 				console.log("callback will be due at task " + nextTaskCallbackTimer);
-					}
+			}
 			
 			// remove id from array of tasks
 			var tasksLeft = tasksLeft.filter(function(el) { return el.id != nextTaskId; });
@@ -199,11 +199,13 @@ function chooseTask(data) {
 			
 			// Spielernamen in TaskDescription einfügen
 			var nextTaskDescriptionReplaced = replacePlayerNames(nextTaskDescription, randomPlayerNames);
+			
+			// Topic_Abstimmung ersetzen (WORK IN PROGRESS)
+			var nextTaskDescriptionReplaced = replaceTopic(nextTaskDescriptionReplaced, nextTaskCategory);
 		}		
 
 	}
-	
-	// document.getElementById("tasksLeft_display").innerHTML = tasksDone + " Aufgaben erledigt<br>" + tasksLeft.length + " Aufgaben übrig";
+
 	if (tasksDone == 1) {
 	document.getElementById("tasksLeft_display").innerHTML = tasksDone + " Aufgabe erledigt";
 	} else {
@@ -214,13 +216,6 @@ function chooseTask(data) {
 	document.getElementById("current_task_display").innerHTML = nextTaskDescriptionReplaced;
 	};	
 	shakeIt();
-
-	// Intro Text
-	// var doneIntro = localStorage.getItem("doneIntro");
-	// if (doneIntro != 1) {
-	//	setTimeout(() => { alert("Klicke im unteren Bereich, um die nächste Aufgabe anzuzeigen. Um die Spieler zu ändern und das Spiel neu zu starten, klicke in den oberen Bereich."); }, 1000);
-	//	localStorage.setItem("doneIntro",1);
-	// }
 }
 
 function parseData(url) {
@@ -324,6 +319,23 @@ function replacePlayerNames (description, playernamesArray) {
 								return description;
 }
 
+function replaceTopic (description, category) {
+var topicsAbstimmungShuffled = shuffleArray(window.csvDataAbstimmung);
+var topicsAbstimmungShuffled = topicsAbstimmungShuffled.filter(function(el) { return el.category == category; });
+var topicsThemenspielShuffled = shuffleArray(window.csvDataThemenspiel);
+var topicsThemenspielShuffled = topicsThemenspielShuffled.filter(function(el) { return el.category == category; });
+
+if (description.includes("$topic_abstimmung$" == true {
+description.replace(/$topic_abstimmung$/g, topicsAbstimmungShuffled[0].topic);
+window.csvDataAbstimmung.filter(function(el) { return el.id == topicsAbstimmungShuffled[0].id; });
+}
+if (description.includes("$topic_themenspiel$" == true {
+description.replace(/$topic_themenspiel$/g, topicsThemenspielShuffled[0].topic);
+window.csvDataThemenspiel.filter(function(el) { return el.id == topicsThemenspielShuffled[0].id; });
+}
+return description;
+}
+
 function getPlayerNumber() {
 var player_name_1 = localStorage.getItem("dg_player_name_1");
 	var player_name_2 = localStorage.getItem("dg_player_name_2");
@@ -357,6 +369,25 @@ setBeforeUnload();
 	window.clickedPlayerselection = false;
   }
 }
+
+function parseTopics(url) {
+    Papa.parse(url, {
+        download: true,
+		header: true,
+		delimiter: ";",
+		quoteChar: "'",
+        complete: function(results) {
+            if (url.includes("themenspiel") == true) {
+			var csvDataThemenspiel = results.data;
+			window.csvDataThemenspiel = results.data;
+			};
+			if (url.includes("abstimmung") == true) {
+			var csvDataAbstimmung = results.data;
+			window.csvDataAbstimmung = results.data;
+			};
+        }
+    });
+}
 </script>
 </head>
 <body>
@@ -368,21 +399,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <div class="gameTopText">
 <div id="player_name_display"></div><br>
 <div id="tasksLeft_display">0 Aufgaben erledigt.</div>
-<!-- <script>
-if ('serviceWorker' in navigator) {
-  window.addEventListener('load', function() {
-    navigator.serviceWorker.register('/service-worker.js').then(function(registration) {
-      // Registration was successful
-      console.log('ServiceWorker registration successful with scope: ', registration.scope);
-    }, function(err) {
-      // registration failed :(
-      console.log('ServiceWorker registration failed: ', err);
-    });
-  });
-}
-</script> -->
 <script>
 // initialisierende Skripte
+var csvDataThemenspiel;
+var csvDataAbstimmung;
+parseTopics("topics_Themenspiel.csv");
+parseTopics("topics_Abstimmung.csv");
 localStorage.setItem("dg_tasksDone", -1);
 var clickedPlayerselection = false;
 setBeforeUnload();
@@ -391,10 +413,6 @@ var callbacksQueried = [];
 var nextTask;
 var players = getPlayerNames();
 var playernumber = getPlayerNumber();
-dataLayer.push ({
-	"event": "game_started",
-	"players": players
-});
 document.getElementById("player_name_display").innerHTML = playernumber + " Spieler: " + players;
 // getNewTask();
 </script>
