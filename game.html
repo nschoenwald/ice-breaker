@@ -325,11 +325,11 @@ var topicsAbstimmungShuffled = topicsAbstimmungShuffled.filter(function(el) { re
 var topicsThemenspielShuffled = shuffleArray(window.csvDataThemenspiel);
 var topicsThemenspielShuffled = topicsThemenspielShuffled.filter(function(el) { return el.category == category; });
 
-if (description.includes("$topic_abstimmung$" == true) {
+if (description.includes("$topic_abstimmung$") == true) {
 description.replace(/$topic_abstimmung$/g, topicsAbstimmungShuffled[0].topic);
 window.csvDataAbstimmung.filter(function(el) { return el.id == topicsAbstimmungShuffled[0].id; });
 }
-if (description.includes("$topic_themenspiel$" == true) {
+if (description.includes("$topic_themenspiel$") == true) {
 description.replace(/$topic_themenspiel$/g, topicsThemenspielShuffled[0].topic);
 window.csvDataThemenspiel.filter(function(el) { return el.id == topicsThemenspielShuffled[0].id; });
 }
@@ -403,8 +403,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 // initialisierende Skripte
 var csvDataThemenspiel;
 var csvDataAbstimmung;
-parseTopics("topics_Themenspiel.csv");
-parseTopics("topics_Abstimmung.csv");
+parseTopics("topics_themenspiel.csv");
+parseTopics("topics_abstimmung.csv");
 localStorage.setItem("dg_tasksDone", -1);
 var clickedPlayerselection = false;
 setBeforeUnload();
