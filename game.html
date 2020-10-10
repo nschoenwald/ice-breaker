@@ -328,10 +328,12 @@ console.log("replaceTopic: Started");
 console.log(topicsAbstimmungShuffled);
 console.log(topicsThemenspielShuffled);
 if (description.includes("$topic_abstimmung$") == true) {
+console.log("description included $topic_abstimmung$);
 description.replace(/$\topic_abstimmung\$/g, topicsAbstimmungShuffled[0].topic);
 window.csvDataAbstimmung.filter(function(el) { return el.id != topicsAbstimmungShuffled[0].id; });
 }
 if (description.includes("$topic_themenspiel$") == true) {
+console.log("description included $topic_themenspiel$);
 description.replace(/\$topic_themenspiel\$/g, topicsThemenspielShuffled[0].topic);
 window.csvDataThemenspiel.filter(function(el) { return el.id != topicsThemenspielShuffled[0].id; });
 }
