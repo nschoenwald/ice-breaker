@@ -327,11 +327,11 @@ var topicsThemenspielShuffled = topicsThemenspielShuffled.filter(function(el) { 
 
 if (description.includes("$topic_abstimmung$") == true) {
 description.replace(/$topic_abstimmung$/g, topicsAbstimmungShuffled[0].topic);
-window.csvDataAbstimmung.filter(function(el) { return el.id == topicsAbstimmungShuffled[0].id; });
+window.csvDataAbstimmung.filter(function(el) { return el.id != topicsAbstimmungShuffled[0].id; });
 }
 if (description.includes("$topic_themenspiel$") == true) {
 description.replace(/$topic_themenspiel$/g, topicsThemenspielShuffled[0].topic);
-window.csvDataThemenspiel.filter(function(el) { return el.id == topicsThemenspielShuffled[0].id; });
+window.csvDataThemenspiel.filter(function(el) { return el.id != topicsThemenspielShuffled[0].id; });
 }
 return description;
 }
