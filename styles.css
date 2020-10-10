@@ -147,9 +147,10 @@ html, body {
 	font-size: 2rem;
 	font-weight: bold;
 	color: #ffffff;
-	margin-right: 1.25rem;
-	margin-left: 1.25rem;
-	margin-bottom: 10rem;
+	padding-right: 1.25rem;
+	padding-left: 1.25rem;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
 }
 
 .indexContainer {
