@@ -319,14 +319,16 @@ function replacePlayerNames (description, playernamesArray) {
 								return description;
 }
 
-function replaceTopic (description, category) {
+function replaceTopic (description, nextTaskCategory) {
 var topicsAbstimmungShuffled = shuffleArray(window.csvDataAbstimmung);
-var topicsAbstimmungShuffled = topicsAbstimmungShuffled.filter(function(el) { return el.category == category; });
+var topicsAbstimmungShuffled = topicsAbstimmungShuffled.filter(function(el) { return el.category == nextTaskCategory; });
 var topicsThemenspielShuffled = shuffleArray(window.csvDataThemenspiel);
-var topicsThemenspielShuffled = topicsThemenspielShuffled.filter(function(el) { return el.category == category; });
-
+var topicsThemenspielShuffled = topicsThemenspielShuffled.filter(function(el) { return el.category == nextTaskCategory; });
+console.log("replaceTopic: Started");
+console.log(topicsAbstimmungShuffled);
+console.log(topicsThemenspielShuffled);
 if (description.includes("$topic_abstimmung$") == true) {
-description.replace(/\$topic_abstimmung\$/g, topicsAbstimmungShuffled[0].topic);
+description.replace(/$\topic_abstimmung\$/g, topicsAbstimmungShuffled[0].topic);
 window.csvDataAbstimmung.filter(function(el) { return el.id != topicsAbstimmungShuffled[0].id; });
 }
 if (description.includes("$topic_themenspiel$") == true) {
