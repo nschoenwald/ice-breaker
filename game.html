@@ -327,10 +327,11 @@ var topicsThemenspielShuffled = topicsThemenspielShuffled.filter(function(el) { 
 console.log("replaceTopic: Started");
 console.log(topicsAbstimmungShuffled);
 console.log(topicsThemenspielShuffled);
+
 if (description.includes("$topic_abstimmung$") == true) {
 console.log("description included $topic_abstimmung$");
 console.log(topicsAbstimmungShuffled[0].topic);
-var description = description.replace(/$\topic_abstimmung\$/g, topicsAbstimmungShuffled[0].topic);
+var description = description.replace(/\$topic_abstimmung\$/g, topicsAbstimmungShuffled[0].topic);
 window.csvDataAbstimmung = window.csvDataAbstimmung.filter(function(el) { return el.id != topicsAbstimmungShuffled[0].id; });
 }
 if (description.includes("$topic_themenspiel$") == true) {
