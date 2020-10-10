@@ -111,6 +111,7 @@ html, body {
 }
 
 .gameFooter {
+	background-color: MediumTurquoise;
 	flex-shrink: 0;
 }
 
