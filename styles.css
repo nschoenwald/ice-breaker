@@ -140,6 +140,8 @@ html, body {
 	color: #ffffff;
 	text-align: center;
 	text-decoration: underline;
+	padding-right: 1.25rem;
+	padding-left: 1.25rem;
 }
 	
 .gameBottomText{
