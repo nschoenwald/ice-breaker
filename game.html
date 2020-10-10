@@ -324,21 +324,17 @@ var topicsAbstimmungShuffled = shuffleArray(window.csvDataAbstimmung);
 var topicsAbstimmungShuffled = topicsAbstimmungShuffled.filter(function(el) { return el.category == nextTaskCategory; });
 var topicsThemenspielShuffled = shuffleArray(window.csvDataThemenspiel);
 var topicsThemenspielShuffled = topicsThemenspielShuffled.filter(function(el) { return el.category == nextTaskCategory; });
-console.log("replaceTopic: Started");
-console.log(topicsAbstimmungShuffled);
-console.log(topicsThemenspielShuffled);
 
 if (description.includes("$topic_abstimmung$") == true) {
-console.log("description included $topic_abstimmung$");
-console.log(topicsAbstimmungShuffled[0].topic);
 var description = description.replace(/\$topic_abstimmung\$/g, topicsAbstimmungShuffled[0].topic);
 window.csvDataAbstimmung = window.csvDataAbstimmung.filter(function(el) { return el.id != topicsAbstimmungShuffled[0].id; });
 }
 if (description.includes("$topic_themenspiel$") == true) {
-console.log("description included $topic_themenspiel$");
-console.log(topicsThemenspielShuffled[0].topic);
 var description = description.replace(/\$topic_themenspiel\$/g, topicsThemenspielShuffled[0].topic);
 window.csvDataThemenspiel = window.csvDataThemenspiel.filter(function(el) { return el.id != topicsThemenspielShuffled[0].id; });
+if (description.includes("$topic_wer_ist$") == true) {
+var description = description.replace(/\$topic_wer_ist\$/g, topicsWerIstShuffled[0].topic);
+window.csvDataWerIst = window.csvDataWerIst.filter(function(el) { return el.id != topicsWerIstShuffled[0].id; });
 }
 return description;
 }
@@ -392,6 +388,10 @@ function parseTopics(url) {
 			var csvDataAbstimmung = results.data;
 			window.csvDataAbstimmung = results.data;
 			};
+			if (url.includes("wer_ist") == true) {
+			var csvDataWerIst = results.data;
+			window.csvDataWerIst = results.data;
+			};
         }
     });
 }
@@ -412,6 +412,7 @@ var csvDataThemenspiel;
 var csvDataAbstimmung;
 parseTopics("topics_themenspiel.csv");
 parseTopics("topics_abstimmung.csv");
+parseTopics("topics_wer_ist.csv");
 localStorage.setItem("dg_tasksDone", -1);
 var clickedPlayerselection = false;
 setBeforeUnload();

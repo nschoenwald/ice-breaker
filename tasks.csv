@@ -1,6 +1,5 @@
 id;author;category;players_needed;headline;description;callback_timer;callback_headline;callback_description
 1;fee;basic;2;Schnell!;Daumen an die Tischkante! Der langsamste Spieler trinkt 5 Schlucke.;;;
-2;nikolai;hot;3;Abstimmung;Wählt die Person, die am ehesten polygam ist. Derjenige trinkt 3 Schlucke.;;;
 3;fee;basic;2;Schnell!;Arme in die Luft! Der langsamste Spieler trinkt 3 Schlucke.;;;
 4;fee;basic;2;'Long hair don''t care';Die Person mit den längsten Haaren verteilt 3 Schlucke.;;;
 5;fee;basic;2;Spiel;"Politisch korrekte Beleidigungen“ - der Spieler, der etwas wiederholt oder keine Idee mehr hat, trinkt 3 Schlucke! player1 beginnt.;;;
@@ -56,12 +55,9 @@ id;author;category;players_needed;headline;description;callback_timer;callback_h
 55;nikolai;hot;3;;player1 und player2 müssen zusammen eine Sexposition vormachen. Die anderen stimmen ab, welche.;;;
 56;nikolai;basic;2;Duell;Was ist der schlimmste Satz, den man beim Sex sagen kann? player1 und player2, nennt beide einen Satz. Die anderen stimmen über den Gewinner ab. Der Verlierer trinkt 3 Schlucke.;;;
 57;nikolai;hot;2;;Trinke 3 Schlucke, wenn du schon mehr als 10 Sexpartner in deinem Leben hattest. Wenn du schon mehr als 20 hattest, verteile zusätzlich 3 Schlucke.;;;
-58;nikolai;basic;3;Abstimmung;Wählt das größte Social-Media Opfer der Gruppe. Derjenige trinkt 3 Schlucke.;;;
 59;nikolai;hot;2;;player1, trinke 3 Schlucke wenn du große Brüste (als Frau) oder einen großen Penis (als Mann) hast. Ansonsten verteile 3 Schlucke.;;;
-60;nikolai;basic;3;Abstimmung;Wählt den Schönsten oder die Schönste der Gruppe. 3 Schlucke für die Schönheit.;;;
 61;nikolai;hot;2;;player1, trinke 3 Schlucke wenn du schon mal Sex in der Natur hattest. Wenn du erzählst, wo das war, darfst du außerdem 3 Schlucke verteilen.;;;
 62;nikolai;basic;2;Fluch für alle;Ihr müsst von euch selbst in der 3. Person sprechen. Wenn ihr es vergisst: 2 Schlucke Strafe.;15;Fluch aufgehoben;Ihr könnt jetzt aufhören, von euch selbst in der 3. Person zu sprechen.
-63;nikolai;hot;3;Abstimmung;Wählt die Person, die am meisten mal wieder Sex nötig hat. Derjenige trinkt 3 Schlucke.;;;
 64;nikolai;basic;2;Shake it;player1 und player2, twerkt zusammen. Der schlechteste Twerker trinkt 2 Schlucke (die anderen stimmen ab).;;;
 65;nikolai;hot;2;Leave Your Hat On;Jeder zieht ein Kleidungsstück aus. Socken und Accessoires zählen nicht!;;;
 66;nikolai;basic;2;Hoch die Tassen!;Jeder trinkt 3 Schlucke.;;;
@@ -112,7 +108,7 @@ id;author;category;players_needed;headline;description;callback_timer;callback_h
 111;nikolai;hot;2;;Trinke 3 Schlucke, wenn du schon mal mit jemandem Sex hattest der mindestens 10 Jahre älter oder jünger war als du.;;;
 112;nikolai;basic;2;Anstoßen!;Jeder trinkt 2 Schlucke.;;;
 113;nikolai;hot;2;Fluch;player1, setz dich neben player2 auf den Boden und lass dich kraulen wie ein Haustier.;10;Fluch aufgehoben;player1, du darfst dich wieder auf deinen Platz setzen und bist nicht mehr player2s Haustier.
-114;nikolai;basic;2;Segen;player1, ab jetzt bist du der König / die Königin. Jeder muss dich so nennen oder zur Strafe 2 Schlucke trinken.;20;Vom Thron gestoßen;player1, du bist jetzt nicht mehr König / Königin.
+114;nikolai;basic;2;Segen;player1, ab jetzt bist du der König / die Königin. Jeder muss dich so nennen oder zur Strafe 2 Schlucke trinken. Außerdem musst du über dich selbst im majestätischen "Wir" reden.;20;Vom Thron gestoßen;player1, du bist jetzt nicht mehr König / Königin.
 115;nikolai;hot;3;Abstimmung;Wählt zwischen player1 und player2 aus, wer besser im Bett ist. Der Sexgott verteilt 3 Schlucke.;;;
 116;nikolai;basic;2;Wo der Daumen rechts ist;Ab jetzt dürft ihr nur noch mit der linken Hand trinken. Wer es vergisst, trinkt 3 Schlucke extra.;20;Fluch aufgehoben;Ihr müsst nicht mehr mit links trinken.
 117;nikolai;hot;2;;player1 und player2, zeigt eure Unterwäsche. Die anderen stimmen ab, wer heißere trägt. Der Verlierer trinkt 5 Schlucke.;;;
@@ -126,7 +122,6 @@ id;author;category;players_needed;headline;description;callback_timer;callback_h
 125;nikolai;hot;2;;player1, trinke 3 Schlucke wenn du schon mal ohne Unterwäsche auf einem Date warst.;;;
 126;nikolai;basic;2;Fluch;player1 ist sehr schüchtern! Du sprichst nur noch mit player2, weil er/sie dein einziger Freund ist.;10;Fluch aufgehoben;player1 ist nicht mehr schüchtern (Du darfst wieder mit allen sprechen).
 127;nikolai;hot;2;;player1, trinke 2 Schlucke wenn du schon mal davon geträumt hast deinem Partner beim Sex mit einer anderen Person zuzuschauen.;;;
-128;nikolai;basic;3;Abstimmung;Wählt unter euch, wer die dümmste Person ist. Der Trottel trinkt 3 Schlucke.;;;
 129;nikolai;hot;2;;player1, trinke 2 Schlucke wenn du schon mal Telefon-Sex hattest.;;;
 130;nikolai;basic;2;;Die charmante Person, auf deren Handy ihr dieses Spiel spielt, verteilt 3 Schlucke.;;;
 131;nikolai;hot;2;;player1, trinke 3 Schlucke wenn du es heiß fändest, an einem Gangbang teilzunehmen.;;;
@@ -203,7 +198,6 @@ id;author;category;players_needed;headline;description;callback_timer;callback_h
 202;rebecca;basic;2;;player1, falls du 3 weitere Songs vom Interpreten des aktuell laufenden Songs nennen kannst, verteile 3 Schlucke. Ansonsten trinke sie selbst.;;;
 203;rebecca;basic;2;;Trinke 2 Schlucke wenn du vergeben bist.;;;
 204;rebecca;basic;2;;Trinke 2 Schlucke wenn du Single bist.;;;
-205;rebecca;basic;3;Abstimmung;Wählt unter euch, wer am trinkfestesten ist. Der Trunkenbold trinkt 3 Schlucke.;;;
 206;rebecca;basic;3;Fuck, Marry, Kill;player1 nennt 3 beliebige Personen. Im Uhrzeigersinn müssen alle anderen sagen, wen davon sie vögeln, heiraten und töten würden. Alle Spieler, die eine Übereinstimmung haben, trinken für jede Übereinstimmung 1 Schluck.;;;
 207;nikolai;hot;2;;Jeder, der ein Nacktfoto von sich auf dem Handy hat, trinkt 3 Schlucke. Wer eins zeigt, darf 7 Schlucke verteilen!;;;
 208;nikolai;hot;2;;player1, gib player2 einen festen Kuss auf den Hintern oder trinke 3 Schlucke.;;;
@@ -216,16 +210,16 @@ id;author;category;players_needed;headline;description;callback_timer;callback_h
 215;fee;hot;2;;player1, trinke 3 Schlucke wenn du schon mal mit jemandem geschlafen hast obwohl du selbst keine Lust hattest.;;;
 216;fee;hot;2;;player1, trinke 3 Schlucke wenn du schon mal Sex mit einer vergebenen Person hattest.;;;
 217;fee;basic;2;;player1, trinke 3 Schlucke falls du bei diesem Spiel schon mal etwas über eine Person erfahren hast, das du lieber nicht gewusst hättest.;;;
-218;;;;;;;;
-219;;;;;;;;
-220;;;;;;;;
-221;;;;;;;;
-222;;;;;;;;
-223;;;;;;;;
-224;;;;;;;;
-225;;;;;;;;
-226;;;;;;;;
-227;;;;;;;;
+218;nikolai;basic;2;Reimen;player1, such dir ein Wort aus. Im Uhrzeigersinn muss jeder Spieler ein Wort sagen, das sich darauf reimt. Wer etwas wiederholt oder nichts mehr weiß, trinkt 4 Schlucke.;;;
+219;nikolai;basic;2;Schnell!;Der Spieler, dessen Stirn zuletzt auf dem Tisch liegt, trinkt 3 Schlucke.;;;
+220;nikolai;basic;2;Fluch für alle;Jurassic World - jeder muss ab jetzt seine Arme wie ein T-Rex halten. Wer es vergisst und seine Arme ausstreckt, trinkt zur Strafe 3 Schlucke.;10;Fluch aufgehoben;Ihr seid keine T-Rexe mehr und dürft eure Arme wieder normal ausstrecken.
+221;nikolai;basic;2;Fluch für alle;Wenn ihr ab jetzt Schlucke verteilt, müsst ihr denjenigen an der Wange berühren, in die Augen schauen und sagen "Trink mein Schatz";10;Fluch aufgehoben;Ihr dürft jetzt wieder normal Schlucke verteilen ohne "Trink mein Schatz" zu sagen.
+222;nikolai;basic;2;Fluch;player1, du heißt ab jetzt Kevin. Pech gehabt! Wer das vergisst, trinkt 3 Schlucke.;10;Fluch aufgehoben;player1, du heißt nicht mehr Kevin.
+223;nikolai;basic;2;Handys weg;Ab jetzt dürft ihr kein anderes Handy als dieses mehr berühren. Wer die Regel als erstes bricht, trinkt 7 Schlucke.;30;;Ihr dürft eure Handys jetzt wieder berühren.
+224;nikolai;basic;2;Fluch für alle;Shit Bitch - ab jetzt müsst ihr jeden Satz mit Shit beginnen und mit Bitch beenden. Wer es vergisst, trinkt 2 Schlucke.;10;Fluch aufgehoben;Der "Shit Bitch" Fluch ist aufgehoben.
+225;nikolai;basic;2;Fluch für alle;Jedes Mal wenn ihr trinkt, müsst ihr dabei den Bauch des Spielers zu eurer rechten streicheln.;10;Fluch aufgehoben;Ihr müsst beim Trinken nicht mehr den Bauch eures Nachbarn streicheln.
+226;nikolai;basic;2;Fluch;player1, du bist jetzt Batman. Du bist mit der Batman Stimme sprechen. Trinke jedes Mal 3 Schlucke wenn du es vergisst.;10;Fluch aufgehoben;player1 ist nicht mehr Batman.
+227;nikolai;basic;2;Der Boden ist Lava;Wer ab jetzt den Boden berührt, muss 3 Schlucke trinken.;15;;Der Boden ist nicht mehr Lava
 228;;;;;;;;
 229;;;;;;;;
 230;;;;;;;;
@@ -252,36 +246,23 @@ id;author;category;players_needed;headline;description;callback_timer;callback_h
 251;;;;;;;;
 252;;;;;;;;
 253;;;;;;;;
-254;;;;;;;;
-255;;;;;;;;
-256;;;;;;;;
-257;;;;;;;;
-258;;;;;;;;
-259;;;;;;;;
-260;;;;;;;;
-ab_hw_1;random;halloween;3;A oder B;$topic_abstimmung$ Alle stimmen ab. Die Gruppe mit weniger Stimmen trinkt 3 Schlucke.;;;
-ab_hw_2;random;halloween;3;A oder B;$topic_abstimmung$ Alle stimmen ab. Die Gruppe mit weniger Stimmen trinkt 3 Schlucke.;;;
-a|b_1;random;basic;3;A oder B;$topic_abstimmung$ Alle stimmen ab. Die Gruppe mit weniger Stimmen trinkt 3 Schlucke.;;;
-a|b_2;random;basic;3;A oder B;$topic_abstimmung$ Alle stimmen ab. Die Gruppe mit weniger Stimmen trinkt 3 Schlucke.;;;
-a|b_3;random;basic;3;A oder B;$topic_abstimmung$ Alle stimmen ab. Die Gruppe mit weniger Stimmen trinkt 3 Schlucke.;;;
-a|b_4;random;basic;3;A oder B;$topic_abstimmung$ Alle stimmen ab. Die Gruppe mit weniger Stimmen trinkt 3 Schlucke.;;;
-a|b_5;random;basic;3;A oder B;$topic_abstimmung$ Alle stimmen ab. Die Gruppe mit weniger Stimmen trinkt 3 Schlucke.;;;
-a|b_6;random;basic;3;A oder B;$topic_abstimmung$ Alle stimmen ab. Die Gruppe mit weniger Stimmen trinkt 3 Schlucke.;;;
-a|b_7;random;basic;3;A oder B;$topic_abstimmung$ Alle stimmen ab. Die Gruppe mit weniger Stimmen trinkt 3 Schlucke.;;;
-a|b_8;random;basic;3;A oder B;$topic_abstimmung$ Alle stimmen ab. Die Gruppe mit weniger Stimmen trinkt 3 Schlucke.;;;
-ab_hot_1;random;hot;3;A oder B;$topic_abstimmung$ Alle stimmen ab. Die Gruppe mit weniger Stimmen trinkt 3 Schlucke.;;;
-ab_hot_2;random;hot;3;A oder B;$topic_abstimmung$ Alle stimmen ab. Die Gruppe mit weniger Stimmen trinkt 3 Schlucke.;;;
-ab_hot_3;random;hot;3;A oder B;$topic_abstimmung$ Alle stimmen ab. Die Gruppe mit weniger Stimmen trinkt 3 Schlucke.;;;
-ab_hot_4;random;hot;3;A oder B;$topic_abstimmung$ Alle stimmen ab. Die Gruppe mit weniger Stimmen trinkt 3 Schlucke.;;;
+a|b_01;random;basic;3;A oder B;$topic_abstimmung$ Alle stimmen ab. Die Gruppe mit weniger Stimmen trinkt 3 Schlucke.;;;
+a|b_02;random;basic;3;A oder B;$topic_abstimmung$ Alle stimmen ab. Die Gruppe mit weniger Stimmen trinkt 3 Schlucke.;;;
+a|b_03;random;basic;3;A oder B;$topic_abstimmung$ Alle stimmen ab. Die Gruppe mit weniger Stimmen trinkt 3 Schlucke.;;;
+a|b_04;random;basic;3;A oder B;$topic_abstimmung$ Alle stimmen ab. Die Gruppe mit weniger Stimmen trinkt 3 Schlucke.;;;
+a|b_05;random;basic;3;A oder B;$topic_abstimmung$ Alle stimmen ab. Die Gruppe mit weniger Stimmen trinkt 3 Schlucke.;;;
+a|b_06;random;basic;3;A oder B;$topic_abstimmung$ Alle stimmen ab. Die Gruppe mit weniger Stimmen trinkt 3 Schlucke.;;;
+a|b_07;random;basic;3;A oder B;$topic_abstimmung$ Alle stimmen ab. Die Gruppe mit weniger Stimmen trinkt 3 Schlucke.;;;
+a|b_08;random;basic;3;A oder B;$topic_abstimmung$ Alle stimmen ab. Die Gruppe mit weniger Stimmen trinkt 3 Schlucke.;;;
+ab_hot_01;random;hot;3;A oder B;$topic_abstimmung$ Alle stimmen ab. Die Gruppe mit weniger Stimmen trinkt 3 Schlucke.;;;
+ab_hot_02;random;hot;3;A oder B;$topic_abstimmung$ Alle stimmen ab. Die Gruppe mit weniger Stimmen trinkt 3 Schlucke.;;;
+ab_hot_03;random;hot;3;A oder B;$topic_abstimmung$ Alle stimmen ab. Die Gruppe mit weniger Stimmen trinkt 3 Schlucke.;;;
+ab_hot_04;random;hot;3;A oder B;$topic_abstimmung$ Alle stimmen ab. Die Gruppe mit weniger Stimmen trinkt 3 Schlucke.;;;
+ab_hot_05;random;hot;3;A oder B;$topic_abstimmung$ Alle stimmen ab. Die Gruppe mit weniger Stimmen trinkt 3 Schlucke.;;;
+ab_hot_06;random;hot;3;A oder B;$topic_abstimmung$ Alle stimmen ab. Die Gruppe mit weniger Stimmen trinkt 3 Schlucke.;;;
+ab_hw_01;random;halloween;3;A oder B;$topic_abstimmung$ Alle stimmen ab. Die Gruppe mit weniger Stimmen trinkt 3 Schlucke.;;;
+ab_hw_02;random;halloween;3;A oder B;$topic_abstimmung$ Alle stimmen ab. Die Gruppe mit weniger Stimmen trinkt 3 Schlucke.;;;
 ts_01;random;basic;2;Themenspiel;„$topic_themenspiel$“ - der Spieler, der etwas wiederholt oder keine Idee mehr hat, trinkt 3 Schlucke! player1 beginnt.;;;
-ts_10;random;basic;2;Themenspiel;„$topic_themenspiel$“ - der Spieler, der etwas wiederholt oder keine Idee mehr hat, trinkt 3 Schlucke! player1 beginnt.;;;
-ts_11;random;basic;2;Themenspiel;„$topic_themenspiel$“ - der Spieler, der etwas wiederholt oder keine Idee mehr hat, trinkt 3 Schlucke! player1 beginnt.;;;
-ts_12;random;basic;2;Themenspiel;„$topic_themenspiel$“ - der Spieler, der etwas wiederholt oder keine Idee mehr hat, trinkt 3 Schlucke! player1 beginnt.;;;
-ts_13;random;basic;2;Themenspiel;„$topic_themenspiel$“ - der Spieler, der etwas wiederholt oder keine Idee mehr hat, trinkt 3 Schlucke! player1 beginnt.;;;
-ts_14;random;basic;2;Themenspiel;„$topic_themenspiel$“ - der Spieler, der etwas wiederholt oder keine Idee mehr hat, trinkt 3 Schlucke! player1 beginnt.;;;
-ts_15;random;basic;2;Themenspiel;„$topic_themenspiel$“ - der Spieler, der etwas wiederholt oder keine Idee mehr hat, trinkt 3 Schlucke! player1 beginnt.;;;
-ts_16;random;basic;2;Themenspiel;„$topic_themenspiel$“ - der Spieler, der etwas wiederholt oder keine Idee mehr hat, trinkt 3 Schlucke! player1 beginnt.;;;
-ts_17;random;basic;3;Themenspiel;„$topic_themenspiel$“ - der Spieler, der etwas wiederholt oder keine Idee mehr hat, trinkt 3 Schlucke! player1 beginnt.;;;
 ts_02;random;basic;2;Themenspiel;„$topic_themenspiel$“ - der Spieler, der etwas wiederholt oder keine Idee mehr hat, trinkt 3 Schlucke! player1 beginnt.;;;
 ts_03;random;basic;2;Themenspiel;„$topic_themenspiel$“ - der Spieler, der etwas wiederholt oder keine Idee mehr hat, trinkt 3 Schlucke! player1 beginnt.;;;
 ts_04;random;basic;2;Themenspiel;„$topic_themenspiel$“ - der Spieler, der etwas wiederholt oder keine Idee mehr hat, trinkt 3 Schlucke! player1 beginnt.;;;
@@ -290,6 +271,14 @@ ts_06;random;basic;2;Themenspiel;„$topic_themenspiel$“ - der Spieler, der et
 ts_07;random;basic;2;Themenspiel;„$topic_themenspiel$“ - der Spieler, der etwas wiederholt oder keine Idee mehr hat, trinkt 3 Schlucke! player1 beginnt.;;;
 ts_08;random;basic;2;Themenspiel;„$topic_themenspiel$“ - der Spieler, der etwas wiederholt oder keine Idee mehr hat, trinkt 3 Schlucke! player1 beginnt.;;;
 ts_09;random;basic;2;Themenspiel;„$topic_themenspiel$“ - der Spieler, der etwas wiederholt oder keine Idee mehr hat, trinkt 3 Schlucke! player1 beginnt.;;;
+ts_10;random;basic;2;Themenspiel;„$topic_themenspiel$“ - der Spieler, der etwas wiederholt oder keine Idee mehr hat, trinkt 3 Schlucke! player1 beginnt.;;;
+ts_11;random;basic;2;Themenspiel;„$topic_themenspiel$“ - der Spieler, der etwas wiederholt oder keine Idee mehr hat, trinkt 3 Schlucke! player1 beginnt.;;;
+ts_12;random;basic;2;Themenspiel;„$topic_themenspiel$“ - der Spieler, der etwas wiederholt oder keine Idee mehr hat, trinkt 3 Schlucke! player1 beginnt.;;;
+ts_13;random;basic;2;Themenspiel;„$topic_themenspiel$“ - der Spieler, der etwas wiederholt oder keine Idee mehr hat, trinkt 3 Schlucke! player1 beginnt.;;;
+ts_14;random;basic;2;Themenspiel;„$topic_themenspiel$“ - der Spieler, der etwas wiederholt oder keine Idee mehr hat, trinkt 3 Schlucke! player1 beginnt.;;;
+ts_15;random;basic;2;Themenspiel;„$topic_themenspiel$“ - der Spieler, der etwas wiederholt oder keine Idee mehr hat, trinkt 3 Schlucke! player1 beginnt.;;;
+ts_16;random;basic;2;Themenspiel;„$topic_themenspiel$“ - der Spieler, der etwas wiederholt oder keine Idee mehr hat, trinkt 3 Schlucke! player1 beginnt.;;;
+ts_17;random;basic;3;Themenspiel;„$topic_themenspiel$“ - der Spieler, der etwas wiederholt oder keine Idee mehr hat, trinkt 3 Schlucke! player1 beginnt.;;;
 ts_hot_01;random;hot;2;Themenspiel;„$topic_themenspiel$“ - der Spieler, der etwas wiederholt oder keine Idee mehr hat, trinkt 3 Schlucke! player1 beginnt.;;;
 ts_hot_02;random;hot;2;Themenspiel;„$topic_themenspiel$“ - der Spieler, der etwas wiederholt oder keine Idee mehr hat, trinkt 3 Schlucke! player1 beginnt.;;;
 ts_hot_03;random;hot;2;Themenspiel;„$topic_themenspiel$“ - der Spieler, der etwas wiederholt oder keine Idee mehr hat, trinkt 3 Schlucke! player1 beginnt.;;;
@@ -299,3 +288,16 @@ ts_hot_06;random;hot;2;Themenspiel;„$topic_themenspiel$“ - der Spieler, der 
 ts_hw_01;random;halloween;2;Themenspiel;„$topic_themenspiel$“ - der Spieler, der etwas wiederholt oder keine Idee mehr hat, trinkt 3 Schlucke! player1 beginnt.;;;
 ts_hw_02;random;halloween;2;Themenspiel;„$topic_themenspiel$“ - der Spieler, der etwas wiederholt oder keine Idee mehr hat, trinkt 3 Schlucke! player1 beginnt.;;;
 ts_hw_03;random;halloween;2;Themenspiel;„$topic_themenspiel$“ - der Spieler, der etwas wiederholt oder keine Idee mehr hat, trinkt 3 Schlucke! player1 beginnt.;;;
+wi_01;random;basic;3;Abstimmung;Wählt unter euch, $topic_wer_ist$;;;
+wi_02;random;basic;3;Abstimmung;Wählt unter euch, $topic_wer_ist$;;;
+wi_03;random;basic;3;Abstimmung;Wählt unter euch, $topic_wer_ist$;;;
+wi_04;random;basic;3;Abstimmung;Wählt unter euch, $topic_wer_ist$;;;
+wi_05;random;basic;3;Abstimmung;Wählt unter euch, $topic_wer_ist$;;;
+wi_06;random;basic;3;Abstimmung;Wählt unter euch, $topic_wer_ist$;;;
+wi_07;random;basic;3;Abstimmung;Wählt unter euch, $topic_wer_ist$;;;
+wi_08;random;basic;3;Abstimmung;Wählt unter euch, $topic_wer_ist$;;;
+wi_hot_01;random;hot;3;Abstimmung;Wählt unter euch, $topic_wer_ist$;;;
+wi_hot_02;random;hot;3;Abstimmung;Wählt unter euch, $topic_wer_ist$;;;
+wi_hot_03;random;hot;3;Abstimmung;Wählt unter euch, $topic_wer_ist$;;;
+wi_hot_04;random;hot;3;Abstimmung;Wählt unter euch, $topic_wer_ist$;;;
+wi_hot_05;random;hot;3;Abstimmung;Wählt unter euch, $topic_wer_ist$;;;
