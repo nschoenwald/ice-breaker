@@ -113,6 +113,9 @@ html, body {
 .gameFooter {
 	background-color: MediumTurquoise;
 	flex-shrink: 0;
+}
+
+.gameFooterContent {
 	font-family: Georgia;
 	font-size: 1rem;
 	text-align: center;
