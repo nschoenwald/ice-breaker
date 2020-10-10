@@ -113,6 +113,13 @@ html, body {
 .gameFooter {
 	background-color: MediumTurquoise;
 	flex-shrink: 0;
+	font-family: Georgia;
+	font-size: 1rem;
+	text-align: center;
+	margin-top: 1.25rem;
+	margin-bottom: 1.25rem;
+	margin-right: 1rem;
+	margin-left: 1rem;
 }
 
 .gameTopText{
