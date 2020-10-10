@@ -332,6 +332,7 @@ window.csvDataAbstimmung = window.csvDataAbstimmung.filter(function(el) { return
 if (description.includes("$topic_themenspiel$") == true) {
 var description = description.replace(/\$topic_themenspiel\$/g, topicsThemenspielShuffled[0].topic);
 window.csvDataThemenspiel = window.csvDataThemenspiel.filter(function(el) { return el.id != topicsThemenspielShuffled[0].id; });
+}
 if (description.includes("$topic_wer_ist$") == true) {
 var description = description.replace(/\$topic_wer_ist\$/g, topicsWerIstShuffled[0].topic);
 window.csvDataWerIst = window.csvDataWerIst.filter(function(el) { return el.id != topicsWerIstShuffled[0].id; });
