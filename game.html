@@ -324,6 +324,8 @@ var topicsAbstimmungShuffled = shuffleArray(window.csvDataAbstimmung);
 var topicsAbstimmungShuffled = topicsAbstimmungShuffled.filter(function(el) { return el.category == nextTaskCategory; });
 var topicsThemenspielShuffled = shuffleArray(window.csvDataThemenspiel);
 var topicsThemenspielShuffled = topicsThemenspielShuffled.filter(function(el) { return el.category == nextTaskCategory; });
+var topicsWerIstShuffled = shuffleArray(window.csvWerIst);
+var topicsWerIstShuffled = topicsWerIstShuffled.filter(function(el) { return el.category == nextTaskCategory; });
 
 if (description.includes("$topic_abstimmung$") == true) {
 var description = description.replace(/\$topic_abstimmung\$/g, topicsAbstimmungShuffled[0].topic);
