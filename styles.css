@@ -104,8 +104,6 @@ html, body {
 	background-color: DarkCyan;
 	display: flex;
 	flex-grow: 1;
-padding-top: 15%;
-padding-bottom: 15%;
 }
 
 .gameBottomShake {
@@ -145,6 +143,7 @@ padding-bottom: 15%;
 	text-decoration: underline;
 	padding-right: 1.25rem;
 	padding-left: 1.25rem;
+padding-top: 15%;
 }
 	
 .gameBottomText{
@@ -154,6 +153,7 @@ padding-bottom: 15%;
 	color: #ffffff;
 	padding-right: 1.25rem;
 	padding-left: 1.25rem;
+padding-bottom: 15%;
 }
 
 .indexContainer {
