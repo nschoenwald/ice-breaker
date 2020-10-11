@@ -3,6 +3,12 @@ and (orientation:portrait){
 	* {
 	font-size: 100%;
 	}
+.gameBottomHeadline {
+padding-top: 15%;
+}
+.gameBottomText {
+padding-bottom: 15%;
+}
 }
 
 @media (max-width: 600px) 
@@ -20,6 +26,12 @@ and (orientation:portrait){
 	* {
 	font-size: 104%;
 	}
+.gameBottomHeadline {
+padding-top: 15%;
+}
+.gameBottomText {
+padding-bottom: 15%;
+}
 }
 
 @media (min-width: 600px) 
@@ -40,7 +52,13 @@ and (orientation:portrait){
 	}
 	.gameTop {
 	display:flex;
-	}	
+	}
+.gameBottomHeadline {
+padding-top: 15%;
+}
+.gameBottomText {
+padding-bottom: 15%;
+}	
 }
 
 @media (min-width: 768px)
@@ -51,7 +69,8 @@ and (orientation:landscape){
 	}
 	.gameTop {
 	display:none;
-	}	
+	}
+	
 }
 
 @media (min-width: 992px) 
@@ -143,7 +162,6 @@ html, body {
 	text-decoration: underline;
 	padding-right: 1.25rem;
 	padding-left: 1.25rem;
-padding-top: 15%;
 }
 	
 .gameBottomText{
@@ -153,7 +171,6 @@ padding-top: 15%;
 	color: #ffffff;
 	padding-right: 1.25rem;
 	padding-left: 1.25rem;
-padding-bottom: 15%;
 }
 
 .indexContainer {
