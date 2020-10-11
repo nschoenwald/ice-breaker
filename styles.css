@@ -113,6 +113,7 @@ html, body {
 .gameFooter {
 	background-color: MediumTurquoise;
 	flex-shrink: 0;
+	display: none;
 }
 
 .gameFooterContent {
@@ -121,6 +122,7 @@ html, body {
 	text-align: center;
 	margin-top: 1rem;
 	margin-bottom: 1rem;
+	display: none;
 }
 
 .gameTopText{
