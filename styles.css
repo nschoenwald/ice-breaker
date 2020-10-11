@@ -19,6 +19,9 @@ and (orientation:landscape){
 	.gameTop {
 	display:none;
 	}
+.gameBottomContainer {
+align-items: center;
+}
 }
 
 @media (min-width: 600px) 
@@ -42,6 +45,9 @@ and (orientation:landscape){
 	.gameTop {
 	display:none;
 	}
+.gameBottomContainer {
+align-items: center;
+}
 }
 
 @media (min-width: 768px)
@@ -70,7 +76,9 @@ and (orientation:landscape){
 	.gameTop {
 	display:none;
 	}
-	
+.gameBottomContainer {
+align-items: center;
+}
 }
 
 @media (min-width: 992px) 
@@ -81,6 +89,9 @@ and (max-width:1199px){
 	.gameTop {
 	display:flex;
 	}
+.gameBottomContainer {
+align-items: center;
+}
 }
 
 @media (min-width: 1200px) {
@@ -90,6 +101,9 @@ and (max-width:1199px){
 	.gameTop {
 	display:flex;
 	}
+.gameBottomContainer {
+align-items: center;
+}
 }
 
 @media (min-width: 1200px) {
@@ -99,6 +113,9 @@ and (max-width:1199px){
 	.gameTop {
 	display:flex;
 	}
+.gameBottomContainer {
+align-items: center;
+}
 }
 
 * {
