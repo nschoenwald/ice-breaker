@@ -22,10 +22,11 @@ and (orientation:landscape){
 		font-size: 100%;
 	}
 	.gameTop {
-		display:none;
+		display: none;
 	}
 	.gameBottomContainer {
 		align-items: center;
+    justify-content: center;
 	}
 	.gameBottomText {
 		text-align: center;
@@ -57,6 +58,7 @@ and (orientation:landscape){
 	}
 	.gameBottomContainer {
 		align-items: center;
+		justify-content: center;
 	}
 	.gameBottomText {
 		text-align: center;
@@ -70,7 +72,7 @@ and (orientation:portrait){
 		font-size: 106%;
 	}
 	.gameTop {
-		display:flex;
+		display: flex;
 	}
 	.gameBottomHeadline {
 		padding-top: 20%;
@@ -87,10 +89,11 @@ and (orientation:landscape){
 		font-size: 106%;
 	}
 	.gameTop {
-		display:none;
+		display: none;
 	}
 	.gameBottomContainer {
 		align-items: center;
+		justify-content: center;
 	}
 	.gameBottomText {
 		text-align: center;
@@ -103,13 +106,15 @@ and (max-width:1199px){
 		font-size: 108%;
 	}
 	.gameTop {
-		display:flex;
+		display: flex;
 	}
 	.gameBottomContainer {
 		align-items: center;
+		padding-top: 20%;
 	}
 	.gameBottomText {
 		text-align: center;
+		padding-bottom: 15%;
 	}
 }
 
@@ -118,13 +123,15 @@ and (max-width:1199px){
 		font-size: 110%;
 	}
 	.gameTop {
-		display:flex;
+		display: flex;
 	}
 	.gameBottomContainer {
 		align-items: center;
+		padding-top: 20%;
 	}
 	.gameBottomText {
 		text-align: center;
+		padding-bottom: 15%;
 	}
 }
     
@@ -166,6 +173,7 @@ html, body {
 	text-decoration: underline;
 	padding-right: 1.25rem;
 	padding-left: 1.25rem;
+	padding-bottom: 0.75rem;
 }
 	
 .gameBottomText{
