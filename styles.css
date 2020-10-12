@@ -84,6 +84,9 @@ and (orientation:landscape){
 	.gameBottomContainer {
 		align-items: center;
 	}
+	.gameBottomText {
+		text-align: center;
+	}
 }
 
 @media (min-width: 992px) 
@@ -97,6 +100,9 @@ and (max-width:1199px){
 	.gameBottomContainer {
 		align-items: center;
 	}
+	.gameBottomText {
+		text-align: center;
+	}
 }
 
 @media (min-width: 1200px) {
@@ -108,6 +114,9 @@ and (max-width:1199px){
 	}
 	.gameBottomContainer {
 		align-items: center;
+	}
+	.gameBottomText {
+		text-align: center;
 	}
 }
     
