@@ -145,6 +145,7 @@ html, body {
 	background-color: DarkCyan;
 	display: flex;
 	flex-grow: 1;
+	flex-direction: column;
 }
 
 .gameBottomShake {
