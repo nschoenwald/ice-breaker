@@ -25,8 +25,7 @@ and (orientation:landscape){
 		display: none;
 	}
 	.gameBottomContainer {
-		align-items: center;
-    justify-content: center;
+		justify-content: center;
 	}
 	.gameBottomText {
 		text-align: center;
@@ -57,7 +56,6 @@ and (orientation:landscape){
 		display: none;
 	}
 	.gameBottomContainer {
-		align-items: center;
 		justify-content: center;
 	}
 	.gameBottomText {
@@ -92,7 +90,6 @@ and (orientation:landscape){
 		display: none;
 	}
 	.gameBottomContainer {
-		align-items: center;
 		justify-content: center;
 	}
 	.gameBottomText {
@@ -109,7 +106,6 @@ and (max-width:1199px){
 		display: flex;
 	}
 	.gameBottomContainer {
-		align-items: center;
 		padding-top: 20%;
 	}
 	.gameBottomText {
@@ -126,7 +122,6 @@ and (max-width:1199px){
 		display: flex;
 	}
 	.gameBottomContainer {
-		align-items: center;
 		padding-top: 20%;
 	}
 	.gameBottomText {
