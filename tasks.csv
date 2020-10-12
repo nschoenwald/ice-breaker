@@ -220,32 +220,14 @@ id;author;category;players_needed;headline;description;callback_timer;callback_h
 225;nikolai;basic;2;Fluch für alle;Jedes Mal wenn ihr trinkt, müsst ihr dabei den Bauch des Spielers zu eurer rechten streicheln.;10;Fluch aufgehoben;Ihr müsst beim Trinken nicht mehr den Bauch eures Nachbarn streicheln.
 226;nikolai;basic;2;Fluch;player1, du bist jetzt Batman. Du bist mit der Batman Stimme sprechen. Trinke jedes Mal 3 Schlucke wenn du es vergisst.;10;Fluch aufgehoben;player1 ist nicht mehr Batman.
 227;nikolai;basic;2;Der Boden ist Lava;Wer ab jetzt den Boden berührt, muss 3 Schlucke trinken.;15;;Der Boden ist nicht mehr Lava
-228;;;;;;;;
-229;;;;;;;;
-230;;;;;;;;
+228;luisa;halloween;2;Zombie-Virus;Ab jetzt müsst ihr vor jedem Schluck Zombie-Geräusche machen!;20;Zombie-Virus aufgehoben;Ihr müsst ab jetzt nicht mehr vor jedem Schluck Zombie-Geräusche machen.
+229;nikolai;hot;2;Strippen-Stein-Papier;player1 und player2, spielt gegeneinander Schere-Stein-Papier. Wer als erstes zwei mal verliert zieht ein Kleidungsstück aus. Socken und Accessoires zählen nicht!;;;
+230;marie;halloween;2;;player1, schnappe dir einen Besen und reite auf diesem wie eine Hexe drei mal um die Gruppe herum.;;;
 231;;;;;;;;
 232;;;;;;;;
 233;;;;;;;;
 234;;;;;;;;
 235;;;;;;;;
-236;;;;;;;;
-237;;;;;;;;
-238;;;;;;;;
-239;;;;;;;;
-240;;;;;;;;
-241;;;;;;;;
-242;;;;;;;;
-243;;;;;;;;
-244;;;;;;;;
-245;;;;;;;;
-246;;;;;;;;
-247;;;;;;;;
-248;;;;;;;;
-249;;;;;;;;
-250;;;;;;;;
-251;;;;;;;;
-252;;;;;;;;
-253;;;;;;;;
 a|b_01;random;basic;3;A oder B;$topic_abstimmung$ Alle stimmen ab. Die Gruppe mit weniger Stimmen trinkt 3 Schlucke.;;;
 a|b_02;random;basic;3;A oder B;$topic_abstimmung$ Alle stimmen ab. Die Gruppe mit weniger Stimmen trinkt 3 Schlucke.;;;
 a|b_03;random;basic;3;A oder B;$topic_abstimmung$ Alle stimmen ab. Die Gruppe mit weniger Stimmen trinkt 3 Schlucke.;;;
@@ -283,6 +265,24 @@ ts_hot_01;random;hot;2;Themenspiel;„$topic_themenspiel$“ - der Spieler, der 
 ts_hot_02;random;hot;2;Themenspiel;„$topic_themenspiel$“ - der Spieler, der etwas wiederholt oder keine Idee mehr hat, trinkt 3 Schlucke! player1 beginnt.;;;
 ts_hot_03;random;hot;2;Themenspiel;„$topic_themenspiel$“ - der Spieler, der etwas wiederholt oder keine Idee mehr hat, trinkt 3 Schlucke! player1 beginnt.;;;
 ts_hot_04;random;hot;2;Themenspiel;„$topic_themenspiel$“ - der Spieler, der etwas wiederholt oder keine Idee mehr hat, trinkt 3 Schlucke! player1 beginnt.;;;
+ts_hot_05;random;hot;2;Themenspiel;„$topic_themenspiel$“ - der Spieler, der etwas wiederholt oder keine Idee mehr hat, trinkt 3 Schlucke! player1 beginnt.;;;
+ts_hot_06;random;hot;2;Themenspiel;„$topic_themenspiel$“ - der Spieler, der etwas wiederholt oder keine Idee mehr hat, trinkt 3 Schlucke! player1 beginnt.;;;
+ts_hw_01;random;halloween;2;Themenspiel;„$topic_themenspiel$“ - der Spieler, der etwas wiederholt oder keine Idee mehr hat, trinkt 3 Schlucke! player1 beginnt.;;;
+ts_hw_02;random;halloween;2;Themenspiel;„$topic_themenspiel$“ - der Spieler, der etwas wiederholt oder keine Idee mehr hat, trinkt 3 Schlucke! player1 beginnt.;;;
+ts_hw_03;random;halloween;2;Themenspiel;„$topic_themenspiel$“ - der Spieler, der etwas wiederholt oder keine Idee mehr hat, trinkt 3 Schlucke! player1 beginnt.;;;
+wi_01;random;basic;3;Abstimmung;Wählt unter euch, $topic_wer_ist$;;;
+wi_02;random;basic;3;Abstimmung;Wählt unter euch, $topic_wer_ist$;;;
+wi_03;random;basic;3;Abstimmung;Wählt unter euch, $topic_wer_ist$;;;
+wi_04;random;basic;3;Abstimmung;Wählt unter euch, $topic_wer_ist$;;;
+wi_05;random;basic;3;Abstimmung;Wählt unter euch, $topic_wer_ist$;;;
+wi_06;random;basic;3;Abstimmung;Wählt unter euch, $topic_wer_ist$;;;
+wi_07;random;basic;3;Abstimmung;Wählt unter euch, $topic_wer_ist$;;;
+wi_08;random;basic;3;Abstimmung;Wählt unter euch, $topic_wer_ist$;;;
+wi_hot_01;random;hot;3;Abstimmung;Wählt unter euch, $topic_wer_ist$;;;
+wi_hot_02;random;hot;3;Abstimmung;Wählt unter euch, $topic_wer_ist$;;;
+wi_hot_03;random;hot;3;Abstimmung;Wählt unter euch, $topic_wer_ist$;;;
+wi_hot_04;random;hot;3;Abstimmung;Wählt unter euch, $topic_wer_ist$;;;
+wi_hot_05;random;hot;3;Abstimmung;Wählt unter euch, $topic_wer_ist$;;;
 ts_hot_05;random;hot;2;Themenspiel;„$topic_themenspiel$“ - der Spieler, der etwas wiederholt oder keine Idee mehr hat, trinkt 3 Schlucke! player1 beginnt.;;;
 ts_hot_06;random;hot;2;Themenspiel;„$topic_themenspiel$“ - der Spieler, der etwas wiederholt oder keine Idee mehr hat, trinkt 3 Schlucke! player1 beginnt.;;;
 ts_hw_01;random;halloween;2;Themenspiel;„$topic_themenspiel$“ - der Spieler, der etwas wiederholt oder keine Idee mehr hat, trinkt 3 Schlucke! player1 beginnt.;;;
