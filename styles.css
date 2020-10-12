@@ -205,20 +205,24 @@ html, body {
 	flex-grow: 1;
 }
 
-.indexText{
-	font-family: Georgia;
-	font-size: 1em;
-	font-weight: bold;
-	color: #ffffff;
-	padding: 15px;
-}
-
 .indexHeadline{
 	font-family: Georgia;
 	font-size: 1.75em;
 	font-weight: bold;
 	color: #ffffff;
-	padding: 15px;
+	padding-left: 1rem;
+	padding-right: 1rem;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+}
+
+.indexText{
+	font-family: Georgia;
+	font-size: 1.1rem;
+	font-weight: bold;
+	color: #ffffff;
+	padding-left: 1rem;
+	padding-right: 1rem;
 }
 
 .indexTable{
@@ -226,7 +230,6 @@ html, body {
 	font-size: 1em;
 	font-weight: bold;
 	color: #ffffff;
-	padding: 15px;
 }
 
 .indexLeftColumn{
