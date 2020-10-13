@@ -326,6 +326,8 @@ var topicsThemenspielShuffled = shuffleArray(window.csvDataThemenspiel);
 var topicsThemenspielShuffled = topicsThemenspielShuffled.filter(function(el) { return el.category == nextTaskCategory; });
 var topicsWerIstShuffled = shuffleArray(window.csvDataWerIst);
 var topicsWerIstShuffled = topicsWerIstShuffled.filter(function(el) { return el.category == nextTaskCategory; });
+var topicsFallsDuShuffled = shuffleArray(window.csvDataFallsDu);
+var topicsFallsDuShuffled = topicsFallsDuShuffled.filter(function(el) { return el.category == nextTaskCategory; });
 
 if (description.includes("$topic_abstimmung$") == true) {
 var description = description.replace(/\$topic_abstimmung\$/g, topicsAbstimmungShuffled[0].topic);
@@ -338,6 +340,10 @@ window.csvDataThemenspiel = window.csvDataThemenspiel.filter(function(el) { retu
 if (description.includes("$topic_wer_ist$") == true) {
 var description = description.replace(/\$topic_wer_ist\$/g, topicsWerIstShuffled[0].topic);
 window.csvDataWerIst = window.csvDataWerIst.filter(function(el) { return el.id != topicsWerIstShuffled[0].id; });
+}
+if (description.includes("$topic_falls_du$") == true) {
+var description = description.replace(/\$topic_falls_du\$/g, topicsFallsDuShuffled[0].topic);
+window.csvDataFallsDu = window.csvDataFallsDu.filter(function(el) { return el.id != topicsFallsDuShuffled[0].id; });
 }
 return description;
 }
@@ -395,6 +401,10 @@ function parseTopics(url) {
 			var csvDataWerIst = results.data;
 			window.csvDataWerIst = results.data;
 			};
+			if (url.includes("falls_du") == true) {
+			var csvDataFallsDu = results.data;
+			window.csvDataFallsDu = results.data;
+			};
         }
     });
 }
@@ -416,6 +426,7 @@ var csvDataAbstimmung;
 parseTopics("topics_themenspiel.csv");
 parseTopics("topics_abstimmung.csv");
 parseTopics("topics_wer_ist.csv");
+parseTopics("topics_falls_du.csv");
 localStorage.setItem("dg_tasksDone", -1);
 var clickedPlayerselection = false;
 setBeforeUnload();
