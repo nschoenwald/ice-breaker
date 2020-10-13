@@ -160,7 +160,6 @@ html, body {
 }
 
 .gameBottomHeadline{
-	display: flex;
 	font-family: Georgia;
 	font-size: 2.75rem;
 	font-weight: bold;
@@ -173,7 +172,6 @@ html, body {
 }
 	
 .gameBottomText{
-	display: flex;
 	font-family: Georgia;
 	font-size: 2rem;
 	font-weight: bold;
