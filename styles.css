@@ -12,6 +12,7 @@ and (orientation:portrait){
 		padding-top: 20%;
 	}
 	.gameBottomText {
+		padding-top: 2%;
 		padding-bottom: 15%;
 	}
 }
@@ -164,12 +165,12 @@ html, body {
 }
 
 .gameBottomHeadline{
-	align-self: center;
 	font-family: Georgia;
 	font-size: 2.75rem;
 	font-weight: bold;
 	color: #ffffff;
 	text-decoration: underline;
+	text-align: center;
 	padding-right: 1.25rem;
 	padding-left: 1.25rem;
 	padding-bottom: 0.75rem;
