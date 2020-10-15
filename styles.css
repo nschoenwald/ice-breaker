@@ -110,11 +110,11 @@ and (max-width:1199px){
 		display: flex;
 	}
 	.gameBottomContainer {
-		padding-top: 20%;
+		justify-content: center;
 	}
 	.gameBottomText {
 		align-self: center;
-		padding-bottom: 15%;
+		text-align: center;
 	}
 }
 
@@ -126,11 +126,10 @@ and (max-width:1199px){
 		display: flex;
 	}
 	.gameBottomContainer {
-		padding-top: 20%;
 	}
 	.gameBottomText {
 		align-self: center;
-		padding-bottom: 15%;
+		text-align: center;
 	}
 }
     
