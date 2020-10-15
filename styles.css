@@ -126,6 +126,7 @@ and (max-width:1199px){
 		display: flex;
 	}
 	.gameBottomContainer {
+		justify-content: center;
 	}
 	.gameBottomText {
 		align-self: center;
