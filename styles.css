@@ -141,8 +141,12 @@ html, body {
 	background-color: DarkCyan;
 	overflow: auto;
 }
-    
- .gameTop {
+ 
+.gameContainer {
+	display: flex;
+}
+ 
+.gameTop {
 	 background-color: MediumTurquoise;
 	 flex-shrink: 0;
 }
