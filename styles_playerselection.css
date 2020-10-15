@@ -145,6 +145,7 @@ html, body {
 .indexContainer {
 	background-color: DarkCyan;
 	flex-grow: 1;
+	max-width: 100%;
 }
 
 .indexHeader {
