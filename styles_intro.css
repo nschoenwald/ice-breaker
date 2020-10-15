@@ -78,6 +78,23 @@ body > * {
 	flex-shrink: 0;
 }
 
+.introContainer {
+	display: flex;
+	max-width: 100%;
+}
+
+.introHeader {
+	display: flex;
+	max-width: 100%;
+	align-items: center;
+}
+
+img { 
+	flex: 1;
+	max-width: 100%;	
+	object-fit: contain;
+}
+
 .introHeadline{
 	font-family: Georgia;
 	font-size: 2.75rem;
