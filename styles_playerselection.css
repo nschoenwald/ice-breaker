@@ -20,7 +20,6 @@ html, body {
 .indexHeader {
 	flex: 1;
 	max-width: 100%;
-	align-items: center;
 }
 
 img { 
@@ -30,21 +29,22 @@ img {
 }
 
 .indexText{
-	flex: 1;
+	display: flex;
 	font-family: Georgia;
 	font-size: 1em;
 	font-weight: bold;
 	color: #ffffff;
 	padding: 15px;
+	justify-content: center;
 }
 
 .indexHeadline{
-	flex: 1;
+	display: flex;
 	font-family: Georgia;
 	font-size: 1.75em;
 	font-weight: bold;
 	color: #ffffff;
-	padding: 15px;
+	padding-top: 3%;
 	justify-content: center;
 }
 
