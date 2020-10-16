@@ -18,7 +18,7 @@ html, body {
 }
 
 .indexHeader {
-	display: flex;
+	flex: 1;
 	max-width: 100%;
 	align-items: center;
 }
@@ -30,7 +30,7 @@ img {
 }
 
 .indexText{
-	display: flex;
+	flex: 1;
 	font-family: Georgia;
 	font-size: 1em;
 	font-weight: bold;
@@ -39,7 +39,7 @@ img {
 }
 
 .indexHeadline{
-	display: flex;
+	flex: 1;
 	font-family: Georgia;
 	font-size: 1.75em;
 	font-weight: bold;
@@ -49,7 +49,7 @@ img {
 }
 
 .indexTable{
-	display: flex;
+	flex: 1;
 	font-family: Georgia;
 	font-size: 1em;
 	font-weight: bold;
