@@ -1,51 +1,54 @@
 id;author;category;topic
-1;nikolai;basic;Hunde oder Katzen?
-2;nikolai;basic;Iron Man oder Batman?
-3;nikolai;basic;How I Met Your Mother oder Friends?
-4;nikolai;basic;Pizza oder Pasta?
-5;nikolai;basic;Oliven - lecker oder scheußlich?
-6;nikolai;basic;Ananas auf Pizza - Top oder Flop?
+1;fee;basic;Alle Fotos, die du jemals gemacht hast, verlieren oder all dein Geld verlieren?
+2;nikolai;basic;Ananas auf Pizza - Top oder Flop?
+3;nikolai;basic;Bier oder Wein?
+4;nikolai;basic;Blau oder Rot?
+5;nikolai;basic;Burger oder Sushi?
+6;fee;basic;Duschen oder baden?
 7;nikolai;basic;Filme oder Serien?
-8;nikolai;basic;Strand oder Berge?
-9;nikolai;basic;Bier oder Wein?
-10;nikolai;basic;Whiskey oder Wodka?
-11;nikolai;basic;Blau oder Rot?
-12;nikolai;basic;Schwarz oder Weiß?
-13;nikolai;basic;Trump oder Putin?
-14;nikolai;halloween;Lieber Kopf abgehackt bekommen oder erhängt werden?
-15;nikolai;halloween;Lieber von einem Zombie gefressen oder mit einer Kettensäge zerlegt werden?
-16;nikolai;halloween;Lieber eine Hexe mit Zauberkräften sein oder ein unsterblicher Vampir?
-17;nikolai;hot;Mit oder ohne Sexspielzeug?
-18;nikolai;hot;Schlucken oder Spucken?
-19;nikolai;hot;Arsch oder Titten?
-20;nikolai;hot;Lieber Zuhälter sein oder sich prostituieren?
-21;nikolai;hot;Oral oder Vaginal?
-22;nikolai;hot;Große Brüste oder kleine Brüste?
-23;nikolai;hot;Glatt rasiert oder ein kleiner Streifen?
-24;nikolai;hot;Fesseln oder Augen verbinden?
-25;nikolai;basic;Großstadt oder Landleben?
-26;nikolai;basic;Lieber arm und sexy oder reich aber hässlich?
-27;fee;basic;McDonalds oder Burger King?
-28;nikolai;basic;Burger oder Sushi?
-29;fee;basic;Schlagsahne oder Schokosauce?
-30;fee;basic;Harry Potter oder Herr der Ringe?
-31;nikolai;basic;Star Trek oder Star Wars?
-32;fee;basic;Duschen oder baden?
-33;fee;hot;Sex in der Dusche oder Sex in der Badewanne?
-34;fee;basic;Mayo oder Ketchup?
-35;fee;basic;Nackt schlafen oder im Pyjama?
-36;fee;basic;Nie wieder küssen oder nie wieder Sex?
-37;fee;hot;Sex mit Licht an oder Licht aus?
-38;fee;hot;Kleiner dicker Penis oder langer dünner Penis?
-39;fee;hot;Lieber anal gefingert oder vaginal gefistet werden?
-40;fee;hot;Lieber dem Chef aus versehen eine schmutzige Nachricht schicken oder der Mutter eine sexy Sprachnachricht?
-41;fee;hot;Einmal im Jahr für einen Tag geil sein oder immer geil sein?
-42;fee;hot;Mit jemandem zusammen sein, der 5 Sekunden zum Kommen braucht oder mit jemandem, der 5 Stunden zum Kommen braucht?
-43;fee;hot;Einen Shot aus einem haarigen Bauch trinken oder einer Person ohne Zähne einen Zungenkuss geben?
-44;fee;basic;Lieber unfruchtbar sein oder nur in der Vierlinge bekommen können?
-45;fee;basic;Wissen wie man stirbt oder wissen wann man stirbt?
-46;fee;hot;Für den Rest des Lebens jeden Tag den Eltern beim Sex zuschauen oder einmal beim Sex mit den Eltern mitmachen?
-47;fee;basic;Alle Fotos, die du jemals gemacht hast, verlieren oder all dein Geld verlieren?
-48;nikolai;basic;Lieber ein Katzenbaby töten oder all dein Geld verlieren?
-49;nikolai;hot;15cm großer Penis oder 25cm großer Penis?
-50;nikolai;basic;Gegen 50 Pferde kämpfen, die so groß sind wie Enten oder gegen eine Ente kämpfen, die so groß ist wie ein Pferd?
+8;nikolai;basic;Gegen 50 Pferde kämpfen, die so groß sind wie Enten oder gegen eine Ente kämpfen, die so groß ist wie ein Pferd?
+9;nikolai;basic;Großstadt oder Landleben?
+10;fee;basic;Harry Potter oder Herr der Ringe?
+11;nikolai;basic;How I Met Your Mother oder Friends?
+12;nikolai;basic;Hunde oder Katzen?
+13;nikolai;basic;Iron Man oder Batman?
+14;nikolai;basic;Lieber arm und sexy oder reich aber hässlich?
+15;nikolai;basic;Lieber ein Katzenbaby töten oder all dein Geld verlieren?
+16;fee;basic;Lieber unfruchtbar sein oder nur in der Vierlinge bekommen können?
+17;fee;basic;Mayo oder Ketchup?
+18;fee;basic;McDonalds oder Burger King?
+19;fee;basic;Nackt schlafen oder im Pyjama?
+20;fee;basic;Nie wieder küssen oder nie wieder Sex?
+21;nikolai;basic;Oliven - lecker oder scheußlich?
+22;nikolai;basic;Pizza oder Pasta?
+23;nikolai;basic;Rot oder Grün?
+24;fee;basic;Schlagsahne oder Schokosauce?
+25;nikolai;basic;Schoko- oder Vanille-Eis?
+26;nikolai;basic;Schwarz oder Weiß?
+27;nikolai;basic;Star Trek oder Star Wars?
+28;nikolai;basic;Strand oder Berge?
+29;nikolai;basic;Trump oder Putin?
+30;nikolai;basic;Whiskey oder Wodka?
+31;fee;basic;Wissen wie man stirbt oder wissen wann man stirbt?
+32;nikolai;basic;Lieber fliegen oder sich teleportieren können?
+33;nikolai;halloween;Lieber eine Hexe mit Zauberkräften sein oder ein unsterblicher Vampir?
+34;nikolai;halloween;Lieber Kopf abgehackt bekommen oder erhängt werden?
+35;nikolai;halloween;Lieber von einem Zombie gefressen oder mit einer Kettensäge zerlegt werden?
+36;nikolai;hot;15cm großer Penis oder 25cm großer Penis?
+37;nikolai;hot;Arsch oder Titten?
+38;fee;hot;Einen Shot aus einem haarigen Bauch trinken oder einer Person ohne Zähne einen Zungenkuss geben?
+39;fee;hot;Einmal im Jahr für einen Tag geil sein oder immer geil sein?
+40;nikolai;hot;Fesseln oder Augen verbinden?
+41;fee;hot;Für den Rest des Lebens jeden Tag den Eltern beim Sex zuschauen oder einmal beim Sex mit den Eltern mitmachen?
+42;nikolai;hot;Glatt rasiert oder ein kleiner Streifen?
+43;nikolai;hot;Große Brüste oder kleine Brüste?
+44;fee;hot;Kleiner dicker Penis oder langer dünner Penis?
+45;fee;hot;Lieber anal gefingert oder vaginal gefistet werden?
+46;fee;hot;Lieber dem Chef aus versehen eine schmutzige Nachricht schicken oder der Mutter eine sexy Sprachnachricht?
+47;nikolai;hot;Lieber Zuhälter sein oder sich prostituieren?
+48;fee;hot;Mit jemandem zusammen sein, der 5 Sekunden zum Kommen braucht oder mit jemandem, der 5 Stunden zum Kommen braucht?
+49;nikolai;hot;Mit oder ohne Sexspielzeug?
+50;nikolai;hot;Oral oder Vaginal?
+51;nikolai;hot;Schlucken oder Spucken?
+52;fee;hot;Sex in der Dusche oder Sex in der Badewanne?
+53;fee;hot;Sex mit Licht an oder Licht aus?

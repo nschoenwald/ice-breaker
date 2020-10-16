@@ -1,37 +1,39 @@
-id;category;topic
-1;hot;Worte für das männliche Genital
-2;hot;Worte für das weibliche Genital
-3;hot;Namen von Pornostars
-4;hot;Ungewöhnliche Orte, an denen ihr schon Sex hattet
-5;halloween;Aberglaube - nennt Dinge, die Unglück bringen
-6;halloween;Horror-Filme
-7;halloween;Methoden, jemanden umzubringen
-8;basic;Figuren aus Star Wars
-9;basic;Kinder-Zeichentrickserien
-10;basic;Figuren aus dem Harry Potter Universum
-11;basic;Figuren aus Herr der Ringe
-12;basic;Sexy Schauspieler (männliche)
-13;basic;Sexy Schauspielerinnen
-14;basic;Super-Bösewichte
-15;basic;Filme, in denen Meryl Streep mitspielt
-16;basic;Pokemon, die schwach gegen Feuer-Attacken sind.
-17;basic;Songs von Britney Spears
-18;basic;Deutsche Schlagersänger
-19;basic;Mottos der Häuser aus Game of Thrones
-20;basic;Werbe-Slogans
-21;basic;Nintendo Charaktere
-22;basic;Wörter für Selbstbefriedigung
-23;basic;Italienische Pizzanamen
-24;basic;Dinge, die player2 zum Lachen bringen.
-25;hot;Gründe, sich zu prostituieren
-26;hot;Gründe, ins Bordell zu gehen
-27;basic;Marvel-Superhelden
-28;basic;DC-Superhelden
-29;basic;Zaubersprüche aus dem Harry Potter Universum
-30;basic;Europäische Hauptstädte
-31;basic;Cocktails, die man mit Wodka macht
-32;basic;Cocktails, die man mit Rum macht
-33;basic;Cocktails, die man mit Whiskey macht
-34;basic;Songs von den Beatles
-35;basic;Songs von Lady Gaga
-36;basic;Sprichwörter
+id;author;category;topic
+1;nikolai;basic;Figuren aus Star Wars
+2;nikolai;basic;Kinder-Zeichentrickserien
+3;nikolai;basic;Figuren aus dem Harry Potter Universum
+4;nikolai;basic;Figuren aus Herr der Ringe
+5;nikolai;basic;Sexy Schauspieler (männliche)
+6;nikolai;basic;Sexy Schauspielerinnen
+7;nikolai;basic;Super-Bösewichte
+8;nikolai;basic;Filme, in denen Meryl Streep mitspielt
+9;nikolai;basic;Pokemon, die schwach gegen Feuer-Attacken sind.
+10;nikolai;basic;Songs von Britney Spears
+11;nikolai;basic;Deutsche Schlagersänger
+12;nikolai;basic;Mottos der Häuser aus Game of Thrones
+13;nikolai;basic;Werbe-Slogans
+14;nikolai;basic;Nintendo Charaktere
+15;nikolai;basic;Wörter für Selbstbefriedigung
+16;nikolai;basic;Italienische Pizzanamen
+17;nikolai;basic;Dinge, die player2 zum Lachen bringen.
+18;nikolai;basic;Marvel-Superhelden
+19;nikolai;basic;DC-Superhelden
+20;nikolai;basic;Zaubersprüche aus dem Harry Potter Universum
+21;nikolai;basic;Europäische Hauptstädte
+22;nikolai;basic;Cocktails, die man mit Wodka macht
+23;nikolai;basic;Cocktails, die man mit Rum macht
+24;nikolai;basic;Cocktails, die man mit Whiskey macht
+25;nikolai;basic;Songs von den Beatles
+26;nikolai;basic;Songs von Lady Gaga
+27;nikolai;basic;Sprichwörter
+28;nikolai;halloween;Aberglaube - nennt Dinge, die Unglück bringen
+29;nikolai;halloween;Horror-Filme
+30;nikolai;halloween;Methoden, jemanden umzubringen
+31;nikolai;hot;Worte für das männliche Genital
+32;nikolai;hot;Worte für das weibliche Genital
+33;nikolai;hot;Namen von Pornostars
+34;nikolai;hot;Ungewöhnliche Orte, an denen ihr schon Sex hattet
+35;nikolai;hot;Gründe, sich zu prostituieren
+36;nikolai;hot;Gründe, ins Bordell zu gehen
+37;nikolai;basic;Fahrgeschäfte auf dem Rummel
+38;nikolai;basic;Kampfsportarten
