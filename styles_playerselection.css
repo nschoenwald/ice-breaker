@@ -3,6 +3,74 @@
 	margin: 0;
 }
 
+html, body {
+	height: 100%;  
+	display: flex;
+	flex-direction: column;
+	background-color: DarkCyan;
+	overflow: auto;
+}
+
+.indexContainer {
+	background-color: DarkCyan;
+	flex-grow: 1;
+	max-width: 100%;
+}
+
+.indexHeader {
+	display: flex;
+	max-width: 100%;
+	align-items: center;
+}
+
+img { 
+	flex: 1;
+	max-width: 100%;	
+	object-fit: contain;
+}
+
+.indexText{
+	display: flex;
+	font-family: Georgia;
+	font-size: 1em;
+	font-weight: bold;
+	color: #ffffff;
+	padding: 15px;
+}
+
+.indexHeadline{
+	display: flex;
+	font-family: Georgia;
+	font-size: 1.75em;
+	font-weight: bold;
+	color: #ffffff;
+	padding: 15px;
+	justify-content: center;
+}
+
+.indexTable{
+	display: flex;
+	font-family: Georgia;
+	font-size: 1em;
+	font-weight: bold;
+	color: #ffffff;
+	padding: 15px;
+	justify-content: center;
+}
+
+.indexLeftColumn{
+	padding-right: 1.5em;
+}
+
+input[type="checkbox"] {
+    zoom: 1.5;
+	margin: 0.15em;
+}
+
+input[type="button"] {
+    zoom: 1.5;
+}
+
 @media (max-width: 600px) 
 and (orientation:portrait){
 	* {
@@ -140,72 +208,4 @@ and (max-width:1199px){
 		align-self: center;
 		text-align: center;
 	}
-}
-    
-html, body {
-	height: 100%;  
-	display: flex;
-	flex-direction: column;
-	background-color: DarkCyan;
-	overflow: auto;
-}
-
-.indexContainer {
-	background-color: DarkCyan;
-	flex-grow: 1;
-	max-width: 100%;
-}
-
-.indexHeader {
-	display: flex;
-	max-width: 100%;
-	align-items: center;
-}
-
-img { 
-	flex: 1;
-	max-width: 100%;	
-	object-fit: contain;
-}
-
-.indexText{
-	display: flex;
-	font-family: Georgia;
-	font-size: 1em;
-	font-weight: bold;
-	color: #ffffff;
-	padding: 15px;
-}
-
-.indexHeadline{
-	display: flex;
-	font-family: Georgia;
-	font-size: 1.75em;
-	font-weight: bold;
-	color: #ffffff;
-	padding: 15px;
-	justify-content: center;
-}
-
-.indexTable{
-	display: flex;
-	font-family: Georgia;
-	font-size: 1em;
-	font-weight: bold;
-	color: #ffffff;
-	padding: 15px;
-	justify-content: center;
-}
-
-.indexLeftColumn{
-	padding-right: 1.5em;
-}
-
-input[type="checkbox"] {
-    zoom: 1.5;
-	margin: 0.15em;
-}
-
-input[type="button"] {
-    zoom: 1.5;
 }
