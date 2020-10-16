@@ -54,7 +54,6 @@ img {
 	font-size: 1em;
 	font-weight: bold;
 	color: #ffffff;
-	padding: 15px;
 	justify-content: center;
 }
 
@@ -123,8 +122,8 @@ and (max-width:1199px){
 		font-size: 108%;
 	}
 	.indexContainer {
-	max-width: 70%;
-	align-self: center;
+		max-width: 70%;
+		align-self: center;
 	}
 }
 
@@ -133,7 +132,7 @@ and (max-width:1199px){
 		font-size: 110%;
 	}
 	.indexContainer {
-	max-width: 70%;
-	align-self: center;
+		max-width: 70%;
+		align-self: center;
 	}
 }
