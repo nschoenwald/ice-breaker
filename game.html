@@ -197,11 +197,11 @@ function chooseTask(data) {
 			window.tasksLeft = tasksLeft;
 			console.log("tasksLeft: " + tasksLeft.length);
 			
+			// Topics ersetzen
+			var nextTaskDescription = replaceTopic(nextTaskDescription, nextTaskCategory);
+			
 			// Spielernamen in TaskDescription einfügen
 			var nextTaskDescriptionReplaced = replacePlayerNames(nextTaskDescription, randomPlayerNames);
-			
-			// Topic_Abstimmung ersetzen (WORK IN PROGRESS)
-			var nextTaskDescriptionReplaced = replaceTopic(nextTaskDescriptionReplaced, nextTaskCategory);
 		}		
 
 	}
