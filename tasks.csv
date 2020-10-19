@@ -27,9 +27,9 @@ id;author;category;players_needed;headline;description;callback_timer;callback_h
 26;nikolai;basic;2;Thank You For Smoking;Alle Raucher trinken 2 Schlucke.;;;
 27;nikolai;basic;2;Fluch;player1, singe ab jetzt alles, was du sagst. Trinke 2 Schlucke wenn du es vergisst.;10;Fluch aufgehoben;player1, du musst jetzt nicht mehr alles singen.
 28;nikolai;basic;2;Getränke tauschen;Paare tauschen ihre Getränke bis einer von beiden das nächste Mal ausgetrunken hat.;;;
-29;nikolai;basic;2;Duell;Was ist der schlimmste Satz, den man beim Sex sagen kann? player1 und player2, nennt beide einen Satz. Die anderen stimmen über den Gewinner ab. Der Verlierer trinkt 3 Schlucke.;;;
+29;nikolai;basic;5;Duell;Was ist der schlimmste Satz, den man beim Sex sagen kann? player1 und player2, nennt beide einen Satz. Die anderen stimmen über den Gewinner ab. Der Verlierer trinkt 3 Schlucke.;;;
 30;nikolai;basic;2;Fluch für alle;Ihr müsst von euch selbst in der 3. Person sprechen. Wenn ihr es vergisst: 2 Schlucke Strafe.;15;Fluch aufgehoben;Ihr könnt jetzt aufhören, von euch selbst in der 3. Person zu sprechen.
-31;nikolai;basic;2;Shake it;player1 und player2, twerkt zusammen. Der schlechteste Twerker trinkt 2 Schlucke (die anderen stimmen ab).;;;
+31;nikolai;basic;5;Shake it;player1 und player2, twerkt zusammen. Der schlechteste Twerker trinkt 2 Schlucke (die anderen stimmen ab).;;;
 32;nikolai;basic;2;Hoch die Tassen!;Jeder trinkt 3 Schlucke.;;;
 33;nikolai;basic;2;Boys Time;Alle Jungs trinken 3 Schlucke.;;;
 34;nikolai;basic;2;Girls Time;Alle Mädels trinken 3 Schlucke.;;;
@@ -196,7 +196,7 @@ id;author;category;players_needed;headline;description;callback_timer;callback_h
 196;nikolai;hot;2;;player1, gib player2 eine Fußmassage. Du darfst erst aufhören, wenn player2 es sagt.;;;
 197;nikolai;hot;2;;player1 und player2, kitzelt euch gegenseitig für mindestens 30 Sekunden.;;;
 198;nikolai;hot;2;;player1, trinke 2 Schlucke wenn du dominant im Bett bist. Falls du es bist, darfst du 2 Schlucke an einen Mitspieler verteilen, von dem du denkst dass er unterwürfig ist.;;;
-199;nikolai;hot;2;;Seven Minutes in Heaven: player1 und player2 lassen ihre Handys am Tisch, gehen zusammen in einen anderen Raum (idealerweise Abstellkammer / Wandschrank), machen das Licht aus und schließen die Tür. Die anderen holen sie erst nach 7 Minuten wieder raus.;;;
+199;nikolai;hot;4;;Seven Minutes in Heaven: player1 und player2 lassen ihre Handys am Tisch, gehen zusammen in einen anderen Raum (idealerweise Abstellkammer / Wandschrank), machen das Licht aus und schließen die Tür. Die anderen holen sie erst nach 7 Minuten wieder raus.;;;
 200;nikolai;hot;2;;Alle Spielerinnen, die Lippenstift tragen, machen player1 einen Kussabdruck ins Gesicht. Wer den deutlichsten Kussmund schafft, darf 5 Schlucke verteilen.;;;
 201;nikolai;hot;2;;player1, setz dich auf den Schoß von player2. Jedes Mal wenn ihr Hoppe, Hoppe Reiter spielt, müssen alle anderen 2 Schlucke trinken.;10;;player1, du darfst jetzt wieder runter vom Schoß von player2.
 202;nikolai;hot;2;;Jeder, der ein Nacktfoto von sich auf dem Handy hat, trinkt 3 Schlucke. Wer eins zeigt, darf 7 Schlucke verteilen!;;;
@@ -217,9 +217,9 @@ id;author;category;players_needed;headline;description;callback_timer;callback_h
 217;nikolai;hot;2;Just Tattoo of Us;player1, lass dir von player2 etwas auf den Arsch malen oder schreiben. Wenn du dich weigerst, trinke 4 Schlucke.;;;
 218;nikolai;basic;2;;Wer das nächste Mal pinkeln geht, trinkt 3 Schlucke wenn er oder sie wieder da ist.;;;
 219;;;;;;;;
+219;;;;;;;;
 220;;;;;;;;
 221;;;;;;;;
-219;;;;;;;;
 a|b_01;random;basic;3;A oder B;$topic_abstimmung$ Alle stimmen ab. Die Gruppe mit weniger Stimmen trinkt 3 Schlucke.;;;
 a|b_02;random;basic;3;A oder B;$topic_abstimmung$ Alle stimmen ab. Die Gruppe mit weniger Stimmen trinkt 3 Schlucke.;;;
 a|b_03;random;basic;3;A oder B;$topic_abstimmung$ Alle stimmen ab. Die Gruppe mit weniger Stimmen trinkt 3 Schlucke.;;;
@@ -249,11 +249,17 @@ fd_04;random;basic;1;;player1, verteile 3 Schlucke $topic_falls_du$;;;
 fd_05;random;basic;1;;player1, trinke 3 Schlucke $topic_falls_du$;;;
 fd_06;random;basic;1;;player1, verteile 3 Schlucke $topic_falls_du$;;;
 fd_07;random;basic;1;;player1, trinke 3 Schlucke $topic_falls_du$;;;
+fd_08;random;basic;1;;player1, verteile 3 Schlucke $topic_falls_du$;;;
+fd_09;random;basic;1;;player1, trinke 3 Schlucke $topic_falls_du$;;;
+fd_10;random;basic;1;;player1, verteile 3 Schlucke $topic_falls_du$;;;
+fd_11;random;basic;1;;player1, trinke 3 Schlucke $topic_falls_du$;;;
 fd_hot_01;random;hot;1;;player1, trinke 3 Schlucke $topic_falls_du$;;;
 fd_hot_02;random;hot;1;;player1, verteile 3 Schlucke $topic_falls_du$;;;
 fd_hot_03;random;hot;1;;player1, trinke 3 Schlucke $topic_falls_du$;;;
 fd_hot_04;random;hot;1;;player1, verteile 3 Schlucke $topic_falls_du$;;;
 fd_hot_05;random;hot;1;;player1, trinke 3 Schlucke $topic_falls_du$;;;
+fd_hot_06;random;hot;1;;player1, verteile 3 Schlucke $topic_falls_du$;;;
+fd_hot_07;random;hot;1;;player1, trinke 3 Schlucke $topic_falls_du$;;;
 ts_01;random;basic;2;Themenspiel;„$topic_themenspiel$“ - der Spieler, der etwas wiederholt oder keine Idee mehr hat, trinkt 3 Schlucke! player1 beginnt.;;;
 ts_02;random;basic;2;Themenspiel;„$topic_themenspiel$“ - der Spieler, der etwas wiederholt oder keine Idee mehr hat, trinkt 3 Schlucke! player1 beginnt.;;;
 ts_03;random;basic;2;Themenspiel;„$topic_themenspiel$“ - der Spieler, der etwas wiederholt oder keine Idee mehr hat, trinkt 3 Schlucke! player1 beginnt.;;;
