@@ -1,0 +1,151 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+html, body {
+	height: 100%;  
+	display: flex;
+	flex-direction: column;
+	background-color: DarkCyan;
+	overflow: auto;
+}
+
+.indexContainer {
+	background-color: DarkCyan;
+	flex-grow: 1;
+	max-width: 100%;
+}
+
+.indexHeader {
+	flex: 1;
+	max-width: 100%;
+}
+
+img { 
+	flex: 1;
+	max-width: 100%;	
+	object-fit: contain;
+}
+
+.indexText{
+	display: flex;
+	font-family: Georgia;
+	font-size: 1em;
+	font-weight: bold;
+	color: #ffffff;
+	padding: 3%;
+	justify-content: center;
+}
+
+.indexHeadline{
+	display: flex;
+	font-family: Georgia;
+	font-size: 1.75em;
+	font-weight: bold;
+	color: #ffffff;
+	padding-top: 3%;
+	justify-content: center;
+	text-align: center;
+}
+
+.indexTable{
+	font-family: Georgia;
+	font-size: 1em;
+	font-weight: bold;
+	color: #ffffff;
+	justify-content: center;
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+}
+
+.startButton
+{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.indexLeftColumn{
+	padding-right: 1.5em;
+}
+
+.rightColumn{
+	padding-left: 2%;
+}
+
+input[type="checkbox"] {
+    zoom: 1.5;
+	margin: 0.15em;
+}
+
+input[type="button"] {
+    zoom: 1.5;
+}
+
+@media (max-width: 600px) 
+and (orientation:portrait){
+	* {
+		font-size: 100%;
+	}
+}
+
+@media (max-width: 600px) 
+and (orientation:landscape){
+	* {
+		font-size: 100%;
+	}
+}
+
+@media (min-width: 600px) 
+and (max-width:767px) 
+and (orientation:portrait){
+	* {
+		font-size: 104%;
+	}
+}
+
+@media (min-width: 600px) 
+and (max-width:767px) 
+and (orientation:landscape){
+	* {
+		font-size: 104%;
+	}
+}
+
+@media (min-width: 768px)
+and (max-width:991px) 
+and (orientation:portrait){
+	* {
+		font-size: 106%;
+	}
+}
+
+@media (min-width: 768px)
+and (max-width:991px) 
+and (orientation:landscape){
+	* {
+		font-size: 106%;
+	}
+}
+
+@media (min-width: 992px) 
+and (max-width:1199px){
+	* {
+		font-size: 108%;
+	}
+	.indexContainer {
+		max-width: 70%;
+		align-self: center;
+	}
+}
+
+@media (min-width: 1200px) {
+	* {
+		font-size: 110%;
+	}
+	.indexContainer {
+		max-width: 70%;
+		align-self: center;
+	}
+}
