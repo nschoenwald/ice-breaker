@@ -107,21 +107,8 @@ document.body.appendChild(el);
 <td class="indexLeftColumn">Spieler 12: </td>
 <td><input type="text" id="player_name_12" name="player_name_12"></td>
 <tr>
-<td><br></td>
 <td></td>
-<tr>
-<td>Kategorien: </td>
-<td><input type="checkbox" id="category_basic" name="category_basic" checked="true"> 
-<label for="category_basic"> Standard</label><br>
-<input type="checkbox" id="category_hot" name="category_hot"> 
-<label for="category_hot"> Hot</label><br>
-<input type="checkbox" id="category_halloween" name="category_halloween"> 
-<label for="category_halloween"> Halloween </label></td>
-<tr>
-<td><br></td>
-<tr>
-<td></td>
-<td><input type="button" id="send_player_names" value="Spiel starten"></td>
+<td><br><input type="button" id="send_player_names" value="Weiter"></td>
 </form>
 </table>
 </div>
@@ -139,12 +126,6 @@ document.getElementById("player_name_9").value = localStorage.getItem("dg_player
 document.getElementById("player_name_10").value = localStorage.getItem("dg_player_name_10");
 document.getElementById("player_name_11").value = localStorage.getItem("dg_player_name_11");
 document.getElementById("player_name_12").value = localStorage.getItem("dg_player_name_12");
-if (localStorage.getItem("dg_category_basic") == "true") {
-document.getElementById("category_basic").checked = "true"; }
-if (localStorage.getItem("dg_category_hot") == "true") {
-document.getElementById("category_hot").checked = "true"; }
-if (localStorage.getItem("dg_category_halloween") == "true") {
-document.getElementById("category_halloween").checked = "true"; }
 </script>
 <script>
 document.getElementById ("send_player_names").addEventListener ("click", sendInputs, false);
@@ -161,9 +142,6 @@ var player_name_9 = document.getElementById("player_name_9").value;
 var player_name_10 = document.getElementById("player_name_10").value;
 var player_name_11 = document.getElementById("player_name_11").value;
 var player_name_12 = document.getElementById("player_name_12").value;
-var category_basic = document.getElementById("category_basic").checked;
-var category_hot = document.getElementById("category_hot").checked;
-var category_halloween = document.getElementById("category_halloween").checked;
 localStorage.setItem("dg_player_name_1", player_name_1);
 localStorage.setItem("dg_player_name_2", player_name_2);
 localStorage.setItem("dg_player_name_3", player_name_3);
@@ -176,11 +154,8 @@ localStorage.setItem("dg_player_name_9", player_name_9);
 localStorage.setItem("dg_player_name_10", player_name_10);
 localStorage.setItem("dg_player_name_11", player_name_11);
 localStorage.setItem("dg_player_name_12", player_name_12);
-localStorage.setItem("dg_category_basic", category_basic);
-localStorage.setItem("dg_category_hot", category_hot);
-localStorage.setItem("dg_category_halloween", category_halloween);
 localStorage.setItem("dg_tasksDone", 0);
-window.open("game.html","_self")
+window.open("categories.html","_self")
 }
 </script>
 </div>
