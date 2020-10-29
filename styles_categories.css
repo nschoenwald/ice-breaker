@@ -122,6 +122,9 @@ and (orientation:landscape){
 	* {
 		font-size: 104%;
 	}
+  .leftColumn{
+	width: 10rem;
+  }
 }
 
 @media (min-width: 768px)
