@@ -209,8 +209,8 @@ id;author;category;players_needed;headline;description;callback_timer;callback_h
 209;nikolai;hot;2;;player1, was ist das letzte Objekt, das du in dich selbst oder jemand anderen eingeführt hast? (Körperteile zählen nicht);;;
 210;nikolai;hot;2;;Alle Mädels, die ihre Brüste zeigen, dürfen Schlücke verteilen. 3 Schlucke wenn im BH, 7 Schlucke wenn ohne.;;;
 211;fee;hot;2;;player1, trinke 3 Schlucke wenn du dir schon mal gewünscht hast, dass dein aktueller Partner im Bett etwas offener ist.;;;
-212;fee;hot;2;;player1, trinke 3 Schlucke wenn du schon mal mit jemandem geschlafen hast obwohl du selbst keine Lust hattest.;;;
-213;fee;hot;2;;player1, trinke 3 Schlucke wenn du schon mal Sex mit einer vergebenen Person hattest.;;;
+212;fee;hot;1;;player1, trinke 3 Schlucke wenn du schon mal mit jemandem geschlafen hast obwohl du selbst keine Lust hattest.;;;
+213;fee;hot;1;;player1, trinke 3 Schlucke wenn du schon mal Sex mit einer vergebenen Person hattest.;;;
 214;nikolai;hot;2;Strippen-Stein-Papier;player1 und player2, spielt gegeneinander Schere-Stein-Papier. Wer zwei mal verliert zieht ein Kleidungsstück aus. Socken und Accessoires zählen nicht!;;;
 215;nikolai;hot;2;;player1, setz dich hinter player2 und klammere dich mit Armen und Beinen an player2 wie ein Koala-Baby.;10;;player1, du musst dich nicht mehr wie ein Koala-Baby an player2 klammern.
 216;nikolai;hot;3;Kuss-Auktion;Ein Kuss mit player1 steht zur Auktion. Jeder Spieler kann Gebote abgeben, wie viele Schlucke er oder sie trinkt, um player1 küssen zu dürfen. Wer die Auktion gewinnt, trinkt so viele Schlucke und hat den Kuss gewonnen.;;;
@@ -218,12 +218,17 @@ id;author;category;players_needed;headline;description;callback_timer;callback_h
 218;nikolai;hot;2;Just Tattoo of Us;player1, lass dir von player2 etwas auf den Arsch malen oder schreiben. Wenn du dich weigerst, trinke 4 Schlucke.;;;
 219;nikolai;hot;3;Flaschendrehen;player1, drehe eine Flasche und küsse den Spieler, auf den die Flasche zeigt.;;;
 219;nikolai;hot;2;;player1, bestimme eine Stelle, auf die player2 dich küssen muss. Falls player2 sich weigert: 5 Schlucke.;;;
-220;;;;;;;;
-221;;;;;;;;
-222;;;;;;;;
-223;;;;;;;;
-224;;;;;;;;
-225;;;;;;;;
+220;nikolai;basic;3;;player1, du musst entscheiden: Wer von player2 und player3 würde dir bei einer Prügelei mehr Angst machen? Chuck Norris verteilt 3 Schlucke.;;;
+221;nikolai;basic;2;Fluch;Ihr müsst euch ab jetzt mit euren Nachnamen ansprechen.;7;Fluch aufgehoben;Ihr müsst euch nicht mehr mit euren Nachnamen ansprechen.
+222;nikolai;basic;1;;player1, trink so viele Schlucke wie es Titten im Raum gibt.;;;
+223;nikolai;basic;3;;Jeder sagt, welche Serien er gerade guckt. Wenn mehrere die gleiche sehen, trinken sie 3 Schlucke.;;;
+226;nikolai;basic;1;;Alle, die aus Norddeutschland kommen, trinken 2 Schlucke.;;;
+227;nikolai;basic;1;;Alle, die aus Süddeutschland kommen, trinken 2 Schlucke.;;;
+228;nikolai;basic;1;;Alle, die nicht aus Deutschland kommen, trinken 2 Schlucke.;;;
+229;nikolai;basic;2;Duell;Derjenige von player1 und player2, der die größeren Hände hat, verteilt 3 Schlucke.;;;
+230;;;;;;;;
+231;;;;;;;;
+232;;;;;;;;
 a|b_01;random;basic;3;A oder B;$topic_abstimmung$ Alle stimmen ab. Die Gruppe mit weniger Stimmen trinkt 3 Schlucke.;;;
 a|b_02;random;basic;3;A oder B;$topic_abstimmung$ Alle stimmen ab. Die Gruppe mit weniger Stimmen trinkt 3 Schlucke.;;;
 a|b_03;random;basic;3;A oder B;$topic_abstimmung$ Alle stimmen ab. Die Gruppe mit weniger Stimmen trinkt 3 Schlucke.;;;
@@ -310,3 +315,5 @@ wi_hot_05;random;hot;3;Abstimmung;Wählt unter euch, $topic_wer_ist$;;;
 wi_hw_01;random;halloween;3;Abstimmung;Wählt unter euch, $topic_wer_ist$;;;
 wi_hw_02;random;halloween;3;Abstimmung;Wählt unter euch, $topic_wer_ist$;;;
 wi_hw_03;random;halloween;3;Abstimmung;Wählt unter euch, $topic_wer_ist$;;;
+x001;nikolai;basic;2;Roulette;Jeder wählt Schwarz oder Rot.;0;Roulette;Alle Spieler, die auf Schwarz gesetzt haben, trinken 3 Schlucke.
+x001;nikolai;basic;2;Roulette;Jeder wählt Schwarz oder Rot.;0;Roulette;Alle Spieler, die auf Rot gesetzt haben, trinken 3 Schlucke.
