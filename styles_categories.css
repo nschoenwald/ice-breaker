@@ -58,7 +58,7 @@ img {
 	justify-content: center;
 	margin-left: auto;
 	margin-right: auto;
-	width: 90%;
+	width: 95%;
 }
 
 .startButton
@@ -96,6 +96,9 @@ and (orientation:portrait){
 	* {
 		font-size: 100%;
 	}
+  .leftColumn{
+	width: 9.5rem;
+  }
 }
 
 @media (max-width: 600px) 
