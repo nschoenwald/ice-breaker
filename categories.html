@@ -72,6 +72,13 @@ Macht euch bereit, bei diesen pikanten Aufgaben eure intimen Geheimnisse zu verr
 <td class="rightColumn">
 Die richtige Kategorie für eine Halloween-Party oder Horror-Liebhaber.
 </td>
+</tr>
+<!-- <tr class="tableRow">
+<td class="leftColumn"><input type="checkbox" id="category_weihnachten" name="category_weihnachten"><label for="category_weihnachten">Weihnachten</label></td>
+<td class="rightColumn">
+Der perfekte Begleiter zum Glühwein.
+</td>
+</tr> -->
 <tr class="tableRow">
 <td></td>
 <td>
@@ -89,6 +96,8 @@ if (localStorage.getItem("dg_category_hot") == "true") {
 document.getElementById("category_hot").checked = "true"; }
 if (localStorage.getItem("dg_category_halloween") == "true") {
 document.getElementById("category_halloween").checked = "true"; }
+if (localStorage.getItem("dg_category_weihnachten") == "true") {
+document.getElementById("category_weihnachten").checked = "true"; }
 </script>
 <script>
 document.getElementById ("send_categories").addEventListener ("click", sendInputs, false);
@@ -96,9 +105,11 @@ function sendInputs() {
 var category_basic = document.getElementById("category_basic").checked;
 var category_hot = document.getElementById("category_hot").checked;
 var category_halloween = document.getElementById("category_halloween").checked;
+var category_weihnachten = document.getElementById("category_weihnachten").checked;
 localStorage.setItem("dg_category_basic", category_basic);
 localStorage.setItem("dg_category_hot", category_hot);
 localStorage.setItem("dg_category_halloween", category_halloween);
+localStorage.setItem("dg_category_weihnachten", category_weihnachten);
 localStorage.setItem("dg_tasksDone", 0);
 window.open("game.html","_self")
 }
