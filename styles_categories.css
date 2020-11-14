@@ -162,7 +162,7 @@ and (max-width:1199px){
 		align-self: center;
 	}
   .leftColumn{
-	width: 11.5rem;
+	width: 12rem;
   }
 }
 
@@ -175,6 +175,6 @@ and (max-width:1199px){
 		align-self: center;
 	}
   .leftColumn{
-	width: 12rem;
+	width: 13rem;
   }
 }
