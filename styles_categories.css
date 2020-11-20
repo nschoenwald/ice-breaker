@@ -97,7 +97,7 @@ and (orientation:portrait){
 		font-size: 100%;
 	}
   .leftColumn{
-	width: 9.5rem;
+	width: 11.5rem;
   }
 }
 
@@ -115,7 +115,7 @@ and (orientation:portrait){
 		font-size: 104%;
 	}
   .leftColumn{
-	width: 9.5rem;
+	width: 11.5rem;
   }
 }
 
@@ -126,7 +126,7 @@ and (orientation:landscape){
 		font-size: 104%;
 	}
   .leftColumn{
-	width: 10rem;
+	width: 12rem;
   }
 }
 
@@ -137,7 +137,7 @@ and (orientation:portrait){
 		font-size: 106%;
 	}
   .leftColumn{
-	width: 10.5rem;
+	width: 12.5rem;
   }
 }
 
@@ -148,7 +148,7 @@ and (orientation:landscape){
 		font-size: 106%;
 	}
   .leftColumn{
-	width: 11rem;
+	width: 13rem;
   }
 }
 
@@ -162,7 +162,7 @@ and (max-width:1199px){
 		align-self: center;
 	}
   .leftColumn{
-	width: 12rem;
+	width: 14rem;
   }
 }
 
@@ -175,6 +175,6 @@ and (max-width:1199px){
 		align-self: center;
 	}
   .leftColumn{
-	width: 13.5rem;
+	width: 15.5rem;
   }
 }
