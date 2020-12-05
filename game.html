@@ -180,7 +180,7 @@ function chooseTask(data) {
 			// query callbackTask if there is one
 			var nextTaskCallbackTimer = parseInt(nextTask.callback_timer);
 			if (nextTaskCallbackTimer > 0) {
-				var nextTaskCallbackTimer = nextTaskCallbackTimer + tasksDone + 2;
+				var nextTaskCallbackTimer = nextTaskCallbackTimer + tasksDone;
 				console.log("CallbackTimer: " + nextTaskCallbackTimer);	
 				var nextTaskCallbackHeadline = nextTask.callback_headline;
 				console.log("CallbackHeadline: " + nextTaskCallbackHeadline);	

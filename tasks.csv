@@ -251,6 +251,8 @@ ab_hot_08;random;hot;3;A oder B;$topic_abstimmung$ Alle stimmen ab. Die Gruppe m
 ab_hot_09;random;hot;3;A oder B;$topic_abstimmung$ Alle stimmen ab. Die Gruppe mit weniger Stimmen trinkt 3 Schlucke.;;;
 ab_hw_01;random;halloween;3;A oder B;$topic_abstimmung$ Alle stimmen ab. Die Gruppe mit weniger Stimmen trinkt 3 Schlucke.;;;
 ab_hw_02;random;halloween;3;A oder B;$topic_abstimmung$ Alle stimmen ab. Die Gruppe mit weniger Stimmen trinkt 3 Schlucke.;;;
+ab_wn_01;random;weihnachten;3;A oder B;$topic_abstimmung$ Alle stimmen ab. Die Gruppe mit weniger Stimmen trinkt 3 Schlucke.;;;
+ab_wn_02;random;weihnachten;3;A oder B;$topic_abstimmung$ Alle stimmen ab. Die Gruppe mit weniger Stimmen trinkt 3 Schlucke.;;;
 fd_01;random;basic;1;;player1, trinke 3 Schlucke $topic_falls_du$;;;
 fd_02;random;basic;1;;player1, verteile 3 Schlucke $topic_falls_du$;;;
 fd_03;random;basic;1;;player1, trinke 3 Schlucke $topic_falls_du$;;;
@@ -269,6 +271,8 @@ fd_hot_04;random;hot;1;;player1, verteile 3 Schlucke $topic_falls_du$;;;
 fd_hot_05;random;hot;1;;player1, trinke 3 Schlucke $topic_falls_du$;;;
 fd_hot_06;random;hot;1;;player1, verteile 3 Schlucke $topic_falls_du$;;;
 fd_hot_07;random;hot;1;;player1, trinke 3 Schlucke $topic_falls_du$;;;
+fd_wn_01;random;weihnachten;1;;player1, trinke 3 Schlucke $topic_falls_du$;;;
+fd_wn_02;random;weihnachten;1;;player1, verteile 3 Schlucke $topic_falls_du$;;;
 ts_01;random;basic;2;Themenspiel;„$topic_themenspiel$“ - der Spieler, der etwas wiederholt oder keine Idee mehr hat, trinkt 3 Schlucke! player1 beginnt.;;;
 ts_02;random;basic;2;Themenspiel;„$topic_themenspiel$“ - der Spieler, der etwas wiederholt oder keine Idee mehr hat, trinkt 3 Schlucke! player1 beginnt.;;;
 ts_03;random;basic;2;Themenspiel;„$topic_themenspiel$“ - der Spieler, der etwas wiederholt oder keine Idee mehr hat, trinkt 3 Schlucke! player1 beginnt.;;;
@@ -295,6 +299,8 @@ ts_hot_06;random;hot;2;Themenspiel;„$topic_themenspiel$“ - der Spieler, der 
 ts_hw_01;random;halloween;2;Themenspiel;„$topic_themenspiel$“ - der Spieler, der etwas wiederholt oder keine Idee mehr hat, trinkt 3 Schlucke! player1 beginnt.;;;
 ts_hw_02;random;halloween;2;Themenspiel;„$topic_themenspiel$“ - der Spieler, der etwas wiederholt oder keine Idee mehr hat, trinkt 3 Schlucke! player1 beginnt.;;;
 ts_hw_03;random;halloween;2;Themenspiel;„$topic_themenspiel$“ - der Spieler, der etwas wiederholt oder keine Idee mehr hat, trinkt 3 Schlucke! player1 beginnt.;;;
+ts_wn_01;random;weihnachten;2;Themenspiel;„$topic_themenspiel$“ - der Spieler, der etwas wiederholt oder keine Idee mehr hat, trinkt 3 Schlucke! player1 beginnt.;;;
+ts_wn_02;random;weihnachten;2;Themenspiel;„$topic_themenspiel$“ - der Spieler, der etwas wiederholt oder keine Idee mehr hat, trinkt 3 Schlucke! player1 beginnt.;;;
 wi_01;random;basic;3;Abstimmung;Wählt unter euch, $topic_wer_ist$;;;
 wi_02;random;basic;3;Abstimmung;Wählt unter euch, $topic_wer_ist$;;;
 wi_03;random;basic;3;Abstimmung;Wählt unter euch, $topic_wer_ist$;;;
@@ -315,5 +321,5 @@ wi_hot_05;random;hot;3;Abstimmung;Wählt unter euch, $topic_wer_ist$;;;
 wi_hw_01;random;halloween;3;Abstimmung;Wählt unter euch, $topic_wer_ist$;;;
 wi_hw_02;random;halloween;3;Abstimmung;Wählt unter euch, $topic_wer_ist$;;;
 wi_hw_03;random;halloween;3;Abstimmung;Wählt unter euch, $topic_wer_ist$;;;
-x001;nikolai;basic;2;Roulette;Jeder wählt Schwarz oder Rot.;0;Roulette;Alle Spieler, die auf Schwarz gesetzt haben, trinken 3 Schlucke.
-x001;nikolai;basic;2;Roulette;Jeder wählt Schwarz oder Rot.;0;Roulette;Alle Spieler, die auf Rot gesetzt haben, trinken 3 Schlucke.
+x001;nikolai;basic;2;Roulette;Jeder wählt Schwarz oder Rot.;1;Roulette;Alle Spieler, die auf Schwarz gesetzt haben, trinken 3 Schlucke.
+x001;nikolai;basic;2;Roulette;Jeder wählt Schwarz oder Rot.;1;Roulette;Alle Spieler, die auf Rot gesetzt haben, trinken 3 Schlucke.
