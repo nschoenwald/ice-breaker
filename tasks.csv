@@ -83,7 +83,7 @@ id;author;category;players_needed;headline;description;callback_timer;callback_h
 82;marie;basic;2;;player1, wenn du unordentlich bist, trinke 3 Schlucke.;;;
 83;marie;basic;2;;player1, trinke 2 Schlucke wenn deine Wohnung einen Balkon hat.;;;
 84;nikolai;basic;2;;Der Spieler, der am längsten noch bei den Eltern gewohnt hat, trinkt 3 Schlucke.;;;
-85;marie;basic;2;Schätzen;Schätzt, auf wie vielen Festivals player1 schon war. Wer am nächsten dran ist, verteilt 5 Schlucke. player2 beginnt, danach geht es im Uhrzeigersinn weiter.;;;
+85;marie;basic;2;Schätzen;Schätzt, auf wie vielen verschiedenen Festivals player1 schon war. Wer am nächsten dran ist, verteilt 5 Schlucke. player2 beginnt, danach geht es im Uhrzeigersinn weiter.;;;
 86;marie;basic;2;;Trinke so viele Schlucke, wie du Haustiere hast (Familien-Haustiere zählen dazu).;;;
 87;marie;basic;2;;Wer gefärbte Haare hat, trinkt 2 Schlucke.;;;
 88;marie;basic;2;;Wer die jüngsten Eltern hat, verteilt 3 Schlucke. Wer die ältesten Eltern hat, trinkt 3 Schlucke (Durchschnittsalter zählt).;;;
