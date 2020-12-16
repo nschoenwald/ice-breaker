@@ -181,11 +181,11 @@ function chooseTask(data) {
 			var nextTaskCallbackTimer = parseInt(nextTask.callback_timer);
 			if (nextTaskCallbackTimer > 0) {
 				var nextTaskCallbackTimer = nextTaskCallbackTimer + tasksDone;
-				console.log("CallbackTimer: " + nextTaskCallbackTimer);	
+				// console.log("CallbackTimer: " + nextTaskCallbackTimer);	
 				var nextTaskCallbackHeadline = nextTask.callback_headline;
-				console.log("CallbackHeadline: " + nextTaskCallbackHeadline);	
+				// console.log("CallbackHeadline: " + nextTaskCallbackHeadline);	
 				var nextTaskCallbackDescription = nextTask.callback_description;
-				console.log("CallbackDescription: " + nextTaskCallbackDescription);	
+				// console.log("CallbackDescription: " + nextTaskCallbackDescription);	
 				var nextCallbackObject = {
 					"id": nextTaskId,
 					"callback_timer": nextTaskCallbackTimer,
@@ -193,8 +193,8 @@ function chooseTask(data) {
 					"callback_description": replacePlayerNames(nextTaskCallbackDescription, randomPlayerNames)
 				}
 				window.callbacksQueried.push(nextCallbackObject);
-				console.log("nextCallbackObject: " + JSON.stringify(nextCallbackObject));
-				console.log("callback will be due at task " + nextTaskCallbackTimer);
+				// console.log("nextCallbackObject: " + JSON.stringify(nextCallbackObject));
+				// console.log("callback will be due at task " + nextTaskCallbackTimer);
 			}
 			
 			// remove id from array of tasks
@@ -333,6 +333,8 @@ var topicsWerIstShuffled = shuffleArray(window.csvDataWerIst);
 var topicsWerIstShuffled = topicsWerIstShuffled.filter(function(el) { return el.category == nextTaskCategory; });
 var topicsFallsDuShuffled = shuffleArray(window.csvDataFallsDu);
 var topicsFallsDuShuffled = topicsFallsDuShuffled.filter(function(el) { return el.category == nextTaskCategory; });
+var topicsQuizShuffled = shuffleArray(window.csvDataQuiz);
+var topicsQuizShuffled = topicsQuizShuffled.filter(function(el) { return el.category == nextTaskCategory; });
 
 if (description.includes("$topic_abstimmung$") == true) {
 var description = description.replace(/\$topic_abstimmung\$/g, topicsAbstimmungShuffled[0].topic);
@@ -349,6 +351,32 @@ window.csvDataWerIst = window.csvDataWerIst.filter(function(el) { return el.id !
 if (description.includes("$topic_falls_du$") == true) {
 var description = description.replace(/\$topic_falls_du\$/g, topicsFallsDuShuffled[0].topic);
 window.csvDataFallsDu = window.csvDataFallsDu.filter(function(el) { return el.id != topicsFallsDuShuffled[0].id; });
+}
+return description;
+}
+if (description.includes("$question_quiz$") == true) {
+var description = description.replace(/\$question_quiz\$/g, topicsQuizShuffled[0].topic);
+
+			if (nextTaskCallbackTimer > 0) {
+				var tasksDone = parseInt(localStorage.getItem("dg_tasksDone"));
+				var nextTaskCallbackTimer = 1 + tasksDone;
+				// console.log("CallbackTimer: " + nextTaskCallbackTimer);	
+				var nextTaskCallbackHeadline = topicsQuizShuffled[0].callback_headline;
+				// console.log("CallbackHeadline: " + nextTaskCallbackHeadline);	
+				var nextTaskCallbackDescription = topicsQuizShuffled[0].callback_description;
+				// console.log("CallbackDescription: " + nextTaskCallbackDescription);	
+				var nextCallbackObject = {
+					"id": nextTaskId,
+					"callback_timer": nextTaskCallbackTimer,
+					"callback_headline": nextTaskCallbackHeadline,
+					"callback_description": replacePlayerNames(nextTaskCallbackDescription, randomPlayerNames)
+				}
+				window.callbacksQueried.push(nextCallbackObject);
+				// console.log("nextCallbackObject: " + JSON.stringify(nextCallbackObject));
+				// console.log("callback will be due at task " + nextTaskCallbackTimer);
+				
+window.csvDataQuiz = window.csvDataQuiz.filter(function(el) { return el.id != topicsQuizShuffled[0].id; });
+
 }
 return description;
 }
@@ -410,6 +438,10 @@ function parseTopics(url) {
 			var csvDataFallsDu = results.data;
 			window.csvDataFallsDu = results.data;
 			};
+			if (url.includes("quiz") == true) {
+			var csvDataQuiz = results.data;
+			window.csvDataQuiz = results.data;
+			};
         }
     });
 }
@@ -433,6 +465,7 @@ parseTopics("topics_themenspiel.csv");
 parseTopics("topics_abstimmung.csv");
 parseTopics("topics_wer_ist.csv");
 parseTopics("topics_falls_du.csv");
+parseTopics("topics_quiz.csv");
 localStorage.setItem("dg_tasksDone", -1);
 var clickedPlayerselection = false;
 setBeforeUnload();
