@@ -68,8 +68,8 @@ id;author;category;players_needed;headline;description;callback_timer;callback_h
 67;nikolai;basic;2;Auf gute Nachbarschaft!;player1, stoße mit deinen direkten Sitznachbarn an. 2 Schlucke für jeden von euch.;;;
 68;nikolai;basic;2;Duell;player1 und player2, macht Armdrücken. Der Verlierer trinkt 3 Schlucke.;;;
 69;nikolai;basic;2;;Die Spielerin mit dem meisten Make-Up trinkt 3 Schlucke. Falls ihr euch uneinig seid, stimmt ab.;;;
-70;nikolai;basic;2;Quiz Time;player1, wer hat die Formel e=mc² aufgestellt und wofür stehen die Buchstaben? Verteile 3 Schlucke wenn du es weißt, und trinke sie selbst wenn nicht.;;;
-71;nikolai;basic;2;Quiz Time;player1, welcher Film hat die meisten Oscars gewonnen? Verteile 3 Schlucke wenn du es weißt, und trinke sie selbst wenn nicht.;;;
+q_01;nikolai;basic;2;Quiz Time;$question_quiz$;;;
+q_02;nikolai;basic;2;Quiz Time;$question_quiz$;;;
 72;nikolai;basic;2;Segen;player1, wenn du dir ab jetzt ans Ohr fasst, müssen alle anderen sich auch ans Ohr fassen. Der letzte Spieler, der es macht, trinkt 3 Schlucke.;10;Segen aufgehoben;player1, wenn du dich ans Ohr fasst, müssen die anderen es jetzt nicht mehr nachmachen.
 73;nikolai;basic;2;;Alle, die eine Führerscheinprüfung wiederholen mussten, trinken 3 Schlucke.;;;
 74;nikolai;basic;2;;player1, erzähle etwas das du noch nie gemacht hast und alle, die es gemacht haben, müssen 3 Schlucke trinken.;;;

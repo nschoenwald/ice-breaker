@@ -141,8 +141,8 @@ function chooseTask(data) {
 	console.log("nextCallbackTask.length: " + nextCallbackTask.length);
 	if (callbacksQueried.length > 0 && nextCallbackTask.length >= 1) {
 		// set callback task if it is due
-		console.log("nextTask is a callback")
-		console.log("nextCallbackTask: " + JSON.stringify(nextCallbackTask));
+		// console.log("nextTask is a callback")
+		// console.log("nextCallbackTask: " + JSON.stringify(nextCallbackTask));
 		var nextTask = nextCallbackTask[0];
 		window.nextTask = nextTask;
 		console.log("nextTask (callback): " + JSON.stringify(nextTask));
@@ -151,9 +151,9 @@ function chooseTask(data) {
 		var nextTaskId = nextTask.id;
 		var nextTaskHeadline = nextTask.callback_headline;
 		var taskIsCallback = true;
-		console.log("Callback | nextTaskDescription: " + nextTaskDescription);
-		console.log("Callback | nextTaskId: " + nextTaskId);
-		console.log("Callback | nextTaskHeadline: " + nextTaskHeadline);
+		// console.log("Callback | nextTaskDescription: " + nextTaskDescription);
+		// console.log("Callback | nextTaskId: " + nextTaskId);
+		// console.log("Callback | nextTaskHeadline: " + nextTaskHeadline);
 		var callbacksQueriedFiltered = callbacksQueried.filter(function(el) { return el.id != nextTaskId });
 		window.callbacksQueried = callbacksQueriedFiltered;
 		window.nextCallBackTask = nextCallBackTask;
