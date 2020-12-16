@@ -369,8 +369,8 @@ var description = description.replace(/\$question_quiz\$/g, topicsQuizShuffled[0
 					"callback_description": replacePlayerNames(nextTaskCallbackDescription, randomPlayerNames)
 				}
 				window.callbacksQueried.push(nextCallbackObject);
-				// console.log("nextCallbackObject: " + JSON.stringify(nextCallbackObject));
-				// console.log("callback will be due at task " + nextTaskCallbackTimer);
+				console.log("Quiz: nextCallbackObject: " + JSON.stringify(nextCallbackObject));
+				console.log("Quiz: callback will be due at task " + nextTaskCallbackTimer);
 				
 window.csvDataQuiz = window.csvDataQuiz.filter(function(el) { return el.id != topicsQuizShuffled[0].id; });
 }
