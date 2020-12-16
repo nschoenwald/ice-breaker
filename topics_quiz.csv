@@ -1,3 +1,13 @@
 id;author;category;topic;callback_timer;callback_headline;callback_description
-1;nikolai;basic;player1, wer hat die Formel e=mc² aufgestellt und wofür stehen die Buchstaben? Verteile 3 Schlucke wenn du es weißt, und trinke sie selbst wenn nicht.;1;Antwort;Albert Einstein stellte die Formel auf, welche ausweist, wie viel Energie beim Spalten eines Atoms freigesetzt wird. Energie = Masse x Lichtgeschwindigkeit zum Quadrat
-2;nikolai;basic;player1, welcher Film hat die meisten Oscars gewonnen? Verteile 3 Schlucke wenn du es weißt, und trinke sie selbst wenn nicht.;1;Antwort;Ben Hur, Titanic und Der Herr der Ringe 3: Die Rückkehr des Königs haben jeweils 13 Oscars gewonnen.
+1;nikolai;basic;'player1, wer hat die Formel e=mc² aufgestellt und wofür stehen die Buchstaben? 
+
+Ob du die richtige Antwort hast, siehst du beim nächsten Klick.';;Antwort;'Albert Einstein stellte die Formel auf, welche ausweist, wie viel Energie beim Spalten eines Atoms freigesetzt wird. 
+Energie = Masse x Lichtgeschwindigkeit zum Quadrat.
+
+Verteile 3 Schlucke wenn du es wusstest und trinke sie selbst, falls nicht.'
+2;nikolai;basic;'player1, welcher Film hat die meisten Oscars gewonnen? 
+
+Ob du die richtige Antwort hast, siehst du beim nächsten Klick.';;Antwort;'Ben Hur, Titanic und Der Herr der Ringe 3: Die Rückkehr des Königs haben jeweils 13 Oscars gewonnen.
+
+
+Verteile 3 Schlucke wenn du es wusstest und trinke sie selbst, falls nicht.'
