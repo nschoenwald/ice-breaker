@@ -352,7 +352,6 @@ if (description.includes("$topic_falls_du$") == true) {
 var description = description.replace(/\$topic_falls_du\$/g, topicsFallsDuShuffled[0].topic);
 window.csvDataFallsDu = window.csvDataFallsDu.filter(function(el) { return el.id != topicsFallsDuShuffled[0].id; });
 }
-return description;
 if (description.includes("$question_quiz$") == true) {
 var description = description.replace(/\$question_quiz\$/g, topicsQuizShuffled[0].topic);
 
@@ -374,9 +373,8 @@ var description = description.replace(/\$question_quiz\$/g, topicsQuizShuffled[0
 				// console.log("callback will be due at task " + nextTaskCallbackTimer);
 				
 window.csvDataQuiz = window.csvDataQuiz.filter(function(el) { return el.id != topicsQuizShuffled[0].id; });
-
-return description;
 }
+return description;
 }
 
 function getPlayerNumber() {
