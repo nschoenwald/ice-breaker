@@ -356,6 +356,7 @@ if (description.includes("$question_quiz$") == true) {
 var description = description.replace(/\$question_quiz\$/g, topicsQuizShuffled[0].topic);
 
 				var tasksDone = parseInt(localStorage.getItem("dg_tasksDone"));
+				var randomPlayerNames = getRandomPlayerNames();
 				var nextTaskCallbackTimer = 1 + tasksDone;
 				// console.log("CallbackTimer: " + nextTaskCallbackTimer);	
 				var nextTaskCallbackHeadline = topicsQuizShuffled[0].callback_headline;
@@ -455,7 +456,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <div id="tasksLeft_display">0 Aufgaben erledigt.</div>
 <script>
 // initialisierende Skripte
-console.log("v2020-12-16-1");
+console.log("v2020-12-16-2");
 var csvDataThemenspiel;
 var csvDataAbstimmung;
 parseTopics("topics_themenspiel.csv");
