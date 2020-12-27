@@ -359,7 +359,7 @@ var description = description.replace(/\$question_quiz\$/g, topicsQuizShuffled[0
 				var randomPlayerNames = getRandomPlayerNames();
 				var nextTaskCallbackTimer = 1 + tasksDone;
 				// console.log("CallbackTimer: " + nextTaskCallbackTimer);	
-				var nextTaskCallbackHeadline = topicsQuizShuffled[0].callback_headline;
+				var nextTaskCallbackHeadline = topicsQuizShuffled[0].callback_headline + "\n" + "Verteile 3 Schlucke wenn du es wusstest. Ansonsten trinke selbst 3 Schlucke.";
 				// console.log("CallbackHeadline: " + nextTaskCallbackHeadline);	
 				var nextTaskCallbackDescription = topicsQuizShuffled[0].callback_description;
 				// console.log("CallbackDescription: " + nextTaskCallbackDescription);	
