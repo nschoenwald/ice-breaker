@@ -1,45 +1,48 @@
 id;author;category;topic
-1;nikolai;basic;Figuren aus Star Wars
-2;nikolai;basic;Kinder-Zeichentrickserien
-3;nikolai;basic;Figuren aus dem Harry Potter Universum
-4;nikolai;basic;Figuren aus Herr der Ringe
-5;nikolai;basic;Sexy Schauspieler (männliche)
-6;nikolai;basic;Sexy Schauspielerinnen
-7;nikolai;basic;Super-Bösewichte
-8;nikolai;basic;Filme, in denen Meryl Streep mitspielt
-9;nikolai;basic;Pokemon, die schwach gegen Feuer-Attacken sind.
-10;nikolai;basic;Songs von Britney Spears
-11;nikolai;basic;Deutsche Schlagersänger
-12;nikolai;basic;Mottos der Häuser aus Game of Thrones
-13;nikolai;basic;Werbe-Slogans
-14;nikolai;basic;Nintendo Charaktere
-15;nikolai;basic;Wörter für Selbstbefriedigung
-16;nikolai;basic;Italienische Pizzanamen
-17;nikolai;basic;Dinge, die player2 zum Lachen bringen.
+1;nikolai;basic;Cocktails, die man mit Rum macht
+2;nikolai;basic;Cocktails, die man mit Wodka macht
+3;nikolai;basic;DC-Superhelden
+4;nikolai;basic;Deutsche Schlagersänger
+5;nikolai;basic;Dinge, die player2 zum Lachen bringen.
+6;nikolai;basic;Europäische Hauptstädte
+7;nikolai;basic;Fahrgeschäfte auf dem Rummel
+8;nikolai;basic;Figuren aus dem Harry Potter Universum
+9;nikolai;basic;Figuren aus Herr der Ringe
+10;nikolai;basic;Figuren aus Star Wars
+11;nikolai;basic;Filem, in denen Tom Hanks mitspielt
+12;nikolai;basic;Filme, in denen Meryl Streep mitspielt
+13;nikolai;basic;Italienische Pizzanamen
+14;nikolai;basic;Items aus Mario Kart
+15;nikolai;basic;Kampfsportarten
+16;nikolai;basic;Kinder-Zeichentrickserien
+17;nikolai;basic;Mario Kart Fahrer
 18;nikolai;basic;Marvel-Superhelden
-19;nikolai;basic;DC-Superhelden
-20;nikolai;basic;Zaubersprüche aus dem Harry Potter Universum
-21;nikolai;basic;Europäische Hauptstädte
-22;nikolai;basic;Cocktails, die man mit Wodka macht
-23;nikolai;basic;Cocktails, die man mit Rum macht
-24;nikolai;basic;Songs von den Beatles
-25;nikolai;basic;Songs von Lady Gaga
-26;nikolai;basic;Sprichwörter
-27;nikolai;basic;Fahrgeschäfte auf dem Rummel
-28;nikolai;basic;Kampfsportarten
+19;nikolai;basic;Methoden, eine Maus zu töten
+20;nikolai;basic;Mottos der Häuser aus Game of Thrones
+21;nikolai;basic;Nintendo Charaktere
+22;nikolai;basic;Orte, in die man eine dicke Gurke stecken könnte
+23;nikolai;basic;Pokemon, die schwach gegen Feuer-Attacken sind.
+24;nikolai;basic;Sexy Schauspieler (männliche)
+25;nikolai;basic;Sexy Schauspielerinnen
+26;nikolai;basic;Songs von Britney Spears
+27;nikolai;basic;Songs von den Beatles
+28;nikolai;basic;Songs von Lady Gaga
 29;luisa;basic;Songs von Queen
-30;nikolai;basic;Orte, in die man eine dicke Gurke stecken könnte
-31;nikolai;basic;Arten, um eine Maus zu töten
-32;nikolai;halloween;Aberglaube - nennt Dinge, die Unglück bringen
-33;nikolai;halloween;Horror-Filme
-34;nikolai;halloween;Methoden, jemanden umzubringen
-35;nikolai;halloween;Reale Serienkiller
-36;nikolai;hot;Worte für das männliche Genital
-37;nikolai;hot;Worte für das weibliche Genital
-38;nikolai;hot;Namen von Pornostars
-39;nikolai;hot;Ungewöhnliche Orte, an denen ihr schon Sex hattet
+30;nikolai;basic;Sprichwörter
+31;nikolai;basic;Super-Bösewichte
+32;nikolai;basic;Werbe-Slogans
+33;nikolai;basic;Wörter für Selbstbefriedigung
+34;nikolai;basic;Zaubersprüche aus dem Harry Potter Universum
+35;nikolai;halloween;Aberglaube - nennt Dinge, die Unglück bringen
+36;nikolai;halloween;Horror-Filme
+37;nikolai;halloween;Methoden, jemanden umzubringen
+38;nikolai;halloween;Reale Serienkiller
+39;nikolai;hot;Gründe, ins Bordell zu gehen
 40;nikolai;hot;Gründe, sich zu prostituieren
-41;nikolai;hot;Gründe, ins Bordell zu gehen
-42;nikolai;weihnachten;Weihnachtsfilme
-43;nikolai;weihnachten;Marken, von denen es einen Adventskalender zu kaufen gibt
-44;nikolai;weihnachten;Rentiere aus Rudolph the Red Nosed Reindeer
+41;nikolai;hot;Namen von Pornostars
+42;nikolai;hot;Ungewöhnliche Orte, an denen ihr schon Sex hattet
+43;nikolai;hot;Worte für das männliche Genital
+44;nikolai;hot;Worte für das weibliche Genital
+45;nikolai;weihnachten;Marken, von denen es einen Adventskalender zu kaufen gibt
+46;nikolai;weihnachten;Rentiere aus Rudolph the Red Nosed Reindeer
+47;nikolai;weihnachten;Weihnachtsfilme
