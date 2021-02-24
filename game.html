@@ -110,6 +110,7 @@ function chooseTask(data) {
 	var category_hot = localStorage.getItem("dg_category_hot");
 	var category_halloween = localStorage.getItem("dg_category_halloween");
 	var category_weihnachten = localStorage.getItem("dg_category_weihnachten");
+	var type_remote = localStorage.getItem("remote");
 	if (category_basic == "false") {
 		// console.log("category_basic excluded");
 		var tasksLeft = tasksLeft.filter(function(el) { return el.category != "basic"; });
@@ -125,6 +126,12 @@ function chooseTask(data) {
 	if (category_weihnachten == "false") {
 		// console.log("category_weihnachten excluded");
 		var tasksLeft = tasksLeft.filter(function(el) { return el.category != "weihnachten"; });
+	}
+	if (type_remote == "remote") {
+		var tasksLeft = tasksLeft.filter(function(el) { return el.remote != "in_person"; });
+	}
+	if (type_remote == "in_person") {
+		var tasksLeft = tasksLeft.filter(function(el) { return el.remote != "remote_only"; });
 	}
 	
 	// filter out tasks requiring too many players
