@@ -111,7 +111,7 @@ id;author;category;players_needed;remote;headline;description;callback_timer;cal
 110;nikolai;basic;3;either;;Alle Spieler, die älter als player2 sind, trinken 2 Schlucke.;;;
 111;nikolai;basic;2;in_person;Erinnerungsfoto;player1 und player2, macht ein Selfie auf dem ihr schielt.;;;
 112;nikolai;basic;2;either;;player1, du kannst entweder selbst 3 Schlucke trinken oder player2 5 Schlucke trinken lassen.;;;
-113;nikolai;basic;2;either;Erinnerungsfoto;player1 und player2, macht ein Selfie auf dem ihr verrückte Grimassen schneidet.;;;
+113;nikolai;basic;2;in_person;Erinnerungsfoto;player1 und player2, macht ein Selfie auf dem ihr verrückte Grimassen schneidet.;;;
 114;rebecca;basic;3;in_person;Reise ins Delirium;Alle rücken einen Platz nach links, müssen aber weiterhin aus ihrem ursprünglichen Getränk trinken. Wer es vergisst, trinkt 5 Schlucke.;10;Rückreise;Ihr dürft euch wieder auf euren eigentlichen Platz setzen.
 115;nikolai;basic;2;either;Fluch;player1 muss ab jetzt mit einem französischen Akzent sprechen.;15;Fluch aufgehoben;player1 muss jetzt nicht mehr mit französischem Akzent sprechen.
 116;nikolai;basic;2;either;Fluch;player1 muss ab jetzt mit einem russischen Akzent sprechen.;15;Fluch aufgehoben;player1 muss jetzt nicht mehr mit russischem Akzent sprechen.
