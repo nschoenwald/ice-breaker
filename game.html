@@ -111,6 +111,7 @@ function chooseTask(data) {
 	var category_halloween = localStorage.getItem("dg_category_halloween");
 	var category_weihnachten = localStorage.getItem("dg_category_weihnachten");
 	var type_remote = localStorage.getItem("remote");
+	console.log("type_remote:" type_remote);
 	if (category_basic == "false") {
 		// console.log("category_basic excluded");
 		var tasksLeft = tasksLeft.filter(function(el) { return el.category != "basic"; });
