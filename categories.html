@@ -58,7 +58,7 @@ document.body.appendChild(el);
 <tr class="tableRow">
 <td>Spielt ihr persönlich oder per Webcam?</td>
 <td>
-<input type="radio" id="in_person" name="in_person" value="in_person"><label for="in_person">Persönlich</label>
+<input type="radio" id="in_person" name="remote" value="in_person"><label for="in_person">Persönlich</label>
 <input type="radio" id="remote" name="remote" value="remote"><label for="remote">Mit Webcam</label><br>
 </td>
 </tr>
@@ -113,10 +113,13 @@ var category_basic = document.getElementById("category_basic").checked;
 var category_hot = document.getElementById("category_hot").checked;
 var category_halloween = document.getElementById("category_halloween").checked;
 var category_weihnachten = document.getElementById("category_weihnachten").checked;
+var remote = document.getElementById("remote").value;
+console.log(remote);
 localStorage.setItem("dg_category_basic", category_basic);
 localStorage.setItem("dg_category_hot", category_hot);
 localStorage.setItem("dg_category_halloween", category_halloween);
 localStorage.setItem("dg_category_weihnachten", category_weihnachten);
+localStorage.setItem("dg_category_remote", remote);
 localStorage.setItem("dg_tasksDone", 0);
 window.open("game.html","_self")
 }
