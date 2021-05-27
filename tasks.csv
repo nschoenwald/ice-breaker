@@ -243,7 +243,7 @@ id;author;category;players_needed;remote;headline;description;callback_timer;cal
 242;nikolai;basic;2;either;;Der Spieler, der als letztes Geburtstag hatte, trinkt 3 Schlucke.;;;
 243;rebecca;basic;3;either;;player1 sagt eine auf deutsch übersetzte Zeile aus einem englischen Song. Wer den Song als erstes errät, verteilt 3 Schlucke. Wer falsch rät, muss selbst 3 trinken.;;;
 244;rebecca;basic;3;either;Wer bin ich?;player1 überlegt sich im Geheimen eine Person, die sie "ist". Stellt reihum Ja-oder-Nein-Fragen um die Person zu erraten. Bei jedem "Nein" geht es weiter und der Fragende muss 1 Schluck trinken. Wer es errät, verteilt 5 Schlucke.;;;
-245;;;;;;;;;
+245;rebecca;basic;4;either;Kommando Pimperle;Spielt eine Runde Kommando Pimperle. player1 sagt an. Bei jedem Fehler wird 1 Schluck getrunken. Wenn ein Spieler insgesamt 3 Schlucke getrunken hat, ist das Spiel vorbei.;;;
 246;;;;;;;;;
 247;;;;;;;;;
 248;;;;;;;;;
