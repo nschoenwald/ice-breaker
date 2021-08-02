@@ -177,11 +177,6 @@ function chooseTask(data) {
 			var nextTaskCategory = tasksLeftRandomized[0].category;
 			var playernames = getPlayerNames();
 			var playernames = toString(playernames);
-			dataLayer.push ({
-				"event": "nextTask",
-				"event_action": nextTaskId,
-				"event_label": nextTaskDescription,
-			});
 			window.nextTaskId = nextTaskId;
 			console.log("TaskId: " + nextTaskId);
 			
@@ -215,6 +210,11 @@ function chooseTask(data) {
 			
 			// Spielernamen in TaskDescription einfügen
 			var nextTaskDescriptionReplaced = replacePlayerNames(nextTaskDescription, randomPlayerNames);
+			dataLayer.push ({
+				"event": "nextTask",
+				"event_action": nextTaskId,
+				"event_label": nextTaskDescription,
+			});
 		}		
 
 	}
@@ -226,7 +226,7 @@ function chooseTask(data) {
 	}
 	if (nextTaskHeadline != undefined) {
 		document.getElementById("current_task_headline").innerHTML = nextTaskHeadline;
-	document.getElementById("current_task_display").innerHTML = nextTaskDescriptionReplaced;
+		document.getElementById("current_task_display").innerHTML = nextTaskDescriptionReplaced;
 	};	
 	shakeIt();
 }
