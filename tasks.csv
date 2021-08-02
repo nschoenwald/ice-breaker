@@ -140,7 +140,7 @@ id;author;category;players_needed;remote;headline;description;callback_timer;cal
 139;nikolai;halloween;2;either;Duell;Wie lässt man am besten eine Leiche verschwinden? player1 und player2, tragt euren Plan vor. Die anderen stimmen über den Gewinner ab. Der Verlierer trinkt 3 Schlucke.;;;
 140;luisa;halloween;2;either;Zombie-Virus;Ab jetzt müsst ihr vor jedem Schluck Zombie-Geräusche machen! 2 Schlucke jedes Mal wenn ihr es vergesst.;20;Zombie-Virus aufgehoben;Ihr müsst ab jetzt nicht mehr vor jedem Schluck Zombie-Geräusche machen.
 141;marie;halloween;2;in_person;Hexenstunde;player1, schnappe dir einen Besen und reite auf diesem wie eine Hexe drei mal um die Gruppe herum.;;;
-142;nikolai;hot;2;either;Duell;player1 und player2 - beschreibt ein Szenario für ein heißes Rollenspiel. Die anderen stimmen ab. Der Gewinner darf 4 Schlucke verteilen.;;;
+142;nikolai;hot;5;either;Duell;player1 und player2 - beschreibt ein Szenario für ein heißes Rollenspiel. Die anderen stimmen ab. Der Gewinner darf 4 Schlucke verteilen.;;;
 143;nikolai;hot;2;either;;Im Uhrzeigersinn sagt jeder etwas, das er an player1 sexy findet. Wer etwas wiederholt oder nichts mehr weiß, trinkt 3 Schlucke. player1 fängt selbst an.;;;
 144;nikolai;hot;2;either;;Jeder, der im Intimbereich nicht rasiert ist, trinkt 2 Schlucke.;;;
 145;nikolai;hot;2;in_person;;player1 lutscht zehn Sekunden am Finger des linken Nachbarn oder trinkt 5 Schlucke.;;;
