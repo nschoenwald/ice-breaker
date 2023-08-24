@@ -1,254 +1,233 @@
 id;author;category;players_needed;remote;headline;description;callback_timer;callback_headline;callback_description
 1;fee;basic;2;in_person;Schnell!;Arme in die Luft! Der langsamste Spieler trinkt 3 Schlucke.;;;
-2;fee;basic;2;either;'Long hair don''t care';Die Person mit den längsten Haaren verteilt 3 Schlucke.;;;
-3;fee;basic;2;either;Spiel;"Politisch korrekte Beleidigungen“ - der Spieler, der etwas wiederholt oder keine Idee mehr hat, trinkt 3 Schlucke! player1 beginnt.;;;
-4;fee;basic;2;in_person;Eehhh Macarena!;player1 und player2, tanzt zusammen Macarena oder teilt unter euch 7 Schlucke auf.;;;
-5;nikolai;basic;2;either;;Alle, die eine Klasse wiederholt haben, trinken 3 Schlucke!;;;
-6;nikolai;basic;2;either;;Alle, die einen String tragen, trinken 3 Schlucke.;;;
-7;nikolai;basic;2;either;;Der Mann, der den längsten Bart hat, muss 3 Schlucke trinken.;;;
-8;nikolai;basic;2;either;;Die blasseste Person verteilt 3 Schlucke.;;;
-9;nikolai;basic;2;either;;Die gebräunteste Person verteilt 3 Schlucke.;;;
-10;nikolai;basic;2;in_person;Duell;Wer lacht, verliert. player1 und player2, schaut euch in die Augen und versucht euch gegenseitig zum Lachen zu bringen. Der Verlierer trinkt 3 Schlucke.;;;
-11;nikolai;basic;2;either;;player1 trinkt 3 Schlucke.;;;
-12;nikolai;basic;2;either;Chatverlauf;player1 und player2, lest die erste Nachricht vor, die angezeigt wird, wenn ihr „Loch“ in die Suchleiste eingebt. Wenn ihr euch weigert: 2 Schlucke.;;;
-13;nikolai;basic;2;in_person;Duell;player1 und player2, schaut euch an und sagt abwechselnd Ausreden um heute Abend doch lieber nicht auszugehen. Wer zuerst lacht, trinkt 3 Schlucke.;;;
-14;nikolai;basic;2;in_person;Duell;player1 und player2, spielt Schere-Stein-Papier. Wer zuerst zwei Mal verliert, muss 3 Schlucke trinken.;;;
-15;nikolai;basic;2;either;;player1, du darfst so viele Schlucke verteilen wie du Onkel hast.;;;
-16;nikolai;basic;2;either;Story Time;player1, erzähle eine peinliche, witzige oder sexy Geschichte über einen Mitspieler oder trinke 5 Schlucke!;;;
-17;nikolai;basic;2;in_person;;player1, lass dich von player2 in den Hintern kneifen oder trinke 5 Schlucke!;;;
-18;nikolai;basic;2;either;;player1, nenne die Lieblingsfarbe von player2 oder trinke 3 Schlucke.;;;
-19;nikolai;basic;2;either;;player1, trinke so viele Schlucke wie du willst. player2 muss doppelt so viel trinken.;;;
-20;nikolai;basic;2;in_person;;player1, wähle wer 3 Schlucke aus dem Glas von player2 trinken muss.;;;
-21;nikolai;basic;2;in_person;;player1, zeig die letzten fünf Fotos, die du mit dem Handy gemacht hast oder trinke 5 Schlucke.;;;
-22;nikolai;basic;2;either;;Trinke 2 Schlucke, wenn dein Handy mehr als 500 Euro gekostet hat!;;;
-23;nikolai;basic;2;either;Fluch?;player1 darf ab jetzt nur noch in Fragen sprechen.;10;Fluch aufgehoben?;player1, du darfst jetzt wieder normal sprechen.
-24;nikolai;basic;2;in_person;Fluch;player1 und player2 müssen ab jetzt Händchen halten. Jede Unterbrechung wird mit 3 Schlucken bestraft.;10;Fluch aufgehoben;player1 und player2 können jetzt aufhören, Händchen zu halten. Falls ihr es ohne Unterbrechnung geschafft habt, trinken alle anderen 2 Schlucke.
-25;nikolai;basic;2;either;Oppan Gangnam Style;player1, tanze den Gangnam Style. Wenn du es nicht kannst oder einen Fehler machst, trinke 3 Schlucke.;;;
-26;nikolai;basic;2;either;Thank You For Smoking;Alle Raucher trinken 2 Schlucke.;;;
-27;nikolai;basic;2;either;Fluch;player1, singe ab jetzt alles, was du sagst. Trinke 2 Schlucke wenn du es vergisst.;10;Fluch aufgehoben;player1, du musst jetzt nicht mehr alles singen.
-28;nikolai;basic;2;in_person;Getränke tauschen;Paare tauschen ihre Getränke bis einer von beiden das nächste Mal ausgetrunken hat.;;;
-29;nikolai;basic;5;either;Duell;Was ist der schlimmste Satz, den man beim Sex sagen kann? player1 und player2, nennt beide einen Satz. Die anderen stimmen über den Gewinner ab. Der Verlierer trinkt 3 Schlucke.;;;
-30;nikolai;basic;2;either;Fluch für alle;Ihr müsst von euch selbst in der 3. Person sprechen. Wenn ihr es vergisst: 2 Schlucke Strafe.;15;Fluch aufgehoben;Ihr könnt jetzt aufhören, von euch selbst in der 3. Person zu sprechen.
-31;nikolai;basic;5;in_person;Shake it;player1 und player2, twerkt zusammen. Der schlechteste Twerker trinkt 2 Schlucke (die anderen stimmen ab).;;;
-32;nikolai;basic;2;either;Hoch die Tassen!;Jeder trinkt 3 Schlucke.;;;
-33;nikolai;basic;2;either;Boys Time;Alle Jungs trinken 3 Schlucke.;;;
-34;nikolai;basic;2;either;Girls Time;Alle Mädels trinken 3 Schlucke.;;;
-35;nikolai;basic;2;in_person;Aufholen;Der Spieler, dessen Glas am vollsten ist, trinkt 3 Schlucke. Bei Gleichstand trinken alle, die gleich viel haben.;;;
-36;nikolai;basic;2;either;V wie Vendetta;Alle Vegetarier und Veganer dürfen jeweils 3 Schlucke verteilen.;;;
-37;nikolai;basic;2;in_person;Duell;Daumenringen zwischen player1 und player2. Der Verlierer trinkt 3 Schlucke.;;;
-38;nikolai;basic;2;in_person;Platztausch;player1 und player2, tauscht die Plätze und die Getränke.;;;
-39;nikolai;basic;2;in_person;;player1, setze dich neben player2 und trinke einen Schluck aus seinem / ihrem Glas.;;;
-40;nikolai;basic;2;either;Fluch;player1 ist ab jetzt Mitläufer. Er / sie muss immer mittrinken, wenn ein anderer Spieler trinken muss.;7;Fluch aufgehoben;player1 ist kein Mitläufer mehr.
-41;nikolai;basic;2;either;Story Time;player1, erzähle von dem schlimmsten Korb den du je bekommen hast. Dann verteile 3 Schlucke.;;;
-42;nikolai;basic;2;either;;player1, du darfst so viele Schlucke verteilen wie du Geschwister hast.;;;
-43;nikolai;basic;2;either;Spiel;player1, summe ein Lied. Der Spieler der es als erstes errrät, verteilt 3 Schlucke.;;;
-44;nikolai;basic;2;either;;Trinke 2 Schlucke wenn dein Chef ein Arschloch ist.;;;
-45;nikolai;basic;2;either;;Alle Linkshänder trinken 3 Schlucke.;;;
-46;nikolai;basic;2;either;Behind blue eyes;Alle, die blaue Augen haben, trinken 3 Schlucke.;;;
-47;nikolai;basic;2;either;;Alle, die braune Augen haben, trinken 3 Schlucke.;;;
-48;nikolai;basic;2;in_person;;player1, fülle die Gläser von player2 und player3 wieder auf und trinke dann mit ihnen zusammen 3 Schlucke.;;;
-49;nikolai;basic;2;either;;player1, trinke 3 Schlucke wenn du schon mal in deinen besten Freund / deine beste Freundin verliebt warst.;;;
-50;nikolai;basic;2;in_person;Erinnerungsfoto;player1 und player2, macht zusammen ein Selfie. Trinkt dann jeder 2 Schlucke.;;;
-51;nikolai;basic;2;in_person;Just Tattoo of Us;player1, lass dir von player2 etwas auf den Arm malen oder schreiben. Wenn du dich weigerst, trinke 3 Schlucke.;;;
-52;nikolai;basic;2;either;;Trinkt 2 Schlucke wenn ihr schon mal eure Eltern beklaut habt.;;;
-53;nikolai;basic;2;either;;Trinkt 2 Schlucke wenn ihr noch nie Gras geraucht habt.;;;
-54;nikolai;basic;2;either;;player1, wenn du schon mal eine(n) Ex in Social Media gestalked hast, trinke 2 Schlucke.;;;
-55;nikolai;basic;2;either;Anstoßen!;Jeder trinkt 2 Schlucke.;;;
-56;nikolai;basic;2;either;Segen;player1, ab jetzt bist du der König / die Königin. Jeder muss dich so nennen oder zur Strafe 2 Schlucke trinken. Außerdem musst du über dich selbst im majestätischen "Wir" reden.;20;Vom Thron gestoßen;player1, du bist jetzt nicht mehr König / Königin.
-57;nikolai;basic;2;either;Wo der Daumen rechts ist;Ab jetzt dürft ihr nur noch mit der linken Hand trinken. Wer es vergisst, trinkt 3 Schlucke extra.;20;Fluch aufgehoben;Ihr müsst nicht mehr mit links trinken.
-58;nikolai;basic;2;either;;Alle Spieler, die miteinander verwandt sind, trinken 2 Schlucke.;;;
-59;nikolai;basic;2;in_person;;player1 wählt das nächste Lied, und alle die es beschissen finden, trinken 3 Schlucke!;;;
-60;nikolai;basic;2;either;Fluch für alle;Ihr heißt ab jetzt wie euer rechter Nachbar und müsst euch so ansprechen. Pro Fehler gibt es 3 Schlucke Strafe.;15;Wie heiß ich noch mal?;Ihr dürft euch wieder bei euren richtigen Namen ansprechen.
-61;nikolai;basic;2;in_person;Segen;player1 ist sehr kuschelbedürftig heute Abend! Jedes Mal, wenn du jemandem den Nacken streichelst, trinkt die Person 2 Schlucke.;10;Fluch aufgehoben;player1 ist nicht mehr kuschelbedürftig (Spieler, deren Nacken du streichelst, müssen nicht mehr trinken).
-62;nikolai;basic;2;in_person;Fluch;player1 ist sehr schüchtern! Du sprichst nur noch mit player2, weil er/sie dein einziger Freund ist.;10;Fluch aufgehoben;player1 ist nicht mehr schüchtern (Du darfst wieder mit allen sprechen).
-63;nikolai;basic;2;in_person;;Die charmante Person, auf deren Handy ihr dieses Spiel spielt, verteilt 3 Schlucke.;;;
-64;nikolai;basic;2;either;Spiel;player1 sing ein Lied mit vollem Mund (füll deinen Mund mit was auch immer). Die erste Person, die richtig errät, verteilt 3 Schlucke.;;;
-65;nikolai;basic;3;either;Gesetz;player1 bestimmt ein Wort, das niemand mehr sagen darf. Sagt jemand es doch, 2 Schlucke Strafe.;20;Gesetz aufgehoben;Das Wort, das player1 verboten hat, ist jetzt wieder erlaubt.
-66;nikolai;basic;2;either;Spiel;Sagt nacheinander einen Buchstaben, so dass daraus ein Wort entsteht. Die Person, die das Wort beendet oder eins bildet, das nicht existiert, trinkt 3 Schlucke. player1 beginnt, dann im Uhrzeigersinn weiter.;;;
-67;nikolai;basic;2;in_person;Auf gute Nachbarschaft!;player1, stoße mit deinen direkten Sitznachbarn an. 2 Schlucke für jeden von euch.;;;
-68;nikolai;basic;2;in_person;Duell;player1 und player2, macht Armdrücken. Der Verlierer trinkt 3 Schlucke.;;;
-69;nikolai;basic;2;either;;Die Spielerin mit dem meisten Make-Up trinkt 3 Schlucke. Falls ihr euch uneinig seid, stimmt ab.;;;
-70;nikolai;basic;2;either;Segen;player1, wenn du dir ab jetzt ans Ohr fasst, müssen alle anderen sich auch ans Ohr fassen. Der letzte Spieler, der es macht, trinkt 3 Schlucke.;10;Segen aufgehoben;player1, wenn du dich ans Ohr fasst, müssen die anderen es jetzt nicht mehr nachmachen.
-71;nikolai;basic;2;either;;Alle, die eine Führerscheinprüfung wiederholen mussten, trinken 3 Schlucke.;;;
-72;nikolai;basic;2;either;;player1, erzähle etwas das du noch nie gemacht hast und alle, die es gemacht haben, müssen 3 Schlucke trinken.;;;
-73;nikolai;basic;2;either;;player1, erzähle etwas das du noch nie gemacht hast und alle, die es gemacht haben, müssen 3 Schlucke trinken.;;;
-74;nikolai;basic;2;either;;player1, erzähle etwas das du noch nie gemacht hast und alle, die es gemacht haben, müssen 3 Schlucke trinken.;;;
-75;marie;basic;2;in_person;;Der Spieler mit dem teuersten Paar Schuhen trinkt 3 Schlucke.;;;
-76;marie;basic;2;either;;Alle, die ein schwarzes Oberteil tragen, trinken 3 Schlucke.;;;
-77;marie;basic;2;either;;Alle, die bunte Socken tragen, trinken 2 Schlucke.;;;
-78;marie;basic;2;either;;Alle, die schon mal außerhalb Europas waren, trinken 2 Schlucke.;;;
-79;marie;basic;2;either;;Alle, die einen grünen Daumen haben, dürfen je 2 Schlucke verteilen.;;;
-80;marie;basic;2;either;;player1, wenn du unordentlich bist, trinke 3 Schlucke.;;;
-81;marie;basic;2;either;;player1, trinke 2 Schlucke wenn deine Wohnung einen Balkon hat.;;;
-82;nikolai;basic;2;either;;Der Spieler, der am längsten noch bei den Eltern gewohnt hat, trinkt 3 Schlucke.;;;
-83;marie;basic;2;either;Schätzen;Schätzt, auf wie vielen verschiedenen Festivals player1 schon war. Wer am nächsten dran ist, verteilt 5 Schlucke. player2 beginnt, danach geht es im Uhrzeigersinn weiter.;;;
-84;marie;basic;2;either;;Trinke so viele Schlucke, wie du Haustiere hast (Familien-Haustiere zählen dazu).;;;
-85;marie;basic;2;either;;Wer gefärbte Haare hat, trinkt 2 Schlucke.;;;
-86;marie;basic;2;either;;Wer die jüngsten Eltern hat, verteilt 3 Schlucke. Wer die ältesten Eltern hat, trinkt 3 Schlucke (Durchschnittsalter zählt).;;;
-87;marie;basic;2;either;Fluch;player1, du darfst ab jetzt keine Fragen mehr stellen. Wenn du es doch tust, trinke zur Strafe 2 Schlucke.;10;Fluch aufgehoben;player1, du darfst ab jetzt wieder Fragen stellen.
-88;marie;basic;2;either;;Jeder, der gerade Wein trinkt, trinkt 2 Schlucke.;;;
-89;marie;basic;;either;;Jeder, der gerade Bier trinkt, trinkt 3 Schlucke.;;;
-90;nikolai;basic;2;either;Spiel;player1 sucht ein Lied aus singt eine Songzeile. Im Uhrzeigersinn muss jeder eine weitere Zeile singen. Wer nicht weiter weiß oder einen Fehler macht, trinkt 3 Schlucke.;;;
-91;nikolai;basic;2;either;;Trinkt 3 Schlucke wenn ihr schon mal betrogen wurdet.;;;
-92;nikolai;basic;3;either;Abstimmung;Die Mädels bestimmen eine Person, die 3 Schlucke trinken muss.;;;
-93;nikolai;basic;3;either;Abstimmung;Die Jungs bestimmen eine Person, die 3 Schlucke trinken muss.;;;
-94;nikolai;basic;2;either;Fluch;player1, du musst ab jetzt jede Minute die Zeit ansagen. Wenn du es vergisst, trinke 3 Schlucke.;7;Fluch aufgehoben;player1, du musst ab jetzt nicht mehr die Zeit ansagen.
-95;nikolai;basic;2;either;;Mädels, ihr trinkt eure Körbchengröße in Schlucken (A=1, B=2, C=3 etc.);;;
-96;nikolai;basic;2;in_person;;player1, gib player2 3 Schlucke zu trinken. Du hältst das Glas und Strohhalm ist nicht erlaubt!;;;
-97;nikolai;basic;2;either;;player1, nenne das Sternzeichen von player2 oder trinke 2 Schlucke, wenn du es nicht weißt.;;;
-98;nikolai;basic;2;in_person;;Der gegenwärtige DJ der Party verteilt 3 Schlucke.;;;
-99;nikolai;basic;3;either;;player1, verteile 3 Schlucke an die Person, die du am wenigsten kennst.;;;
-100;nikolai;basic;3;either;;player1, verteile 3 Schlucke an eine Person, die kleiner ist als du selbst. Wenn du am kleinsten bist, trinke sie selbst!;;;
-101;nikolai;basic;3;either;;player1, verteile 3 Schlucke an eine Person, die größer ist als du selbst. Wenn du am größten bist, trinke sie selbst!;;;
-102;nikolai;basic;2;either;Fluch Fluch;player1 muss ab jetzt jedes Wort doppelt sagen. 2 Schlucke Schlucke für für jeden jeden Fehler Fehler.;7;Fluch Fluch aufgehoben aufgehoben;player1, du musst nicht mehr jedes Wort doppelt sagen.
-103;nikolai;basic;2;in_person;Der Tisch ist Lava;Niemand darf mehr den Tisch berühren! Wer es doch tut, trinkt 3 Schlucke.;10;Fluch aufgehoben;Ihr dürft den Tisch wieder berühren.
-104;nikolai;basic;3;either;Fluch;Offenherzig: player1, die anderen Spieler dürfen dir, egal wann sie wollen, Fragen stellen. Wenn du nicht antwortest, trinke 2 Schlucke.;7;Fluch aufgehoben;player1, du musst jetzt nicht mehr alle Fragen der anderen Spieler beantworten.
-105;nikolai;basic;3;either;;player1, du musst entscheiden: Wer von player2 und player3 ist deiner Meinung nach am schnellsten beleidigt? Derjenige trinkt 3 Schlucke.;;;
-106;nikolai;basic;2;either;Fluch;player1, du musst ab jetzt durchgängig lächeln. Wenn du aufhörst, trinke 3 Schlucke.;7;Fluch aufgehoben;player1, du kannst aufhören zu lächeln.
-107;nikolai;basic;3;either;;player1, du darfst entscheiden wer alles weniger gut gekleidet ist als player2. Die Modebanausen trinken 3 Schlucke.;;;
-108;nikolai;basic;2;either;Fluch;player1 muss ab jetzt jedes Mal den Finger heben, wenn er/sie sprechen will und darf nur reden, wenn player2 es erlaubt. Wenn player1 es vergisst: 3 Schlucke zur Strafe.;10;Fluch aufgehoben;player1 darf jetzt wieder frei sprechen, ohne den Finger zu heben.
-109;nikolai;basic;3;either;;Alle Spieler, die jünger als player2 sind, trinken 2 Schlucke.;;;
-110;nikolai;basic;3;either;;Alle Spieler, die älter als player2 sind, trinken 2 Schlucke.;;;
-111;nikolai;basic;2;in_person;Erinnerungsfoto;player1 und player2, macht ein Selfie auf dem ihr schielt.;;;
-112;nikolai;basic;2;either;;player1, du kannst entweder selbst 3 Schlucke trinken oder player2 5 Schlucke trinken lassen.;;;
-113;nikolai;basic;2;in_person;Erinnerungsfoto;player1 und player2, macht ein Selfie auf dem ihr verrückte Grimassen schneidet.;;;
-114;rebecca;basic;3;in_person;Reise ins Delirium;Alle rücken einen Platz nach links, müssen aber weiterhin aus ihrem ursprünglichen Getränk trinken. Wer es vergisst, trinkt 5 Schlucke.;10;Rückreise;Ihr dürft euch wieder auf euren eigentlichen Platz setzen.
-115;nikolai;basic;2;either;Fluch;player1 muss ab jetzt mit einem französischen Akzent sprechen.;15;Fluch aufgehoben;player1 muss jetzt nicht mehr mit französischem Akzent sprechen.
-116;nikolai;basic;2;either;Fluch;player1 muss ab jetzt mit einem russischen Akzent sprechen.;15;Fluch aufgehoben;player1 muss jetzt nicht mehr mit russischem Akzent sprechen.
-117;nikolai;basic;2;in_person;Ausgleich;player1 und player2 müssen gleich viel in ihren Gläsern haben. Derjenige, der mehr im Glas hat, trinkt so viel bis Gleichstand herrscht.;;;
-118;rebecca;basic;2;either;Fluch für alle;Ab jetzt müssen alle Spieler jeden Satz mit "in meiner Hose" beenden. Wer es vergisst, trinkt 3 Schlucke.;10;Fluch aufgehoben;Ihr müsst jetzt nicht mehr jeden Satz mit "in meiner Hose" beenden.
-119;rebecca;basic;2;either;Wahrheit oder Pflicht;Spielt reihum einmal "Wahrheit oder Pflicht". player1 beginnt (fragt jeweils euren linken Nachbarn).;;;
-120;rebecca;basic;2;in_person;;player1, falls du 3 weitere Songs vom Interpreten des aktuell laufenden Songs nennen kannst, verteile 3 Schlucke. Ansonsten trinke sie selbst.;;;
-121;rebecca;basic;2;either;;Trinke 2 Schlucke wenn du vergeben bist.;;;
-122;rebecca;basic;2;either;;Trinke 2 Schlucke wenn du Single bist.;;;
-123;rebecca;basic;3;either;Fuck, Marry, Kill;player1 nennt 3 beliebige Personen. Im Uhrzeigersinn müssen alle anderen sagen, wen davon sie vögeln, heiraten und töten würden. Alle Spieler, die eine Übereinstimmung haben, trinken für jede Übereinstimmung 1 Schluck.;;;
-124;nikolai;basic;2;either;Reimen;player1, such dir ein Wort aus. Im Uhrzeigersinn muss jeder Spieler ein Wort sagen, das sich darauf reimt. Wer etwas wiederholt oder nichts mehr weiß, trinkt 4 Schlucke.;;;
-125;nikolai;basic;2;in_person;Schnell!;Der Spieler, dessen Stirn zuletzt auf dem Tisch liegt, trinkt 3 Schlucke.;;;
-126;nikolai;basic;2;either;Fluch für alle;Jurassic World - jeder muss ab jetzt seine Arme wie ein T-Rex halten. Wer es vergisst und seine Arme ausstreckt, trinkt zur Strafe 3 Schlucke.;10;Fluch aufgehoben;Ihr seid keine T-Rexe mehr und dürft eure Arme wieder normal ausstrecken.
-127;nikolai;basic;2;in_person;Fluch für alle;Wenn ihr ab jetzt Schlucke verteilt, müsst ihr denjenigen an der Wange berühren, in die Augen schauen und sagen "Trink mein Schatz";10;Fluch aufgehoben;Ihr dürft jetzt wieder normal Schlucke verteilen ohne "Trink mein Schatz" zu sagen.
-128;nikolai;basic;2;either;Fluch;player1, du heißt ab jetzt Kevin. Pech gehabt! Wer das vergisst, trinkt 3 Schlucke.;10;Fluch aufgehoben;player1, du heißt nicht mehr Kevin.
-129;nikolai;basic;2;in_person;Handys weg;Ab jetzt dürft ihr kein anderes Handy als dieses mehr berühren. Wer die Regel als erstes bricht, trinkt 7 Schlucke.;20;;Ihr dürft eure Handys jetzt wieder berühren.
-130;nikolai;basic;2;either;Fluch für alle;Shit Bitch - ab jetzt müsst ihr jeden Satz mit Shit beginnen und mit Bitch beenden. Wer es vergisst, trinkt 2 Schlucke.;10;Fluch aufgehoben;Der "Shit Bitch" Fluch ist aufgehoben.
-131;nikolai;basic;2;in_person;Fluch für alle;Jedes Mal wenn ihr trinkt, müsst ihr dabei den Bauch des Spielers zu eurer rechten streicheln.;10;Fluch aufgehoben;Ihr müsst beim Trinken nicht mehr den Bauch eures Nachbarn streicheln.
-132;nikolai;basic;2;either;Fluch;player1, du bist jetzt Batman. Du musst mit der Batman Stimme sprechen. Trinke jedes Mal 3 Schlucke wenn du es vergisst.;10;Fluch aufgehoben;player1 ist nicht mehr Batman.
-133;nikolai;basic;2;in_person;Der Boden ist Lava;Wer ab jetzt den Boden berührt, muss 3 Schlucke trinken.;15;;Der Boden ist nicht mehr Lava
-134;nikolai;basic;2;either;Fluch;player1, du bist ab jetzt der Herold von player2. Jedes Mal wenn player2 trinkt, musst du es lautstark ankündigen. Wenn du es vergisst, trinke selbst 2 Schlucke.;12;Fluch aufgehoben;player1, du bist nicht mehr der Herold von player2.
-135;fee;basic;2;in_person;Schnell!;Daumen an die Tischkante! Der langsamste Spieler trinkt 5 Schlucke.;;;
-136;nikolai;basic;2;either;;Wer das nächste Mal pinkeln geht, trinkt 3 Schlucke wenn er oder sie wieder da ist.;;;
-137;fee;halloween;2;either;;player1, erzähle eine gruselige Geschichte oder trinke 3 Schlucke.;;;
-138;nikolai;halloween;2;in_person;;player1 und player2, stellt zusammen eine Szene aus einem Horrorfilm nach.;;;
-139;nikolai;halloween;2;either;Duell;Wie lässt man am besten eine Leiche verschwinden? player1 und player2, tragt euren Plan vor. Die anderen stimmen über den Gewinner ab. Der Verlierer trinkt 3 Schlucke.;;;
-140;luisa;halloween;2;either;Zombie-Virus;Ab jetzt müsst ihr vor jedem Schluck Zombie-Geräusche machen! 2 Schlucke jedes Mal wenn ihr es vergesst.;20;Zombie-Virus aufgehoben;Ihr müsst ab jetzt nicht mehr vor jedem Schluck Zombie-Geräusche machen.
-141;marie;halloween;2;in_person;Hexenstunde;player1, schnappe dir einen Besen und reite auf diesem wie eine Hexe drei mal um die Gruppe herum.;;;
-142;nikolai;hot;5;either;Duell;player1 und player2 - beschreibt ein Szenario für ein heißes Rollenspiel. Die anderen stimmen ab. Der Gewinner darf 4 Schlucke verteilen.;;;
-143;nikolai;hot;2;either;;Im Uhrzeigersinn sagt jeder etwas, das er an player1 sexy findet. Wer etwas wiederholt oder nichts mehr weiß, trinkt 3 Schlucke. player1 fängt selbst an.;;;
-144;nikolai;hot;2;either;;Jeder, der im Intimbereich nicht rasiert ist, trinkt 2 Schlucke.;;;
-145;nikolai;hot;2;in_person;;player1 lutscht zehn Sekunden am Finger des linken Nachbarn oder trinkt 5 Schlucke.;;;
-146;nikolai;hot;2;in_person;;player1, gib player2 einen heißen Lap Dance - du darfst dir den Song frei aussuchen.;;;
-147;nikolai;hot;2;in_person;;player1, gib player2 einen festen Klaps auf den Arsch.;;;
-148;nikolai;hot;2;either;;player1, was ist dein Orgamusrekord an einem Tag mit deinem aktuellen (oder letzten) Partner? Trinke die Anzahl an Schlucken und verteil sie an einen Spieler deiner Wahl.;;;
-149;nikolai;hot;2;either;;player1, was ist deine Lieblings-Sexstellung? 3 Schlucke wenn es Missionar ist, doppelt so viel wenn es Doggy ist.;;;
-150;nikolai;hot;2;either;;Wer noch nie mit einer Person aus einem anderen Land Sex hatte, trinkt 2 Schlucke.;;;
-151;nikolai;hot;2;either;;Jeder, der heute oder gestern masturbiert hat, trinkt 2 Schlucke.;;;
-152;nikolai;hot;2;in_person;;player1, küsse player2 auf den Mund. Wer sich weigert, trinkt 3 Schlucke. Ansonsten könnt ihr jeweils 2 Schlucke verteilen.;;;
-153;nikolai;hot;2;either;;Mit deinem Partner Porno schauen? Trink 2 Schlucke, wenn du dabei wärst!;;;
-154;nikolai;hot;2;either;;player1, trinke 2 Schlucke wenn du gegen einen Dreier nichts einzuwenden hättest.;;;
-155;nikolai;hot;2;either;;player1, errate die Farbe der Unterwäsche von player2. Wenn du Recht hattest, trinkt player2 3 Schlucke. Ansonsten trinkst du 3 Schlucke.;;;
-156;nikolai;hot;2;either;;player1, mit welchem Paar könntest du dir einen Dreier vorstellen? Trinke 6 Schlucke, wenn du es nicht weißt. Wenn die beiden hier sind, verteile 3 Schlucke.;;;
-157;nikolai;hot;2;either;;player1, trinke 2 Schlucke wenn du schon mal Sex im Pool hattest.;;;
-158;nikolai;hot;2;either;;player1, wenn du schon mal masturbiert hast während noch andere im Zimmer waren, trinke 3 Schlucke.;;;
-159;nikolai;hot;2;either;;player1, beschreibe dein heißestes Sex-Erlebnis oder trinke 5 Schlucke.;;;
-160;nikolai;hot;3;in_person;;player1 und player2 müssen zusammen eine Sexposition vormachen. Die anderen stimmen ab, welche.;;;
-161;nikolai;hot;2;either;;Trinke 3 Schlucke, wenn du schon mehr als 10 Sexpartner in deinem Leben hattest. Wenn du schon mehr als 20 hattest, verteile zusätzlich 3 Schlucke.;;;
-162;nikolai;hot;2;either;;player1, trinke 3 Schlucke wenn du große Brüste (als Frau) oder einen großen Penis (als Mann) hast. Ansonsten verteile 3 Schlucke.;;;
-163;nikolai;hot;2;either;;player1, trinke 3 Schlucke wenn du schon mal Sex in der Natur hattest. Wenn du erzählst, wo das war, darfst du außerdem 3 Schlucke verteilen.;;;
-164;nikolai;hot;2;either;Leave Your Hat On;Jeder zieht ein Kleidungsstück aus. Socken und Accessoires zählen nicht!;;;
-165;nikolai;hot;2;either;Leave Your Hat On;player1 und player2, zieht jeweils ein Kleidungsstück aus. Socken und Accessoires zählen nicht!;;;
-166;nikolai;hot;3;in_person;;player1 und player2, küsst euch zehn Sekunden lang auf den Mund. Die anderen machen den Countdown. Wenn ihr es macht, verteilt 7 Schlucke. Wer sich weigert, trinkt 7 Schlucke.;;;
-167;nikolai;hot;3;either;;player1, trinke 2 Schlucke für jede Person, in diesem Raum mit der du geschlafen hast - und 1 Schluck für jede Person, mit der du schlafen würdest.;;;
-168;nikolai;hot;2;in_person;;player1, gieß etwas Schnaps oder Wein auf den nackten Bauch von player2 und leck es dann ab. Anschließend dürft ihr zusammen 7 Schlucke verteilen. Wer sich weigert, trinkt 5 Schlucke.;;;
-169;nikolai;hot;2;in_person;;player1, lege deine Hand in den Schritt von player2, bis einer von euch seinen Drink ausgetrunken hat.;;;
-170;nikolai;hot;2;in_person;Fluch;player1, du bist Thomas Gottschalk: Du darfst ab jetzt nur sprechen, wenn du deinem Gesprächspartner dabei die Hand aufs Knie legst. Wenn du es vergisst, trinke 3 Schlucke.;15;Fluch aufgehoben;player1, du bist jetzt nicht mehr Thomas Gottschalk.
-171;nikolai;hot;2;either;;player1, trinke 3 Schlucke wenn du gerne Blowjobs gibst.;;;
-172;nikolai;hot;2;either;;Trinkt, wenn ihr schon mal mit jemandem vom gleichen Geschlecht Sex hattet.;;;
-173;nikolai;hot;2;either;;Sagt, mit wem aus der Runde ihr am Liebsten einen Dreier hättet. player1 fängt an, danach geht es im Uhrzeigersinn weiter.;;;
-174;nikolai;hot;2;either;;player1, verteile 3 Schlucke falls du dich schon mal beim Sex gefilmt hast. Ansonsten trinke 3 Schlucke.;;;
-175;nikolai;hot;2;either;;player1, trinke 1 Schluck für jeden Dildo oder Vibrator, den du besitzt.;;;
-176;nikolai;hot;2;either;;Jeder, der Piercings hat, zeigt diese oder trinkt 3 Schlucke wenn sie an geheimen Stellen sind.;;;
-177;nikolai;hot;2;either;Segen;player1, du bist jetzt Aphrodite (oder Amor). Du kannst jederzeit 2 Schlucke trinken, damit zwei Leute sich küssen müssen. Wenn sie es nicht tun, trinken sie beide 7 Schlucke und du verlierst diesen Segen.;15;Segen aufgehoben;player1, du bist nicht mehr Aphrodite (oder Amor).
-178;nikolai;hot;2;either;;player1, erzähle, wie du deine Unschuld verloren hast und verteile dann 3 Schlucke. Trinke 5 Schlucke wenn du dich weigerst.;;;
-179;nikolai;hot;2;either;;player1, trinke 3 Schlucke wenn du schon mal Analsex hattest. Verteile dann noch 3 Schlucke wenn es dir gefallen hat.;;;
-180;nikolai;hot;2;in_person;;player1, gib player2 eine Massage. Du darfst erst aufhören, wenn player2 es sagt.;;;
-181;nikolai;hot;2;in_person;;player1 und player2, kuschelt miteinander bis einer von euch seinen Drink ausgetrunken hat.;;;
-182;nikolai;hot;2;either;;player1, verrate den Spitznamen, den dein Partner dir im Bett gibt oder trinke 5 Schlucke.;;;
-183;nikolai;hot;2;either;;Was war der größte Altersunterschied zu einem Sexpartner? player1 fängt an zu erzählen. Der Spieler mit dem größten Altersunterschied verteilt 5 Schlucke.;;;
-184;nikolai;hot;2;either;;player1, trinke 3 Schlucke wenn du es beim Sex magst, gewürgt oder geschlagen zu werden.;;;
-185;nikolai;hot;2;in_person;Fluch;player1, setz dich neben player2 auf den Boden und lass dich kraulen wie ein Haustier.;10;Fluch aufgehoben;player1, du darfst dich wieder auf deinen Platz setzen und bist nicht mehr player2s Haustier.
-186;nikolai;hot;3;either;Abstimmung;Wählt zwischen player1 und player2 aus, wer besser im Bett ist. Der Sexgott verteilt 3 Schlucke.;;;
-187;nikolai;hot;2;either;;player1 und player2, zeigt eure Unterwäsche. Die anderen stimmen ab, wer heißere trägt. Der Verlierer trinkt 5 Schlucke.;;;
-188;nikolai;hot;2;in_person;;player1, kneif player2 in einen Nippel. Wer sich weigert, trinkt 5 Schlucke.;;;
-189;nikolai;hot;2;in_person;;player1, gib player2 einen festen Kuss auf den Hals oder Nacken.;;;
-190;nikolai;hot;2;in_person;Erinnerungsfoto;player1 und player2, küsst euch auf den Mund und macht dabei ein Selfie. Dann dürft ihr je 3 Schlucke verteilen. Wer sich weigert, trinkt 5 Schlucke.;;;
-191;nikolai;hot;2;either;;player1, trinke 3 Schlucke wenn du schon mal ohne Unterwäsche auf einem Date warst.;;;
-192;nikolai;hot;2;either;;player1, trinke 2 Schlucke wenn du schon mal davon geträumt hast deinem Partner beim Sex mit einer anderen Person zuzuschauen.;;;
-193;nikolai;hot;2;either;;player1, trinke 2 Schlucke wenn du schon mal Telefon-Sex hattest.;;;
-194;nikolai;hot;2;either;;player1, trinke 3 Schlucke wenn du es heiß fändest, an einem Gangbang teilzunehmen.;;;
-195;nikolai;hot;2;in_person;;player1, gib player2 eine Fußmassage. Du darfst erst aufhören, wenn player2 es sagt.;;;
-196;nikolai;hot;2;in_person;;player1 und player2, kitzelt euch gegenseitig für mindestens 30 Sekunden.;;;
-197;nikolai;hot;2;either;;player1, trinke 2 Schlucke wenn du dominant im Bett bist. Falls du es bist, darfst du 2 Schlucke an einen Mitspieler verteilen, von dem du denkst dass er unterwürfig ist.;;;
-198;nikolai;hot;4;in_person;;Seven Minutes in Heaven: player1 und player2 lassen ihre Handys am Tisch, gehen zusammen in einen anderen Raum (idealerweise Abstellkammer / Wandschrank), machen das Licht aus und schließen die Tür. Die anderen holen sie erst nach 7 Minuten wieder raus.;;;
-199;nikolai;hot;2;in_person;;Alle Spielerinnen, die Lippenstift tragen, machen player1 einen Kussabdruck ins Gesicht. Wer den deutlichsten Kussmund schafft, darf 5 Schlucke verteilen.;;;
-200;nikolai;hot;2;in_person;;player1, setz dich auf den Schoß von player2. Jedes Mal wenn ihr Hoppe, Hoppe Reiter spielt, müssen alle anderen 2 Schlucke trinken.;10;;player1, du darfst jetzt wieder runter vom Schoß von player2.
-201;nikolai;hot;2;either;;Jeder, der ein Nacktfoto von sich auf dem Handy hat, trinkt 3 Schlucke. Wer eins zeigt, darf 7 Schlucke verteilen!;;;
-202;nikolai;hot;2;in_person;;player1, gib player2 einen festen Kuss auf den Hintern oder trinke 3 Schlucke.;;;
-203;nikolai;hot;2;either;;Verteil 3 Schlucke, wenn du in den letzten 7 Tagen mindestens 3 mal Sex hattest.;;;
-204;rebecca;hot;2;either;;Wer als letztes einen Porno geschaut hat, trinkt 3 Schlucke.;;;
-205;rebecca;hot;2;either;Baby got Back;Die Frau mit dem größten Arsch trinkt 3 Schlucke.;3;Revanche;Die Frau mit dem größten Hintern darf sich rächen und 3 Schlücke verteilen.
-206;nikolai;hot;2;either;;player1, was ist das letzte Objekt, das du in dich selbst oder jemand anderen eingeführt hast? (Körperteile zählen nicht);;;
-207;nikolai;hot;2;either;;Alle Mädels, die ihre Brüste zeigen, dürfen Schlücke verteilen. 3 Schlucke wenn im BH, 7 Schlucke wenn ohne.;;;
-208;fee;hot;2;either;;player1, trinke 3 Schlucke wenn du dir schon mal gewünscht hast, dass dein aktueller Partner im Bett etwas offener ist.;;;
-209;fee;hot;1;either;;player1, trinke 3 Schlucke wenn du schon mal mit jemandem geschlafen hast obwohl du selbst keine Lust hattest.;;;
-210;fee;hot;1;either;;player1, trinke 3 Schlucke wenn du schon mal Sex mit einer vergebenen Person hattest.;;;
-211;nikolai;hot;2;in_person;Strippen-Stein-Papier;player1 und player2, spielt gegeneinander Schere-Stein-Papier. Wer zwei mal verliert zieht ein Kleidungsstück aus. Socken und Accessoires zählen nicht!;;;
-212;nikolai;hot;2;in_person;;player1, setz dich hinter player2 und klammere dich mit Armen und Beinen an player2 wie ein Koala-Baby.;10;;player1, du musst dich nicht mehr wie ein Koala-Baby an player2 klammern.
-213;nikolai;hot;3;in_person;Kuss-Auktion;Ein Kuss mit player1 steht zur Auktion. Jeder Spieler kann Gebote abgeben, wie viele Schlucke er oder sie trinkt, um player1 küssen zu dürfen. Wer die Auktion gewinnt, trinkt so viele Schlucke und hat den Kuss gewonnen.;;;
-214;nikolai;hot;3;either;;Alle anderen Spieler stimmen ab, ob player1 oder player2 ein Kleidungsstück ausziehen muss (Socken und Accessoires zählen nicht).;;;
-215;nikolai;hot;2;in_person;Just Tattoo of Us;player1, lass dir von player2 etwas auf den Arsch malen oder schreiben. Wenn du dich weigerst, trinke 4 Schlucke.;;;
-216;nikolai;hot;3;in_person;Flaschendrehen;player1, drehe eine Flasche und küsse den Spieler, auf den die Flasche zeigt.;;;
-217;nikolai;hot;2;in_person;;player1, bestimme eine Stelle, auf die player2 dich küssen muss. Falls player2 sich weigert: 5 Schlucke.;;;
-218;nikolai;basic;3;either;;player1, du musst entscheiden: Wer von player2 und player3 würde dir bei einer Prügelei mehr Angst machen? Chuck Norris verteilt 3 Schlucke.;;;
-219;nikolai;basic;2;either;Fluch;Ihr müsst euch ab jetzt mit euren Nachnamen ansprechen.;12;Fluch aufgehoben;Ihr müsst euch nicht mehr mit euren Nachnamen ansprechen.
-220;nikolai;basic;1;in_person;;player1, trink so viele Schlucke wie es Titten im Raum gibt.;;;
-221;nikolai;basic;3;either;;Jeder sagt, welche Serien er gerade guckt. Wenn mehrere die gleiche sehen, trinken sie 3 Schlucke.;;;
-222;nikolai;basic;1;either;;Alle, die aus Norddeutschland kommen, trinken 2 Schlucke.;;;
-223;nikolai;basic;1;either;;Alle, die aus Süddeutschland kommen, trinken 2 Schlucke.;;;
-224;nikolai;basic;1;either;;Alle, die nicht aus Deutschland kommen, trinken 2 Schlucke.;;;
-225;nikolai;basic;2;either;Duell;Derjenige von player1 und player2, der die größeren Hände hat, verteilt 3 Schlucke.;;;
-226;nikolai;basic;2;either;;Trinkt so viele Schlucke, wie ihr Vornamen habt.;;;
-227;rebecca;basic;3;either;;'Besorgt''s player1! player1 nennt einen Gegenstand. Wer den Gestand als erstes besorgt, darf 3 Schlucke verteilen.';;;
-228;rebecca;basic;2;either;Fluch;player1 hat zu viel Herr der Ringe geschaut und benimmt sich wie Gollum. Bevor player1 trinkt, muss er / sie jedes Mal "Mein Schatz" sagen. 1 Schluck zusätzlich wenn es vergessen wird.;7;Fluch aufgehoben;player1 ist nicht mehr Gollum.
-229;rebecca;basic;2;in_person;;Der mit dem vollsten Glas trinkt 1 Schluck, der mit dem zweitvollsten Glas 2 Schlucke und so weiter.;;;
-230;rebecca;basic;3;either;;Welches Geschlecht ist in der Mehrzahl? Alle, die dazu gehören, trinken 2 Schlucke. Bei Gleichstand trinken alle 1 Schluck.;;;
-231;rebecca;basic;3;in_person;Erinnerungsfoto;Macht als Gruppe ein Selfie mit einem Motto, auf das ihr euch gemeinsam einigt.;;;
-232;rebecca;basic;3;remote_only;Erinnerungsfoto;Macht als Gruppe einen Screenshot eurer Cams mit einem Motto, auf das ihr euch gemeinsam einigt.;;;
-233;rebecca;basic;3;remote_only;;player1 und player2, zeigt gleichzeitig 1-5 Finger hoch. Wenn ihr die gleiche Zahl Finger zeigt, verteilt zusammen 5 Schlucke. Ansonsten trinkt jeder jeweils 3 Schlucke.;;;
-234;rebecca;hot;3;either;;Zählt reihum bisherige Sexpartner von player1 auf. Wer wiederholt oder falsch liegt, trinkt 3 Schlucke.;;;
-235;rebecca;hot;3;either;;player1 und player2, lest die erste Nachricht vor, die angezeigt wird, wenn ihr „Fick“ in die Suchleiste eingebt. Wenn ihr euch weigert: 3 Schlucke.;;;
-236;rebecca;hot;3;either;;player1, trinke einen Schluck für jedes Mal, das du in den letzten 7 Tagen Sex hattest.;;;
-237;rebecca;hot;3;either;;player1, trinke einen Schluck für jedes Mal, das du in den letzten 14 Tagen Sex hattest.;;;
-238;rebecca;hot;2;either;;player1, schreibe jemandem bei Whatsapp den Satz "Hodenkobolde sind seltene Tiere." oder trinke 5 Schlucke. Die anderen entscheiden, wem du den Satz schicken musst.;;;
-239;nikolai;basic;2;either;;player1, wenn du das nächste Mal trinken musst, kannst du stattdessen einen anderen Spieler die Schlucke für dich trinken lassen.;;;
-240;nikolai;basic;2;either;;player1, erzähle von dem letzten Traum, an den du dich erinnern kannst. player2 ist dein Psychiater und analysiert den Traum. Dann verteilt jeweils 2 Schlucke.;;;
-241;nikolai;basic;2;either;;Der Spieler, dessen Geburtstag als nächstes kommt, verteilt 3 Schlucke.;;;
-242;nikolai;basic;2;either;;Der Spieler, der als letztes Geburtstag hatte, trinkt 3 Schlucke.;;;
-243;rebecca;basic;3;either;;player1 sagt eine auf deutsch übersetzte Zeile aus einem englischen Song. Wer den Song als erstes errät, verteilt 3 Schlucke. Wer falsch rät, muss selbst 3 trinken.;;;
-244;rebecca;basic;3;either;Wer bin ich?;player1 überlegt sich im Geheimen eine Person, die sie "ist". Stellt reihum Ja-oder-Nein-Fragen um die Person zu erraten. Bei jedem "Nein" geht es weiter und der Fragende muss 1 Schluck trinken. Wer es errät, verteilt 5 Schlucke.;;;
-245;rebecca;basic;4;either;Kommando Pimperle;Spielt eine Runde Kommando Pimperle. player1 sagt an. Bei jedem Fehler wird 1 Schluck getrunken. Wenn ein Spieler insgesamt 3 Schlucke getrunken hat, ist das Spiel vorbei.;;;
-246;;;;;;;;;
-247;;;;;;;;;
-248;;;;;;;;;
-249;;;;;;;;;
-250;;;;;;;;;
+2;fee;basic;2;either;Long hair don't care;Die Person mit den längsten Haaren verteilt 3 Schlucke.;;;
+3;fee;basic;2;in_person;Eehhh Macarena!;player1 und player2, tanzt zusammen Macarena oder teilt unter euch 7 Schlucke auf.;;;
+4;nikolai;basic;2;either;;Alle, die eine Klasse wiederholt haben, trinken 3 Schlucke!;;;
+5;nikolai;basic;2;either;;Alle, die einen String tragen, trinken 3 Schlucke.;;;
+6;nikolai;basic;2;either;;Der Mann, der den längsten Bart hat, muss 3 Schlucke trinken.;;;
+7;nikolai;basic;2;either;;Die blasseste Person verteilt 3 Schlucke.;;;
+8;nikolai;basic;2;either;;Die gebräunteste Person verteilt 3 Schlucke.;;;
+9;nikolai;basic;2;in_person;Duell;Wer lacht, verliert. player1 und player2, schaut euch in die Augen und versucht euch gegenseitig zum Lachen zu bringen. Der Verlierer trinkt 3 Schlucke.;;;
+10;nikolai;basic;2;either;;player1 trinkt 3 Schlucke.;;;
+11;nikolai;basic;2;either;Chatverlauf;player1 und player2, lest die erste Nachricht vor, die angezeigt wird, wenn ihr „Loch“ in die Suchleiste eingebt. Wenn ihr euch weigert: 2 Schlucke.;;;
+12;nikolai;basic;2;in_person;Duell;player1 und player2, spielt Schere-Stein-Papier. Wer zuerst zwei Mal verliert, muss 3 Schlucke trinken.;;;
+13;nikolai;basic;2;either;;player1, du darfst so viele Schlucke verteilen wie du Onkel hast.;;;
+14;nikolai;basic;2;in_person;;player1, lass dich von player2 in den Hintern kneifen oder trinke 5 Schlucke!;;;
+15;nikolai;basic;2;either;;player1, nenne die Lieblingsfarbe von player2 oder trinke 3 Schlucke.;;;
+16;nikolai;basic;2;in_person;;player1, wähle wer 3 Schlucke aus dem Glas von player2 trinken muss.;;;
+17;nikolai;basic;2;in_person;;player1, zeig die letzten fünf Fotos, die du mit dem Handy gemacht hast oder trinke 5 Schlucke.;;;
+18;nikolai;basic;2;either;;Trinke 2 Schlucke, wenn dein Handy mehr als 500 Euro gekostet hat!;;;
+19;nikolai;basic;2;either;Fluch?;player1 darf ab jetzt nur noch in Fragen sprechen.;10;Fluch aufgehoben?;player1, du darfst jetzt wieder normal sprechen.
+20;nikolai;basic;2;in_person;Fluch;player1 und player2 müssen ab jetzt Händchen halten. Jede Unterbrechung wird mit 3 Schlucken bestraft.;10;Fluch aufgehoben;player1 und player2 können jetzt aufhören, Händchen zu halten. Falls ihr es ohne Unterbrechnung geschafft habt, trinken alle anderen 2 Schlucke.
+21;nikolai;basic;2;either;Oppan Gangnam Style;player1, tanze den Gangnam Style. Wenn du es nicht kannst oder einen Fehler machst, trinke 3 Schlucke.;;;
+22;nikolai;basic;2;either;Thank You For Smoking;Alle Raucher trinken 2 Schlucke.;;;
+23;nikolai;basic;2;either;Fluch;player1, singe ab jetzt alles, was du sagst. Trinke 2 Schlucke wenn du es vergisst.;10;Fluch aufgehoben;player1, du musst jetzt nicht mehr alles singen.
+24;nikolai;basic;2;in_person;Getränke tauschen;Paare tauschen ihre Getränke bis einer von beiden das nächste Mal ausgetrunken hat.;;;
+25;nikolai;basic;5;either;Duell;Was ist der schlimmste Satz, den man beim Sex sagen kann? player1 und player2, nennt beide einen Satz. Die anderen stimmen über den Gewinner ab. Der Verlierer trinkt 3 Schlucke.;;;
+26;nikolai;basic;2;either;Fluch für alle;Ihr müsst von euch selbst in der 3. Person sprechen. Wenn ihr es vergisst: 2 Schlucke Strafe.;15;Fluch aufgehoben;Ihr könnt jetzt aufhören, von euch selbst in der 3. Person zu sprechen.
+27;nikolai;basic;5;in_person;Shake it;player1 und player2, twerkt zusammen. Der schlechteste Twerker trinkt 2 Schlucke (die anderen stimmen ab).;;;
+28;nikolai;basic;2;either;Hoch die Tassen!;Jeder trinkt 3 Schlucke.;;;
+29;nikolai;basic;2;either;Boys Time;Alle Jungs trinken 3 Schlucke.;;;
+30;nikolai;basic;2;either;Girls Time;Alle Mädels trinken 3 Schlucke.;;;
+31;nikolai;basic;2;either;V wie Vendetta;Alle Vegetarier und Veganer dürfen jeweils 3 Schlucke verteilen.;;;
+32;nikolai;basic;2;in_person;Duell;Daumenringen zwischen player1 und player2. Der Verlierer trinkt 3 Schlucke.;;;
+33;nikolai;basic;2;in_person;Platztausch;player1 und player2, tauscht die Plätze und die Getränke.;;;
+34;nikolai;basic;2;in_person;;player1, setze dich neben player2 und trinke einen Schluck aus seinem / ihrem Glas.;;;
+35;nikolai;basic;2;either;Fluch;player1 ist ab jetzt Mitläufer. Er / sie muss immer mittrinken, wenn ein anderer Spieler trinken muss.;7;Fluch aufgehoben;player1 ist kein Mitläufer mehr.
+36;nikolai;basic;2;either;Story Time;player1, erzähle von dem schlimmsten Korb den du je bekommen hast. Dann verteile 3 Schlucke.;;;
+37;nikolai;basic;2;either;;player1, du darfst so viele Schlucke verteilen wie du Geschwister hast.;;;
+38;nikolai;basic;2;either;Spiel;player1, summe ein Lied. Der Spieler der es als erstes errrät, verteilt 3 Schlucke.;;;
+39;nikolai;basic;2;either;;Trinke 2 Schlucke wenn dein Chef ein Arschloch ist.;;;
+40;nikolai;basic;2;either;;Alle Linkshänder trinken 3 Schlucke.;;;
+41;nikolai;basic;2;either;Behind blue eyes;Alle, die blaue Augen haben, trinken 3 Schlucke.;;;
+42;nikolai;basic;2;either;;Alle, die braune Augen haben, trinken 3 Schlucke.;;;
+43;nikolai;basic;2;either;;player1, trinke 3 Schlucke wenn du schon mal in deinen besten Freund / deine beste Freundin verliebt warst.;;;
+44;nikolai;basic;2;in_person;Erinnerungsfoto;player1 und player2, macht zusammen ein Selfie. Trinkt dann jeder 2 Schlucke.;;;
+45;nikolai;basic;2;in_person;Just Tattoo of Us;player1, lass dir von player2 etwas auf den Arm malen oder schreiben. Wenn du dich weigerst, trinke 3 Schlucke.;;;
+46;nikolai;basic;2;either;;Trinkt 2 Schlucke wenn ihr schon mal eure Eltern beklaut habt.;;;
+47;nikolai;basic;2;either;;Trinkt 2 Schlucke wenn ihr noch nie Gras geraucht habt.;;;
+48;nikolai;basic;2;either;;player1, wenn du schon mal eine(n) Ex in Social Media gestalked hast, trinke 2 Schlucke.;;;
+49;nikolai;basic;2;either;Anstoßen!;Jeder trinkt 2 Schlucke.;;;
+50;nikolai;basic;2;either;Segen;player1, ab jetzt bist du der König / die Königin. Jeder muss dich so nennen oder zur Strafe 2 Schlucke trinken. Außerdem musst du über dich selbst im majestätischen "Wir" reden.;20;Vom Thron gestoßen;player1, du bist jetzt nicht mehr König / Königin.
+51;nikolai;basic;2;either;Wo der Daumen rechts ist;Ab jetzt dürft ihr nur noch mit der linken Hand trinken. Wer es vergisst, trinkt 3 Schlucke extra.;20;Fluch aufgehoben;Ihr müsst nicht mehr mit links trinken.
+52;nikolai;basic;2;either;;Alle Spieler, die miteinander verwandt sind, trinken 2 Schlucke.;;;
+53;nikolai;basic;2;either;Fluch für alle;Ihr heißt ab jetzt wie euer rechter Nachbar und müsst euch so ansprechen. Pro Fehler gibt es 3 Schlucke Strafe.;15;Wie heiß ich noch mal?;Ihr dürft euch wieder bei euren richtigen Namen ansprechen.
+54;nikolai;basic;2;in_person;Segen;player1 ist sehr kuschelbedürftig heute Abend! Jedes Mal, wenn du jemandem den Nacken streichelst, trinkt die Person 2 Schlucke.;10;Fluch aufgehoben;player1 ist nicht mehr kuschelbedürftig (Spieler, deren Nacken du streichelst, müssen nicht mehr trinken).
+55;nikolai;basic;2;in_person;Fluch;player1 ist sehr schüchtern! Du sprichst nur noch mit player2, weil er/sie dein einziger Freund ist.;10;Fluch aufgehoben;player1 ist nicht mehr schüchtern (Du darfst wieder mit allen sprechen).
+56;nikolai;basic;2;in_person;;Die charmante Person, auf deren Handy ihr dieses Spiel spielt, verteilt 3 Schlucke.;;;
+57;nikolai;basic;2;either;Spiel;player1 sing ein Lied mit vollem Mund (füll deinen Mund mit was auch immer). Die erste Person, die richtig errät, verteilt 3 Schlucke.;;;
+58;nikolai;basic;3;either;Gesetz;player1 bestimmt ein Wort, das niemand mehr sagen darf. Sagt jemand es doch, 2 Schlucke Strafe.;20;Gesetz aufgehoben;Das Wort, das player1 verboten hat, ist jetzt wieder erlaubt.
+59;nikolai;basic;2;either;Spiel;Sagt nacheinander einen Buchstaben, so dass daraus ein Wort entsteht. Die Person, die das Wort beendet oder eins bildet, das nicht existiert, trinkt 3 Schlucke. player1 beginnt, dann im Uhrzeigersinn weiter.;;;
+60;nikolai;basic;2;in_person;Auf gute Nachbarschaft!;player1, stoße mit deinen direkten Sitznachbarn an. 2 Schlucke für jeden von euch.;;;
+61;nikolai;basic;2;in_person;Duell;player1 und player2, macht Armdrücken. Der Verlierer trinkt 3 Schlucke.;;;
+62;nikolai;basic;2;either;;Die Spielerin mit dem meisten Make-Up trinkt 3 Schlucke. Falls ihr euch uneinig seid, stimmt ab.;;;
+63;nikolai;basic;2;either;Segen;player1, wenn du dir ab jetzt ans Ohr fasst, müssen alle anderen sich auch ans Ohr fassen. Der letzte Spieler, der es macht, trinkt 3 Schlucke.;10;Segen aufgehoben;player1, wenn du dich ans Ohr fasst, müssen die anderen es jetzt nicht mehr nachmachen.
+64;nikolai;basic;2;either;;Alle, die eine Führerscheinprüfung wiederholen mussten, trinken 3 Schlucke.;;;
+65;nikolai;basic;2;either;;player1, erzähle etwas das du noch nie gemacht hast und alle, die es gemacht haben, müssen 3 Schlucke trinken.;;;
+66;marie;basic;2;in_person;;Der Spieler mit dem teuersten Paar Schuhen trinkt 3 Schlucke.;;;
+67;marie;basic;2;either;;Alle, die ein schwarzes Oberteil tragen, trinken 3 Schlucke.;;;
+68;marie;basic;2;either;;Alle, die bunte Socken tragen, trinken 2 Schlucke.;;;
+69;marie;basic;2;either;;Alle, die schon mal außerhalb Europas waren, trinken 2 Schlucke.;;;
+70;marie;basic;2;either;;Alle, die einen grünen Daumen haben, dürfen je 2 Schlucke verteilen.;;;
+71;marie;basic;2;either;;player1, wenn du unordentlich bist, trinke 3 Schlucke.;;;
+72;marie;basic;2;either;;player1, trinke 2 Schlucke wenn deine Wohnung einen Balkon hat.;;;
+73;nikolai;basic;2;either;;Der Spieler, der am längsten noch bei den Eltern gewohnt hat, trinkt 3 Schlucke.;;;
+74;marie;basic;2;either;;Trinke so viele Schlucke, wie du Haustiere hast (Familien-Haustiere zählen dazu).;;;
+75;marie;basic;2;either;;Wer gefärbte Haare hat, trinkt 2 Schlucke.;;;
+76;marie;basic;2;either;;Wer die jüngsten Eltern hat, verteilt 3 Schlucke. Wer die ältesten Eltern hat, trinkt 3 Schlucke (Durchschnittsalter zählt).;;;
+77;marie;basic;2;either;Fluch;player1, du darfst ab jetzt keine Fragen mehr stellen. Wenn du es doch tust, trinke zur Strafe 2 Schlucke.;10;Fluch aufgehoben;player1, du darfst ab jetzt wieder Fragen stellen.
+78;marie;basic;2;either;;Jeder, der gerade Wein trinkt, trinkt 2 Schlucke.;;;
+79;marie;basic;;either;;Jeder, der gerade Bier trinkt, trinkt 3 Schlucke.;;;
+80;nikolai;basic;2;either;Spiel;player1 sucht ein Lied aus singt eine Songzeile. Im Uhrzeigersinn muss jeder eine weitere Zeile singen. Wer nicht weiter weiß oder einen Fehler macht, trinkt 3 Schlucke.;;;
+81;nikolai;basic;2;either;;Trinkt 3 Schlucke wenn ihr schon mal betrogen wurdet.;;;
+82;nikolai;basic;3;either;Abstimmung;Die Mädels bestimmen eine Person, die 3 Schlucke trinken muss.;;;
+83;nikolai;basic;3;either;Abstimmung;Die Jungs bestimmen eine Person, die 3 Schlucke trinken muss.;;;
+84;nikolai;basic;2;either;Fluch;player1, du musst ab jetzt jede Minute die Zeit ansagen. Wenn du es vergisst, trinke 3 Schlucke.;7;Fluch aufgehoben;player1, du musst ab jetzt nicht mehr die Zeit ansagen.
+85;nikolai;basic;2;either;;Mädels, ihr trinkt eure Körbchengröße in Schlucken (A=1, B=2, C=3 etc.);;;
+86;nikolai;basic;2;in_person;;player1, gib player2 3 Schlucke zu trinken. Du hältst das Glas und Strohhalm ist nicht erlaubt!;;;
+87;nikolai;basic;2;either;;player1, nenne das Sternzeichen von player2 oder trinke 2 Schlucke, wenn du es nicht weißt.;;;
+88;nikolai;basic;2;in_person;;Der gegenwärtige DJ der Party verteilt 3 Schlucke.;;;
+89;nikolai;basic;3;either;;player1, verteile 3 Schlucke an die Person, die du am wenigsten kennst.;;;
+90;nikolai;basic;3;either;;player1, verteile 3 Schlucke an eine Person, die kleiner ist als du selbst. Wenn du am kleinsten bist, trinke sie selbst!;;;
+91;nikolai;basic;3;either;;player1, verteile 3 Schlucke an eine Person, die größer ist als du selbst. Wenn du am größten bist, trinke sie selbst!;;;
+92;nikolai;basic;2;either;Fluch Fluch;player1 muss ab jetzt jedes Wort doppelt sagen. 2 Schlucke Schlucke für für jeden jeden Fehler Fehler.;7;Fluch Fluch aufgehoben aufgehoben;player1, du musst nicht mehr jedes Wort doppelt sagen.
+93;nikolai;basic;2;in_person;Der Tisch ist Lava;Niemand darf mehr den Tisch berühren! Wer es doch tut, trinkt 3 Schlucke.;10;Fluch aufgehoben;Ihr dürft den Tisch wieder berühren.
+94;nikolai;basic;3;either;Fluch;Offenherzig: player1, die anderen Spieler dürfen dir, egal wann sie wollen, Fragen stellen. Wenn du nicht antwortest, trinke 2 Schlucke.;7;Fluch aufgehoben;player1, du musst jetzt nicht mehr alle Fragen der anderen Spieler beantworten.
+95;nikolai;basic;3;either;;player1, du musst entscheiden: Wer von player2 und player3 ist deiner Meinung nach am schnellsten beleidigt? Derjenige trinkt 3 Schlucke.;;;
+96;nikolai;basic;2;either;Fluch;player1, du musst ab jetzt durchgängig lächeln. Wenn du aufhörst, trinke 3 Schlucke.;7;Fluch aufgehoben;player1, du kannst aufhören zu lächeln.
+97;nikolai;basic;3;either;;player1, du darfst entscheiden wer alles weniger gut gekleidet ist als player2. Die Modebanausen trinken 3 Schlucke.;;;
+98;nikolai;basic;2;either;Fluch;player1 muss ab jetzt jedes Mal den Finger heben, wenn er/sie sprechen will und darf nur reden, wenn player2 es erlaubt. Wenn player1 es vergisst: 3 Schlucke zur Strafe.;10;Fluch aufgehoben;player1 darf jetzt wieder frei sprechen, ohne den Finger zu heben.
+99;nikolai;basic;3;either;;Alle Spieler, die jünger als player2 sind, trinken 2 Schlucke.;;;
+100;nikolai;basic;3;either;;Alle Spieler, die älter als player2 sind, trinken 2 Schlucke.;;;
+101;nikolai;basic;2;in_person;Erinnerungsfoto;player1 und player2, macht ein Selfie auf dem ihr schielt.;;;
+102;nikolai;basic;2;either;;player1, du kannst entweder selbst 3 Schlucke trinken oder player2 5 Schlucke trinken lassen.;;;
+103;nikolai;basic;2;in_person;Erinnerungsfoto;player1 und player2, macht ein Selfie auf dem ihr verrückte Grimassen schneidet.;;;
+104;nikolai;basic;2;either;Fluch;player1 muss ab jetzt mit einem französischen Akzent sprechen.;15;Fluch aufgehoben;player1 muss jetzt nicht mehr mit französischem Akzent sprechen.
+105;nikolai;basic;2;either;Fluch;player1 muss ab jetzt mit einem russischen Akzent sprechen.;15;Fluch aufgehoben;player1 muss jetzt nicht mehr mit russischem Akzent sprechen.
+106;nikolai;basic;2;in_person;Ausgleich;player1 und player2 müssen gleich viel in ihren Gläsern haben. Derjenige, der mehr im Glas hat, trinkt so viel bis Gleichstand herrscht.;;;
+107;rebecca;basic;2;either;Fluch für alle;Ab jetzt müssen alle Spieler jeden Satz mit "in meiner Hose" beenden. Wer es vergisst, trinkt 3 Schlucke.;10;Fluch aufgehoben;Ihr müsst jetzt nicht mehr jeden Satz mit "in meiner Hose" beenden.
+108;rebecca;basic;2;either;Wahrheit oder Pflicht;Spielt reihum einmal "Wahrheit oder Pflicht". player1 beginnt (fragt jeweils euren linken Nachbarn).;;;
+109;rebecca;basic;2;in_person;;player1, falls du 3 weitere Songs vom Interpreten des aktuell laufenden Songs nennen kannst, verteile 3 Schlucke. Ansonsten trinke sie selbst.;;;
+110;rebecca;basic;2;either;;Trinke 2 Schlucke wenn du vergeben bist.;;;
+111;rebecca;basic;2;either;;Trinke 2 Schlucke wenn du Single bist.;;;
+112;nikolai;basic;2;either;Reimen;player1, such dir ein Wort aus. Im Uhrzeigersinn muss jeder Spieler ein Wort sagen, das sich darauf reimt. Wer etwas wiederholt oder nichts mehr weiß, trinkt 4 Schlucke.;;;
+113;nikolai;basic;2;in_person;Schnell!;Der Spieler, dessen Stirn zuletzt auf dem Tisch liegt, trinkt 3 Schlucke.;;;
+114;nikolai;basic;2;either;Fluch für alle;Jurassic World - jeder muss ab jetzt seine Arme wie ein T-Rex halten. Wer es vergisst und seine Arme ausstreckt, trinkt zur Strafe 3 Schlucke.;10;Fluch aufgehoben;Ihr seid keine T-Rexe mehr und dürft eure Arme wieder normal ausstrecken.
+115;nikolai;basic;2;in_person;Fluch für alle;Wenn ihr ab jetzt Schlucke verteilt, müsst ihr denjenigen an der Wange berühren, in die Augen schauen und sagen "Trink mein Schatz";10;Fluch aufgehoben;Ihr dürft jetzt wieder normal Schlucke verteilen ohne "Trink mein Schatz" zu sagen.
+116;nikolai;basic;2;either;Fluch;player1, du heißt ab jetzt Kevin. Pech gehabt! Wer das vergisst, trinkt 3 Schlucke.;10;Fluch aufgehoben;player1, du heißt nicht mehr Kevin.
+117;nikolai;basic;2;in_person;Handys weg;Ab jetzt dürft ihr kein anderes Handy als dieses mehr berühren. Wer die Regel als erstes bricht, trinkt 7 Schlucke.;20;;Ihr dürft eure Handys jetzt wieder berühren.
+118;nikolai;basic;2;either;Fluch für alle;Shit Bitch - ab jetzt müsst ihr jeden Satz mit Shit beginnen und mit Bitch beenden. Wer es vergisst, trinkt 2 Schlucke.;10;Fluch aufgehoben;Der "Shit Bitch" Fluch ist aufgehoben.
+119;nikolai;basic;2;in_person;Fluch für alle;Jedes Mal wenn ihr trinkt, müsst ihr dabei den Bauch des Spielers zu eurer rechten streicheln.;10;Fluch aufgehoben;Ihr müsst beim Trinken nicht mehr den Bauch eures Nachbarn streicheln.
+120;nikolai;basic;2;either;Fluch;player1, du bist jetzt Batman. Du musst mit der Batman Stimme sprechen. Trinke jedes Mal 3 Schlucke wenn du es vergisst.;10;Fluch aufgehoben;player1 ist nicht mehr Batman.
+121;nikolai;basic;2;in_person;Der Boden ist Lava;Wer ab jetzt den Boden berührt, muss 3 Schlucke trinken.;15;;Der Boden ist nicht mehr Lava
+122;nikolai;basic;2;either;Fluch;player1, du bist ab jetzt der Herold von player2. Jedes Mal wenn player2 trinkt, musst du es lautstark ankündigen. Wenn du es vergisst, trinke selbst 2 Schlucke.;12;Fluch aufgehoben;player1, du bist nicht mehr der Herold von player2.
+123;fee;basic;2;in_person;Schnell!;Daumen an die Tischkante! Der langsamste Spieler trinkt 5 Schlucke.;;;
+124;nikolai;basic;2;either;;Wer das nächste Mal pinkeln geht, trinkt 3 Schlucke wenn er oder sie wieder da ist.;;;
+125;nikolai;halloween;2;in_person;;player1 und player2, stellt zusammen eine Szene aus einem Horrorfilm nach.;;;
+126;luisa;halloween;2;either;Zombie-Virus;Ab jetzt müsst ihr vor jedem Schluck Zombie-Geräusche machen! 2 Schlucke jedes Mal wenn ihr es vergesst.;20;Zombie-Virus aufgehoben;Ihr müsst ab jetzt nicht mehr vor jedem Schluck Zombie-Geräusche machen.
+127;marie;halloween;2;in_person;Hexenstunde;player1, schnappe dir einen Besen und reite auf diesem wie eine Hexe drei mal um die Gruppe herum.;;;
+128;nikolai;hot;5;either;Duell;player1 und player2 - beschreibt ein Szenario für ein heißes Rollenspiel. Die anderen stimmen ab. Der Gewinner darf 4 Schlucke verteilen.;;;
+129;nikolai;hot;2;either;;Im Uhrzeigersinn sagt jeder etwas, das er an player1 sexy findet. Wer etwas wiederholt oder nichts mehr weiß, trinkt 3 Schlucke. player1 fängt selbst an.;;;
+130;nikolai;hot;2;either;;Jeder, der im Intimbereich nicht rasiert ist, trinkt 2 Schlucke.;;;
+131;nikolai;hot;2;in_person;;player1 lutscht zehn Sekunden am Finger des linken Nachbarn oder trinkt 5 Schlucke.;;;
+132;nikolai;hot;2;in_person;;player1, gib player2 einen heißen Lap Dance - du darfst dir den Song frei aussuchen.;;;
+133;nikolai;hot;2;in_person;;player1, gib player2 einen festen Klaps auf den Arsch.;;;
+134;nikolai;hot;2;either;;player1, was ist dein Orgamusrekord an einem Tag mit deinem aktuellen (oder letzten) Partner? Trinke die Anzahl an Schlucken und verteil sie an einen Spieler deiner Wahl.;;;
+135;nikolai;hot;2;either;;player1, was ist deine Lieblings-Sexstellung? 3 Schlucke wenn es Missionar ist, doppelt so viel wenn es Doggy ist.;;;
+136;nikolai;hot;2;either;;Wer noch nie mit einer Person aus einem anderen Land Sex hatte, trinkt 2 Schlucke.;;;
+137;nikolai;hot;2;either;;Jeder, der heute oder gestern masturbiert hat, trinkt 2 Schlucke.;;;
+138;nikolai;hot;2;in_person;;player1, küsse player2 auf den Mund. Wer sich weigert, trinkt 3 Schlucke. Ansonsten könnt ihr jeweils 2 Schlucke verteilen.;;;
+139;nikolai;hot;2;either;;Mit deinem Partner Porno schauen? Trink 2 Schlucke, wenn du dabei wärst!;;;
+140;nikolai;hot;2;either;;player1, trinke 2 Schlucke wenn du gegen einen Dreier nichts einzuwenden hättest.;;;
+141;nikolai;hot;2;either;;player1, errate die Farbe der Unterwäsche von player2. Wenn du Recht hattest, trinkt player2 3 Schlucke. Ansonsten trinkst du 3 Schlucke.;;;
+142;nikolai;hot;2;either;;player1, mit welchem Paar könntest du dir einen Dreier vorstellen? Trinke 6 Schlucke, wenn du es nicht weißt. Wenn die beiden hier sind, verteile 3 Schlucke.;;;
+143;nikolai;hot;2;either;;player1, trinke 2 Schlucke wenn du schon mal Sex im Pool hattest.;;;
+144;nikolai;hot;2;either;;player1, wenn du schon mal masturbiert hast während noch andere im Zimmer waren, trinke 3 Schlucke.;;;
+145;nikolai;hot;2;either;;player1, beschreibe dein heißestes Sex-Erlebnis oder trinke 5 Schlucke.;;;
+146;nikolai;hot;3;in_person;;player1 und player2 müssen zusammen eine Sexposition vormachen. Die anderen stimmen ab, welche.;;;
+147;nikolai;hot;2;either;;Trinke 3 Schlucke, wenn du schon mehr als 10 Sexpartner in deinem Leben hattest. Wenn du schon mehr als 20 hattest, verteile zusätzlich 3 Schlucke.;;;
+148;nikolai;hot;2;either;;player1, trinke 3 Schlucke wenn du große Brüste (als Frau) oder einen großen Penis (als Mann) hast. Ansonsten verteile 3 Schlucke.;;;
+149;nikolai;hot;2;either;;player1, trinke 3 Schlucke wenn du schon mal Sex in der Natur hattest. Wenn du erzählst, wo das war, darfst du außerdem 3 Schlucke verteilen.;;;
+150;nikolai;hot;2;either;Leave Your Hat On;Jeder zieht ein Kleidungsstück aus. Socken und Accessoires zählen nicht!;;;
+151;nikolai;hot;2;either;Leave Your Hat On;player1 und player2, zieht jeweils ein Kleidungsstück aus. Socken und Accessoires zählen nicht!;;;
+152;nikolai;hot;3;in_person;;player1 und player2, küsst euch zehn Sekunden lang auf den Mund. Die anderen machen den Countdown. Wenn ihr es macht, verteilt 7 Schlucke. Wer sich weigert, trinkt 7 Schlucke.;;;
+153;nikolai;hot;3;either;;player1, trinke 2 Schlucke für jede Person, in diesem Raum mit der du geschlafen hast - und 1 Schluck für jede Person, mit der du schlafen würdest.;;;
+154;nikolai;hot;2;in_person;;player1, gieß etwas Schnaps oder Wein auf den nackten Bauch von player2 und leck es dann ab. Anschließend dürft ihr zusammen 7 Schlucke verteilen. Wer sich weigert, trinkt 5 Schlucke.;;;
+155;nikolai;hot;2;in_person;;player1, lege deine Hand in den Schritt von player2, bis einer von euch seinen Drink ausgetrunken hat.;;;
+156;nikolai;hot;2;in_person;Fluch;player1, du bist Thomas Gottschalk: Du darfst ab jetzt nur sprechen, wenn du deinem Gesprächspartner dabei die Hand aufs Knie legst. Wenn du es vergisst, trinke 3 Schlucke.;15;Fluch aufgehoben;player1, du bist jetzt nicht mehr Thomas Gottschalk.
+157;nikolai;hot;2;either;;player1, trinke 3 Schlucke wenn du gerne Blowjobs gibst.;;;
+158;nikolai;hot;2;either;;Trinkt, wenn ihr schon mal mit jemandem vom gleichen Geschlecht Sex hattet.;;;
+159;nikolai;hot;2;either;;player1, verteile 3 Schlucke falls du dich schon mal beim Sex gefilmt hast. Ansonsten trinke 3 Schlucke.;;;
+160;nikolai;hot;2;either;;player1, trinke 1 Schluck für jeden Dildo oder Vibrator, den du besitzt.;;;
+161;nikolai;hot;2;either;;Jeder, der Piercings hat, zeigt diese oder trinkt 3 Schlucke wenn sie an geheimen Stellen sind.;;;
+162;nikolai;hot;2;either;Segen;player1, du bist jetzt Aphrodite (oder Amor). Du kannst jederzeit 2 Schlucke trinken, damit zwei Leute sich küssen müssen. Wenn sie es nicht tun, trinken sie beide 7 Schlucke und du verlierst diesen Segen.;15;Segen aufgehoben;player1, du bist nicht mehr Aphrodite (oder Amor).
+163;nikolai;hot;2;either;;player1, trinke 3 Schlucke wenn du schon mal Analsex hattest. Verteile dann noch 3 Schlucke wenn es dir gefallen hat.;;;
+164;nikolai;hot;2;in_person;;player1, gib player2 eine Massage. Du darfst erst aufhören, wenn player2 es sagt.;;;
+165;nikolai;hot;2;in_person;;player1 und player2, kuschelt miteinander bis einer von euch seinen Drink ausgetrunken hat.;;;
+166;nikolai;hot;2;either;;player1, verrate den Spitznamen, den dein Partner dir im Bett gibt oder trinke 5 Schlucke.;;;
+167;nikolai;hot;2;either;;Was war der größte Altersunterschied zu einem Sexpartner? player1 fängt an zu erzählen. Der Spieler mit dem größten Altersunterschied verteilt 5 Schlucke.;;;
+168;nikolai;hot;2;either;;player1, trinke 3 Schlucke wenn du es beim Sex magst, gewürgt oder geschlagen zu werden.;;;
+169;nikolai;hot;2;in_person;Fluch;player1, setz dich neben player2 auf den Boden und lass dich kraulen wie ein Haustier.;10;Fluch aufgehoben;player1, du darfst dich wieder auf deinen Platz setzen und bist nicht mehr player2s Haustier.
+170;nikolai;hot;3;either;Abstimmung;Wählt zwischen player1 und player2 aus, wer besser im Bett ist. Der Sexgott verteilt 3 Schlucke.;;;
+171;nikolai;hot;5;either;;player1 und player2, zeigt eure Unterwäsche. Die anderen stimmen ab, wer heißere trägt. Der Verlierer trinkt 5 Schlucke.;;;
+172;nikolai;hot;2;in_person;;player1, kneif player2 in einen Nippel. Wer sich weigert, trinkt 5 Schlucke.;;;
+173;nikolai;hot;2;in_person;;player1, gib player2 einen festen Kuss auf den Hals oder Nacken.;;;
+174;nikolai;hot;2;in_person;Erinnerungsfoto;player1 und player2, küsst euch auf den Mund und macht dabei ein Selfie. Dann dürft ihr je 3 Schlucke verteilen. Wer sich weigert, trinkt 5 Schlucke.;;;
+175;nikolai;hot;2;either;;player1, trinke 3 Schlucke wenn du schon mal ohne Unterwäsche auf einem Date warst.;;;
+176;nikolai;hot;2;either;;player1, trinke 2 Schlucke wenn du schon mal davon geträumt hast deinem Partner beim Sex mit einer anderen Person zuzuschauen.;;;
+177;nikolai;hot;2;either;;player1, trinke 2 Schlucke wenn du schon mal Telefon-Sex hattest.;;;
+178;nikolai;hot;2;either;;player1, trinke 3 Schlucke wenn du es heiß fändest, an einem Gangbang teilzunehmen.;;;
+179;nikolai;hot;2;in_person;;player1, gib player2 eine Fußmassage. Du darfst erst aufhören, wenn player2 es sagt.;;;
+180;nikolai;hot;2;in_person;;player1 und player2, kitzelt euch gegenseitig für mindestens 30 Sekunden.;;;
+181;nikolai;hot;2;either;;player1, trinke 2 Schlucke wenn du dominant im Bett bist. Falls du es bist, darfst du 2 Schlucke an einen Mitspieler verteilen, von dem du denkst dass er unterwürfig ist.;;;
+182;nikolai;hot;2;in_person;;Alle Spielerinnen, die Lippenstift tragen, machen player1 einen Kussabdruck ins Gesicht. Wer den deutlichsten Kussmund schafft, darf 5 Schlucke verteilen.;;;
+183;nikolai;hot;2;in_person;;player1, setz dich auf den Schoß von player2. Jedes Mal wenn ihr Hoppe, Hoppe Reiter spielt, müssen alle anderen 2 Schlucke trinken.;10;;player1, du darfst jetzt wieder runter vom Schoß von player2.
+184;nikolai;hot;2;either;;Jeder, der ein Nacktfoto von sich auf dem Handy hat, trinkt 3 Schlucke. Wer eins zeigt, darf 7 Schlucke verteilen!;;;
+185;nikolai;hot;2;in_person;;player1, gib player2 einen festen Kuss auf den Hintern oder trinke 3 Schlucke.;;;
+186;nikolai;hot;2;either;;Verteil 3 Schlucke, wenn du in den letzten 7 Tagen mindestens 3 mal Sex hattest.;;;
+187;rebecca;hot;2;either;Baby got Back;Die Frau mit dem größten Arsch trinkt 3 Schlucke.;3;Revanche;Die Frau mit dem größten Hintern darf sich rächen und 3 Schlücke verteilen.
+188;nikolai;hot;2;either;;player1, was ist das letzte Objekt, das du in dich selbst oder jemand anderen eingeführt hast? (Körperteile zählen nicht);;;
+189;nikolai;hot;2;either;;Alle Mädels, die ihre Brüste zeigen, dürfen Schlücke verteilen. 3 Schlucke wenn im BH, 7 Schlucke wenn ohne.;;;
+190;fee;hot;2;either;;player1, trinke 3 Schlucke wenn du dir schon mal gewünscht hast, dass dein aktueller Partner im Bett etwas offener ist.;;;
+191;fee;hot;1;either;;player1, trinke 3 Schlucke wenn du schon mal mit jemandem geschlafen hast obwohl du selbst keine Lust hattest.;;;
+192;fee;hot;1;either;;player1, trinke 3 Schlucke wenn du schon mal Sex mit einer vergebenen Person hattest.;;;
+193;nikolai;hot;2;in_person;Strippen-Stein-Papier;player1 und player2, spielt gegeneinander Schere-Stein-Papier. Wer zwei mal verliert zieht ein Kleidungsstück aus. Socken und Accessoires zählen nicht!;;;
+194;nikolai;hot;2;in_person;;player1, setz dich hinter player2 und klammere dich mit Armen und Beinen an player2 wie ein Koala-Baby.;10;;player1, du musst dich nicht mehr wie ein Koala-Baby an player2 klammern.
+195;nikolai;hot;3;in_person;Kuss-Auktion;Ein Kuss mit player1 steht zur Auktion. Jeder Spieler kann Gebote abgeben, wie viele Schlucke er oder sie trinkt, um player1 küssen zu dürfen. Wer die Auktion gewinnt, trinkt so viele Schlucke und hat den Kuss gewonnen.;;;
+196;nikolai;hot;3;either;;Alle anderen Spieler stimmen ab, ob player1 oder player2 ein Kleidungsstück ausziehen muss (Socken und Accessoires zählen nicht).;;;
+197;nikolai;hot;2;in_person;Just Tattoo of Us;player1, lass dir von player2 etwas auf den Arsch malen oder schreiben. Wenn du dich weigerst, trinke 4 Schlucke.;;;
+198;nikolai;hot;3;in_person;Flaschendrehen;player1, drehe eine Flasche und küsse den Spieler, auf den die Flasche zeigt.;;;
+199;nikolai;hot;2;in_person;;player1, bestimme eine Stelle, auf die player2 dich küssen muss. Falls player2 sich weigert: 5 Schlucke.;;;
+200;nikolai;basic;3;either;;player1, du musst entscheiden: Wer von player2 und player3 würde dir bei einer Prügelei mehr Angst machen? Chuck Norris verteilt 3 Schlucke.;;;
+201;nikolai;basic;2;either;Fluch;Ihr müsst euch ab jetzt mit euren Nachnamen ansprechen.;12;Fluch aufgehoben;Ihr müsst euch nicht mehr mit euren Nachnamen ansprechen.
+202;nikolai;basic;1;in_person;;player1, trink so viele Schlucke wie es Titten im Raum gibt.;;;
+203;nikolai;basic;3;either;;Jeder sagt, welche Serien er gerade guckt. Wenn mehrere die gleiche sehen, trinken sie 3 Schlucke.;;;
+204;nikolai;basic;1;either;;Alle, die aus Norddeutschland kommen, trinken 2 Schlucke.;;;
+205;nikolai;basic;1;either;;Alle, die aus Süddeutschland kommen, trinken 2 Schlucke.;;;
+206;nikolai;basic;1;either;;Alle, die nicht aus Deutschland kommen, trinken 2 Schlucke.;;;
+207;nikolai;basic;2;either;Duell;Derjenige von player1 und player2, der die größeren Hände hat, verteilt 3 Schlucke.;;;
+208;nikolai;basic;2;either;;Trinkt so viele Schlucke, wie ihr Vornamen habt.;;;
+209;rebecca;basic;3;either;;Besorgt's player1! player1 nennt einen Gegenstand. Wer den Gestand als erstes besorgt, darf 3 Schlucke verteilen.;;;
+210;rebecca;basic;2;either;Fluch;player1 hat zu viel Herr der Ringe geschaut und benimmt sich wie Gollum. Bevor player1 trinkt, muss er / sie jedes Mal "Mein Schatz" sagen. 1 Schluck zusätzlich wenn es vergessen wird.;7;Fluch aufgehoben;player1 ist nicht mehr Gollum.
+211;rebecca;basic;2;in_person;;Der mit dem vollsten Glas trinkt 1 Schluck, der mit dem zweitvollsten Glas 2 Schlucke und so weiter.;;;
+212;rebecca;basic;3;either;;Welches Geschlecht ist in der Mehrzahl? Alle, die dazu gehören, trinken 2 Schlucke. Bei Gleichstand trinken alle 1 Schluck.;;;
+213;rebecca;basic;3;in_person;Erinnerungsfoto;Macht als Gruppe ein Selfie mit einem Motto, auf das ihr euch gemeinsam einigt.;;;
+214;rebecca;basic;3;remote_only;Erinnerungsfoto;Macht als Gruppe einen Screenshot eurer Cams mit einem Motto, auf das ihr euch gemeinsam einigt.;;;
+215;rebecca;basic;3;remote_only;;player1 und player2, zeigt gleichzeitig 1-5 Finger hoch. Wenn ihr die gleiche Zahl Finger zeigt, verteilt zusammen 5 Schlucke. Ansonsten trinkt jeder jeweils 3 Schlucke.;;;
+216;rebecca;hot;3;either;;Zählt reihum bisherige Sexpartner von player1 auf. Wer wiederholt oder falsch liegt, trinkt 3 Schlucke.;;;
+217;rebecca;hot;3;either;;player1 und player2, lest die erste Nachricht vor, die angezeigt wird, wenn ihr „Fick“ in die Suchleiste eingebt. Wenn ihr euch weigert: 3 Schlucke.;;;
+218;rebecca;hot;3;either;;player1, trinke einen Schluck für jedes Mal, das du in den letzten 7 Tagen Sex hattest.;;;
+219;rebecca;hot;2;either;;player1, schreibe jemandem bei Whatsapp den Satz "Hodenkobolde sind seltene Tiere." oder trinke 5 Schlucke. Die anderen entscheiden, wem du den Satz schicken musst.;;;
+220;nikolai;basic;2;either;;player1, wenn du das nächste Mal trinken musst, kannst du stattdessen einen anderen Spieler die Schlucke für dich trinken lassen.;;;
+221;nikolai;basic;2;either;;player1, erzähle von dem letzten Traum, an den du dich erinnern kannst. player2 ist dein Psychiater und analysiert den Traum. Dann verteilt jeweils 2 Schlucke.;;;
+222;nikolai;basic;2;either;;Der Spieler, dessen Geburtstag als nächstes kommt, verteilt 3 Schlucke.;;;
+223;nikolai;basic;2;either;;Der Spieler, der als letztes Geburtstag hatte, trinkt 3 Schlucke.;;;
+224;rebecca;basic;3;either;Wer bin ich?;player1 überlegt sich im Geheimen eine Person, die sie "ist". Stellt reihum Ja-oder-Nein-Fragen um die Person zu erraten. Bei jedem "Nein" geht es weiter und der Fragende muss 1 Schluck trinken. Wer es errät, verteilt 5 Schlucke.;;;
+225;;;;;;;;;
+226;;;;;;;;;
+227;;;;;;;;;
+228;;;;;;;;;
+229;;;;;;;;;
 a|b_01;random;basic;3;either;A oder B;$topic_abstimmung$ Alle stimmen ab. Die Gruppe mit weniger Stimmen trinkt 3 Schlucke.;;;
 a|b_02;random;basic;3;either;A oder B;$topic_abstimmung$ Alle stimmen ab. Die Gruppe mit weniger Stimmen trinkt 3 Schlucke.;;;
 a|b_03;random;basic;3;either;A oder B;$topic_abstimmung$ Alle stimmen ab. Die Gruppe mit weniger Stimmen trinkt 3 Schlucke.;;;
